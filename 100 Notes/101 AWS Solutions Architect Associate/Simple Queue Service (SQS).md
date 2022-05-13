@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T19:50:26+05:30
-updated: 2022-05-10T23:48:29+05:30
+updated: 2022-05-13T22:05:38+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -82,3 +82,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 - The idea is to build a request-response system where both the requesters and responders can scale independently. The requester sends the request into a request queue with attributes “correlation ID” and “reply to”. This request will be picked by one of many responders in an ASG. The request will be processed and it will be sent to the right response queue along with the same “correlation ID”. The “correlation ID” will help the requester identify which response corresponds to their request.
 - To implement this pattern: use the **SQS Temporary Queue Client** which leverages virtual queues instead of creating / deleting SQS queues (cost-effective).
 - ![[attachments/Pasted image 20220509203244.png]]
+
+## SQS + Lambda + DLQ
+- Failed messages (after the set number of retries) are sent to the DLQ by the SQS queue
+	- ![[attachments/Pasted image 20220513220430.png]]

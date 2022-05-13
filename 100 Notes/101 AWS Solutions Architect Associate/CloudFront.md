@@ -1,6 +1,6 @@
 ---
 created: 2022-05-08T13:28:22+05:30
-updated: 2022-05-11T22:51:18+05:30
+updated: 2022-05-13T22:10:55+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -13,6 +13,7 @@ updated: 2022-05-11T22:51:18+05:30
 - Caches content at edge locations, reducing load at the origin
 - **Geo Restriction feature**
 - Improves performance for both cacheable content (such as images and videos) and dynamic content (such as API acceleration and dynamic site delivery)
+- To block a specific IP at the CloudFront level, deploy a [[Web Application Firewall (WAF)|WAF]] on CloudFront
 
 ## Origin
 - **[[Simple Storage Service (S3)|S3]] Bucket**

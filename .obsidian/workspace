@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "43bd46c7690752dc",
+        "id": "2b026ebd2cfb6f2b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
-            "mode": "source",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/DataSync.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
               }
             }
           },
@@ -141,17 +142,17 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "43bd46c7690752dc",
+  "active": "2b026ebd2cfb6f2b",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Disaster Recovery.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Concepts.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Networking Costs.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Traffic Mirroring.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Transit Gateway.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Resource Access Manager (RAM).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Well Architected Framework.md",
+    "100 Notes/101 AWS Solutions Architect Associate/CostExplorer.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Amazon WorkSpaces.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS WorkSpaces.md",
+    "100 Notes/101 AWS Solutions Architect Associate/OpsWorks.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Workflows.md"
   ]
 }

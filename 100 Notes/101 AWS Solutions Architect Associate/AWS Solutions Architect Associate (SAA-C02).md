@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-13T10:42:31+05:30
+updated: 2022-05-13T23:55:57+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -16,6 +16,8 @@ updated: 2022-05-13T10:42:31+05:30
 [[Elastic Load Balancer (ELB)]]
 [[Auto Scaling Group (ASG)]]
 [[Lambda]]
+[[High Performance Computing (HPC)]]
+[[Workflows]]
 
 #### Storage
 [[Simple Storage Service (S3)]]
@@ -28,11 +30,12 @@ updated: 2022-05-13T10:42:31+05:30
 [[Storage Gateway]]
 [[DynamoDB]]
 
-#### Migration
+#### Data Migration & Sync
 [[Snow Family]]
 [[Transfer Family]]
 [[Database Migration Service (DMS)]]
 [[DataSync]]
+[[AppSync]]
 
 #### Networking
 [[Route 53]]
@@ -69,9 +72,12 @@ updated: 2022-05-13T10:42:31+05:30
 #### Deployment
 [[Elastic Beanstalk]]
 [[Serverless Application Model (SAM)]]
+[[Continuous Integration Continuous Delivery (CICD)]]
+[[CloudFormation]]
 
 #### Analytics
 [[Athena]]
+[[Elastic Map Reduce (EMR)]]
 
 #### Containerization
 [[Elastic Container Service (ECS)]]
@@ -82,12 +88,15 @@ updated: 2022-05-13T10:42:31+05:30
 [[CloudWatch]]
 [[CloudTrail]]
 [[Config]]
+[[CostExplorer]]
+[[Trusted Advisor]]
 
 #### Parameters & Encryption
 [[Key Management Service (KMS)]]
 [[SSM Parameter Store]]
 [[Secrets Manager]]
 [[CloudHSM]]
+[[OpsWorks]]
 
 #### Cloud Security
 [[AWS Shield]]
@@ -99,9 +108,14 @@ updated: 2022-05-13T10:42:31+05:30
 
 #### Disaster Recovery
 [[Disaster Recovery]]
+[[AWS Backup]]
 
 #### Sharing
 [[Resource Access Manager (RAM)]]
+
+#### Misc
+[[Amazon WorkSpaces]]
+[[Well Architected Framework]]
 
 ## Architecture
 [[Serverless ToDo List App]]

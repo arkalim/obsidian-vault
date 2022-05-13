@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T20:38:54+05:30
-updated: 2022-05-10T23:48:37+05:30
+updated: 2022-05-13T22:03:39+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -48,3 +48,7 @@ updated: 2022-05-10T23:48:37+05:30
 -   JSON policy used to filter messages sent to SNS topic’s subscriptions
 -   Each subscriber will have its own filter policy (if a subscriber doesn’t have a filter policy, it receives every message)
 - Ex: filter messages sent to each queue by the order status
+
+## SNS + Lambda + DLQ
+- Lambda retries each failed message 3 times after which it is **sent to the DLQ by lambda**
+	- ![[attachments/Pasted image 20220513220228.png]]

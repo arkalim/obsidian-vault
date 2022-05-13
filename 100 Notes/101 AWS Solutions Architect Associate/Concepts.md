@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:45:21+05:30
-updated: 2022-05-13T00:50:43+05:30
+updated: 2022-05-13T22:29:58+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -18,12 +18,15 @@ updated: 2022-05-13T00:50:43+05:30
 	-   easier to achieve than vertical scalability
 
 ## High Availability
-
-^da302f
-
-- Ability to survive a hardware or AZ failure ^e12912
-- Achieved by running at least 2 instances of the application in different 
-
+- Ability to survive a hardware or AZ failure
+- Achieved by running at least 2 instances of the application in different
+- Cost effective way of implementing HA
+	- Stateless
+		- Create a system where only 1 EC2 instance stays active at a time. If the instance goes down, ASG will start a new one. Also, the EC2 instance will issue an API call to attach the Elastic IP based on tag.
+		![[attachments/Pasted image 20220513222823.png]]
+	- Statefull
+		- The EC2 instance maintains state in an EBS volume (attached to an AZ). If the instance goes down, create a snapshot of the EBS volume which will be triggered on ASG Terminate lifecycle hook. Similarly, when a new instance is spun up, create a new EBS volume in the appropriate instance using the ASG Launch lifecycle hook.
+		![[attachments/Pasted image 20220513222928.png]]
 ## DNS
 - Translates the human friendly hostnames into the machine IP addresses
 - **Terminologies**
