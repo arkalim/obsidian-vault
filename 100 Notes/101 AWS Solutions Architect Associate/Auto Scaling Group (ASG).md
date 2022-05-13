@@ -1,0 +1,68 @@
+---
+created: 2022-05-06T22:38:07+05:30
+updated: 2022-05-10T23:45:40+05:30
+---
+[[AWS Solutions Architect Associate (SAA-C02)]]
+
+---
+
+# Auto Scaling Group (ASG)
+- Regional Service
+- Supports Multi AZ
+- Automatically add or remove instances (scale horizontally) based on the load
+- Free (pay for the underlying resources)
+- IAM roles attached to an ASG will get assigned to the launched EC2 instances
+- ASG can terminate instances marked as unhealthy by an ELB (and hence replace them)
+
+## Scaling Policies
+- **Scheduled Scaling**
+	- Scale based on a schedule
+	- Used when the load pattern is predictable
+- **Simple Scaling**
+	- Scale to certain size on a CloudWatch alarm
+	- Ex. when CPU > 90%, then scale to 10 instances
+- **Step Scaling**
+	- Scale incrementally in steps using CloudWatch alarms
+	- Ex. when CPU > 70%, then add 2 units and when CPU < 30%, then remove 1 unit
+- **Target Tracking Scaling**
+	- ASG maintains a CloudWatch metric and scale accordingly (automatically creates CW alarms)
+	- Ex. maintain CPU usage at 40%
+- **Predictive Scaling**
+	- Historical data is used to predict the load pattern using ML and scale automatically
+
+## Launch Configuration & Launch Template
+- Defines the following info for ASG
+    -   AMI (Instance Type)
+    -   EC2 User Data
+    -   EBS Volumes
+    -   Security Groups
+    -   SSH Key Pair
+	-   Min / Max / Desired Capacity
+	-   Subnets (where the instances will be created)
+	-   Load Balancer (specify which ELB to attach instances)
+	-   Scaling Policy
+- **Launch Configuration** (legacy)
+    -   Cannot be updated (must be re-created)
+    -   **Does not support Spot Instances**
+-   **Launch Template** (newer)
+    -   Versioned
+    -   Can be updated
+    -   **Supports both On-Demand and Spot Instances**
+    -   Recommended by AWS
+
+## Scaling Cooldown
+- After a scaling activity happens, the ASG goes into cooldown period (default 300 seconds) during which it does not launch or terminate additional instances (ignores scaling requests) to allow the metrics to stabilize.
+- Use a ready-to-use AMI to launch instances faster to be able to reduce the cooldown period
+
+## Termination Policy
+- Select the AZ with the most number of instances
+- Delete the instance with the oldest launch configuration
+- If ambiguous, delete the instance which is closest to the next billing hour
+
+## Lifecycle Hooks
+- Used to perform extra steps before creating or terminating an instance. Example: 
+	- Install some extra software or do some checks (during pending state) before declaring the instance as "in service"
+	- Before the instance is terminated (terminating state), extract the log files
+- **Without lifecycle hooks, pending and terminating states are avoided**
+- Image
+	- ![[attachments/Pasted image 20220506232117.png]]

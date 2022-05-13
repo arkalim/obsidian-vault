@@ -1,0 +1,13 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./attachments",
+  "fileSortOrder": "alphabetical"
+}

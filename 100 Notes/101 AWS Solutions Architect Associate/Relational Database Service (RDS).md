@@ -1,0 +1,77 @@
+---
+created: 2022-05-07T00:25:19+05:30
+updated: 2022-05-10T23:47:00+05:30
+---
+[[AWS Solutions Architect Associate (SAA-C02)]]
+
+---
+
+# Relational Database Service (RDS)
+- Regional Service
+- Supports Multi AZ
+- AWS Managed SQL Database
+- Supported Engines
+	-   Postgres
+	-   MySQL
+	-   MariaDB
+	-   Oracle
+	-   Microsoft SQL Server
+	-   Aurora (AWS Proprietary database)
+- Backed by [[Elastic Compute Cloud (EC2)|EC2]] instances with [[Elastic Block Storage (EBS)|EBS]] storage
+- We don't have access to the underlying instance
+- **DB connection is made on port 3306**
+- Security Groups are used for network security (must allow incoming TCP traffic on port 3306 from specific IPs)
+
+## Backups
+-   **Automated Backups** (enabled by default)
+    -   Daily full backup of the database (during the defined maintenance window)
+    -   Backup retention: 7 days (max 35 days)
+    -   Transaction logs are backed-up every 5 minutes (point in time recovery)
+-   **DB Snapshots**:
+    -   Manually triggered
+    -   Backup retention: unlimited
+
+## Auto Scaling
+- Automatically scales the RDS storage within the max limit
+- Condition for automatic storage scaling:
+    -   Free storage is less than 10% of allocated storage
+    -   Low-storage lasts at least 5 minutes
+    -   6 hours have passed since last modification
+
+## Read Replicas
+- Allows us to scale the read operation (SELECT) on RDS
+	- ![[attachments/Pasted image 20220507005920.png]]
+- **Up to 5 read replicas** (within AZ, cross AZ or cross region)
+- **Asynchronous Replication**
+- **Replicas can be promoted to their own DB**
+- **Applications must update the connection string to leverage read replicas**
+- Network fee for replication
+	- Same region: free
+	- Cross region: paid
+
+## Multi AZ
+- Increase availability of the RDS database by replicating it to another AZ
+	- ![[attachments/Pasted image 20220507010002.png]]
+- **Synchronous Replication**
+- **Connection string does not require to be updated** (both the databases can be accessed by one DNS name, which allows for automatic app failover to standby database)
+- **Cannot be used for scaling as the standby database cannot take read/write operation**
+
+## Encryption
+- At rest encryption
+	- KMS AES-256 encryption
+	- Encrypted DB  => Encrypted Snapshots, Encrypted Replicas and vice versa
+- In flight encryption
+	- **SSL certificates**
+- To encrypt an un-encrypted RDS database:
+    -   Create a snapshot of the un-encrypted database
+    -   Copy the snapshot and enable encryption for the snapshot
+    -   Restore the database from the encrypted snapshot
+    -   Migrate applications to the new database, and delete the old database
+
+## Access Management
+- Username and Password can be used to login into the database
+- EC2 instances access the DB using **IAM DB Authentication**
+	- EC2 instance has an IAM role which allows is to make an API call to the RDS service to get the Auth token which it uses to access the MySQL database.
+		- ![[attachments/Pasted image 20220507011632.png]]
+	- **Only works with MySQL and PostgreSQL**
+	- Auth token is valid for 15 mins
