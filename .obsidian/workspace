@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
-            "mode": "preview",
+            "mode": "source",
             "source": true
           }
         }
@@ -139,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 296.5
   },
   "active": "43bd46c7690752dc",
   "lastOpenFiles": [

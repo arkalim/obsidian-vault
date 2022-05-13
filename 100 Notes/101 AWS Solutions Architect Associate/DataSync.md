@@ -6,3 +6,4 @@ updated: 2022-05-13T10:42:42+05:30
 
 ---
 # DataSync
+- Move large amount of data from on-premise to AWS over the public internet using TLS
