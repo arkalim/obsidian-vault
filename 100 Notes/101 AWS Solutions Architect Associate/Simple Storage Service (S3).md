@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-11T20:19:25+05:30
+updated: 2022-05-14T17:16:48+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -18,6 +18,7 @@ updated: 2022-05-11T20:19:25+05:30
 -   There’s no concept of directories within buckets (just keys with very long names that contain slashes)
 - **Max Object Size: 5TB**
 - Durability: 99.999999999% (total 11 9's)
+- **SYNC** command can be used to **copy data between buckets**, possibly in **different regions**
 
 ## Bucket Versioning
 -   Enabled at the bucket level
@@ -67,6 +68,8 @@ updated: 2022-05-11T20:19:25+05:30
 - If you get a `403 (Forbidden)` error, make sure the bucket policy allows public reads
 - For cross-origin access to the S3 bucket, we need to enable [[Concepts#Cross-Origin Resource Sharing CORS|CORS]] on the bucket
 	- ![[attachments/Pasted image 20220507175558.png]]
+- To host an S3 static website on a custom domain using Route 53, the bucket name should be the same as your domain or subdomain 
+  Ex. for subdomain `portal.tutorialsdojo.com`, the name of the bucket must be `portal.tutorialsdojo.com`
 
 ## MFA Delete
 - MFA required to
@@ -129,6 +132,8 @@ updated: 2022-05-11T20:19:25+05:30
 			- **99.99% availability**
 		    -   3 retrieval flexibility (decreasing order of cost):
 		        -   Expedited (1 to 5 minutes)
+			        - Can **provision retrieval capacity** for reliability
+			        - Without provisioned capacity expedited retrievals might be rejected in situations of high demand
 		        -   Standard (3 to 5 hours)
 		        -   Bulk (5 to 12 hours)
 		    -   Minimum storage duration of **90 days**
@@ -158,7 +163,7 @@ updated: 2022-05-11T20:19:25+05:30
 
 ## S3 Analytics
 - Provides analytics to determine when to transition data into different storage classes
-- Does not work for ONEZONE_IA or GLACIER
+- **Does not work for ONEZONE_IA & GLACIER**
 
 ## Performance
 - 3,500 PUT/COPY/POST/DELETE and 5,500 GET/HEAD requests per second per prefix

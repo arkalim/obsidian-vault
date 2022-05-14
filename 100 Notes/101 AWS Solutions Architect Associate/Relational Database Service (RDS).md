@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-10T23:47:00+05:30
+updated: 2022-05-14T18:08:51+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -54,6 +54,7 @@ updated: 2022-05-10T23:47:00+05:30
 	- ![[attachments/Pasted image 20220507010002.png]]
 - **Synchronous Replication**
 - **Connection string does not require to be updated** (both the databases can be accessed by one DNS name, which allows for automatic app failover to standby database)
+- When failing over, **RDS flips the CNAME** record for the DB instance to point at the standby, which is in turn promoted to become the new primary.
 - **Cannot be used for scaling as the standby database cannot take read/write operation**
 
 ## Encryption
@@ -71,7 +72,23 @@ updated: 2022-05-10T23:47:00+05:30
 ## Access Management
 - Username and Password can be used to login into the database
 - EC2 instances access the DB using **IAM DB Authentication**
-	- EC2 instance has an IAM role which allows is to make an API call to the RDS service to get the Auth token which it uses to access the MySQL database.
+	- EC2 instance has an IAM role which allows is to make an API call to the RDS service to get the **auth token** which it uses to access the MySQL database.
 		- ![[attachments/Pasted image 20220507011632.png]]
 	- **Only works with MySQL and PostgreSQL**
 	- Auth token is valid for 15 mins
+
+## RDS Events
+- RDS events only provide operational events on the DB instance (not the data)
+- To capture data modification events, use **native functions** or **stored procedure**s to invoke a **Lambda** function.
+
+## Monitoring
+- **CloudWatch Metrics for RDS**
+	- Gathers metrics from the **hypervisor** of the DB instance
+		- CPU Utilization
+		- Database Connections
+		- Freeable Memory
+- **Enhanced Monitoring**
+	- Gathers metrics from an agent running on the RDS instance
+		- OS processes
+		- RDS child processes
+	- Used to monitor different **processes or threads on a DB instance** (ex. percentage of the CPU bandwidth and total memory consumed by each database process in your RDS instance)

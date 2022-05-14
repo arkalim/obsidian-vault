@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T20:02:59+05:30
-updated: 2022-05-11T20:14:01+05:30
+updated: 2022-05-14T12:00:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -11,7 +11,7 @@ updated: 2022-05-11T20:14:01+05:30
 	- 1 master account
 	- member accounts
 - An AWS account can only be part of one organization
-- Consolidated Billing across all accounts
+- **Consolidated Billing** across all accounts (lower cost)
 - Pricing benefits from aggregated usage of AWS resources
 - API to automate AWS account creation (on demand account creation)
 - Establish Cross Account Roles for Admin purposes where the master account can assume an admin role in any of the children accounts

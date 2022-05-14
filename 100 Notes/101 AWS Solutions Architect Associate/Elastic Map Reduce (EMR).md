@@ -1,15 +1,14 @@
 ---
 created: 2022-05-13T23:20:01+05:30
-updated: 2022-05-13T23:23:29+05:30
+updated: 2022-05-14T11:32:20+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Elastic Map Reduce (EMR)
 -   Used to create **Big Data clusters** to **analyze and process** vast amounts of data
--   Supports **Hadoop**, **Apache Spark**, **HBase**, **Presto**, **Flink**, etc.
--   The clusters can be made of hundreds of EC2 instances
+- Uses **Hadoop**, an open-source framework, to distribute your data and processing across a cluster of 100s of EC2 instances.
+-   Supports open-source tools such as **Apache Spark**, **HBase**, **Presto**, **Flink**, etc.
 -   EMR takes care of all the provisioning and configuration
 -   **Auto-scaling**
 -   Integrated with **Spot Instances**
--   Use cases: data processing, machine learning, web indexing, big data…

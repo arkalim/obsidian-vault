@@ -1,12 +1,14 @@
 ---
 created: 2022-05-09T13:08:31+05:30
-updated: 2022-05-10T23:47:31+05:30
+updated: 2022-05-14T15:57:01+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Storage Gateway
 - Bridge between on-premises data and [[Simple Storage Service (S3)|S3]]
+- Not suitable for one-time sync of large amounts of data (use [[DataSync]] instead)
+- Optimizes data transfer by sending only changed data
 
 ## Types of Storage Gateway
 

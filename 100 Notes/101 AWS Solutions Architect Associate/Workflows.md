@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T23:17:47+05:30
-updated: 2022-05-13T23:17:47+05:30
+updated: 2022-05-14T17:59:41+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -19,6 +19,7 @@ updated: 2022-05-13T23:17:47+05:30
 ## Simple Workflow Service (SWF)
 - Outdated service (step functions are preferred instead)
 - Code runs on EC2 (not serverless)
+- **Ensures that a task is never duplicated** (could replace standard SQS queues)
 - 1 year max runtime
 - **Built-in human intervention step**
 - Step Functions are recommended to be used for new applications, except:

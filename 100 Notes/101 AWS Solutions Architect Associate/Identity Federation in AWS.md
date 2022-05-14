@@ -1,12 +1,13 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-11T20:44:06+05:30
+updated: 2022-05-14T14:24:29+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Identity Federation in AWS
-- Federation lets **users outside of AWS to assume temporary role** for accessing AWS resources using a **third-party identity provider**.
+- Federation lets **users outside of AWS to assume temporary role** for accessing AWS resources using a **third-party identity provider**
+- **Need to configure IAM roles** with the required policies that users will assume
 - No need to create lAM users (user management by the third-party identity provider)
 - Need to setup a trust between identity provider and IAM
 - Flavors
@@ -22,7 +23,7 @@ updated: 2022-05-11T20:44:06+05:30
 ## SAML 2.0 Federation
 - Used to integrate **Active Directory / ADFS** with AWS using SAML compatible IDP
 - **Client exchanges SAML assertion for security credentials from STS** using the STS **AssumeRoleWithSAML** API
-- **SAML 2.0 Federation is the old way**, Single Sign On (SSO) Federation is the new way
+- **SAML 2.0 Federation is the old way**, [[Single Sign-On (SSO)]] Federation is the new way
 - Flow diagram
 	- ![[attachments/Pasted image 20220511103954.png]]
 

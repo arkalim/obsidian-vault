@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-13T22:26:30+05:30
+updated: 2022-05-14T15:48:40+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -43,10 +43,10 @@ updated: 2022-05-13T22:26:30+05:30
 - One IGW per VPC and vice-versa
 
 ## Bastion Hosts
-- An EC2 instance running in the public subnet (accessible from public internet), to allow users to SSH into the instances in the private subnet.
+- A EC2 instance running in the public subnet (accessible from public internet), to allow users to SSH into the instances in the private subnet.
 	- ![[attachments/Pasted image 20220512100455.png]]
 - Security groups of the private instances should only allow traffic from the bastion host.
-- Bastion host should only allow port 22 traffic from the IP address you need
+- Bastion host should only allow port 22 traffic from the IP address you need (**small instances are enough**)
 
 #### High Availability
 -   HA options for Bastion Host
@@ -149,6 +149,7 @@ updated: 2022-05-13T22:26:30+05:30
 	- ![[attachments/Pasted image 20220512221946.png]]
 	- ![[attachments/Pasted image 20220512221954.png]]
 - You can reference a security group in a peered VPC across account or region. This allows us to use SG instead of CIDR when configuring rules.
+- Does not facilitate centrally-managed VPC like [[Resource Access Manager (RAM)#VPC Sharing|VPC Sharing]]
 
 ## VPC Endpoints
 - Private endpoints within your VPC that allow AWS services to privately connect to resources within your VPC without traversing the public internet (cheaper)

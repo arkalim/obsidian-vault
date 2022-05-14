@@ -1,6 +1,6 @@
 ---
 created: 2022-05-08T13:28:22+05:30
-updated: 2022-05-13T22:10:55+05:30
+updated: 2022-05-14T16:02:15+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -8,12 +8,13 @@ updated: 2022-05-13T22:10:55+05:30
 # CloudFront
 - Global service
 - Global Content Delivery Network (CDN)
-- Edge Locations are present outside the VPC
+- **Edge Locations are present outside the VPC**
 - Supports HTTP/RTMP protocol (**does not support UDP protocol**)
-- Caches content at edge locations, reducing load at the origin
+- **Caches content at edge locations**, reducing load at the origin
 - **Geo Restriction feature**
 - Improves performance for both cacheable content (such as images and videos) and dynamic content (such as API acceleration and dynamic site delivery)
 - To block a specific IP at the CloudFront level, deploy a [[Web Application Firewall (WAF)|WAF]] on CloudFront
+- Supports **Server Name Indication (SNI)** to allow SSL traffic to multiple domains
 
 ## Origin
 - **[[Simple Storage Service (S3)|S3]] Bucket**
@@ -45,10 +46,11 @@ updated: 2022-05-13T22:10:55+05:30
 	- ![[attachments/Pasted image 20220508161137.png]]
 
 ## Origin Groups
-- Consists of a primary and a secondary origin (can be in different regions)
+- Consists of a **primary** and a **secondary** origin (can be in different regions)
 - Automatic failover to secondary
 	- ![[attachments/Pasted image 20220508161659.png]]
 - Provides **region-level** [[Concepts#High Availability|High Availability]]
+- Use when getting 504 (gateway timeout) Error
 
 ## Field-level Encryption
 - Sensitive information sent by the user is encrypted at the edge close to user which can only be decrypted by the web server (intermediate services can't see the encrypted fields)

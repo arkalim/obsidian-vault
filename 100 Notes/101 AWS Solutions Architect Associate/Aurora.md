@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-10T23:47:09+05:30
+updated: 2022-05-14T17:28:54+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -15,11 +15,19 @@ updated: 2022-05-10T23:47:09+05:30
 - Up to 15 read replicas
 - Supports only MySQL & PostgreSQL
 - Cloud-optimized (5x performance improvement over MySQL on RDS, over 3x the performance of PostgreSQL on RDS)
-- Endpoints:
-	- Writer Endpoint: always points to the master
-	- Reader Endpoint: points to the read replicas
-	- Custom Endpoint: used to point to a subset of replicas
 - **Backtrack**: restore data at any point of time without taking backups
+
+## Endpoints
+- **Writer Endpoint** (Cluster Endpoint)
+	- Always points to the master (can be used for read/write)
+	- Each Aurora DB cluster has one cluster endpoint
+- **Reader Endpoint**
+	- Provides load-balancing for read replicas only (used to read only)
+	- If the cluster has no read replica, it points to master (can be used to read/write)
+	- Each Aurora DB cluster has one reader endpoint
+- **Custom Endpoint**:
+	- Used to point to a subset of replicas
+	- Provides load-balanced based on criteria other than the read-only or read-write capability of the DB instances like instance class (ex, direct internal users to low-capacity instances and direct production traffic to high-capacity instances)
 
 ## High Availability & Read Scaling
 -   Self healing (if some data is corrupted, it will be automatically healed)
@@ -58,3 +66,7 @@ updated: 2022-05-10T23:47:09+05:30
 -   Up to 16 Read Replicas per secondary region
 -   Helps for decreasing latency for clients in other geographical locations
 - **RTO (recovery time objective) of less than 1 minute** (to promote another region as primary)
+
+## Aurora Events
+- Invoke a **Lambda** function from an **Aurora MySQL-compatible DB cluster** with a **native function** or a **stored procedure**
+- Used to capture data changes whenever a row is modified

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:52:05+05:30
-updated: 2022-05-10T23:48:08+05:30
+updated: 2022-05-14T17:12:04+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -11,6 +11,7 @@ updated: 2022-05-10T23:48:08+05:30
 - AWS managed **Authoritative DNS** (customer can update the DNS records and have full control over the [[Concepts#DNS|DNS]]) 
 - Also a Domain Registrar (for registering domain names)
 - Only AWS service which provides 100% availability SLA
+- Affected by client's DNS caching (not suitable for [[Blue-Green Deployment]] if the client caches DNS queries)
 
 ## Hosted Zone
 - A container for DNS records that define how to route traffic to a domain and its subdomains. 
@@ -47,38 +48,41 @@ updated: 2022-05-10T23:48:08+05:30
 	- **Target cannot be EC2**
 
 ## Routing Policies
-- **Simple**
-	- Route to one or more resources 
-	- If multiple values are returned, client chooses one at random (client-side load balancing)
-	- No health check (if returning multiple resources, some of them might be unhealthy)
-	- Image
-		- ![[attachments/Pasted image 20220507122603.png]]
-- **Weighted**
-	- Route a fraction of request to multiple resources
-	- Health checks
-	- Use case: testing a new application version by sending a small amount of traffic
-- **Latency-based**
-	- Redirect to the resource that has the lowest latency
-	- Health checks
-- **Failover**
-	- Primary & Secondary Records (if the primary application is down, route to secondary application)
-	- Health check must be associated with the primary record
-- **Geolocation**
-	- Routing based on the client's location
-	- Should create a “Default” record (in case there’s no match on location)
-	- Use cases: restrict content distribution & language preference
-- **Geoproximity**
-	- Route traffic to your resources based on the proximity of clients to the resources
-	- Ability to shift more traffic to resources based on the defined bias.
-	    -   To expand (bias: 1 to 99) → more traffic to the resource
-	    -   To shrink (bias: -1 to-99) → less traffic to the resource
-	-   Resources can be:
-	    -   AWS resources (specify AWS region)
-	    -   Non-AWS resources (specify Latitude and Longitude)
-	- Uses **Route 53 Traffic Flow**
-- **Multi-value**
-	- Route traffic to multiple resources (max 8)
-	- Health Checks (only healthy resources will be returned)
+#### Simple
+- Route to one or more resources 
+- If multiple values are returned, client chooses one at random (client-side load balancing)
+- No health check (if returning multiple resources, some of them might be unhealthy)
+- Image
+	- ![[attachments/Pasted image 20220507122603.png]]
+#### Weighted
+- Route a fraction of request to multiple resources
+- Health checks
+- Use case: testing a new application version by sending a small amount of traffic
+- Can be used for **Active-Active failover** strategy
+#### Latency-based
+- Redirect to the resource that has the lowest latency
+- Health checks
+- Can be used for **Active-Active failover** strategy
+#### Failover
+- Primary & Secondary Records (if the primary application is down, route to secondary application)
+- Health check must be associated with the primary record
+- Used for **Active-Passive failover** strategy
+#### Geolocation
+- Routing based on the client's location
+- Should create a “Default” record (in case there’s no match on location)
+- Use cases: restrict content distribution & language preference
+#### Geoproximity
+- Route traffic to your resources based on the proximity of clients to the resources
+- Ability to shift more traffic to resources based on the defined bias.
+	-   To expand (bias: 1 to 99) → more traffic to the resource
+	-   To shrink (bias: -1 to-99) → less traffic to the resource
+-   Resources can be:
+	-   AWS resources (specify AWS region)
+	-   Non-AWS resources (specify Latitude and Longitude)
+- Uses **Route 53 Traffic Flow**
+#### Multi-value
+- Route traffic to multiple resources (max 8)
+- Health Checks (only healthy resources will be returned)
 
 ## Health Checks
 - HTTP Health Checks are only for public resources

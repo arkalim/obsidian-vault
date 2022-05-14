@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-13T00:06:19+05:30
+updated: 2022-05-14T18:21:05+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -10,6 +10,8 @@ updated: 2022-05-13T00:06:19+05:30
 - Regional Service
 - EC2 (Elastic Compute Cloud) is an **Infrastructure as a Service (IaaS)**
 - Stopping & Starting an instance may change its public IP but not its private IP
+- **AWS Compute Optimizer** recommends optimal AWS Compute resources for your workloads
+- There is a vCPU-based On-Demand Instance soft limit per region
 
 ## User Data
 - Some commands that run when the instance is launched for the first time (doesn't execute for subsequent runs)
@@ -55,37 +57,39 @@ updated: 2022-05-13T00:06:19+05:30
 - Never enter AWS credentials into the EC2 instance, instead attach IAM roles to the instances
 
 ## Purchasing Options
-- **On-demand Instances**
-	- Pay per use (no upfront payment)
-	- Highest cost
-	- No long-term commitment 
-	- Recommended for short-term, uninterrupted and **unpredictable** workloads
-- **Reserved Instances**
-	- Reservation Period: 1 year or 3 years
-	- Recommended for steady-state applications (like database)
-- **Convertible Reserved Instances**
-	- can change the instance type
-	- lower discount
-- **Scheduled Reserved Instances**
-	- reserved for a time window (ex. everyday from 9AM to 5PM)
-- **Spot Instances**
-	- Work on a bidding basis where you are willing to pay a specific max hourly rate for the instance. Your instance can terminate if the spot price increases.
-	- Good for workloads that are resilient to failure
-		- Distributed jobs (resilient if some nodes go down)
-		- Batch jobs
-- **Dedicated Hosts**
-	- Server hardware is allocated to a specific company (not shared with other companies)
-	- 3 year reservation period
-	- Billed per host
-	- Useful for software that have BYOL (Bring Your Own License) or for companies that have strong regulatory or compliance needs
-- **Dedicated Instances**
-	- Dedicated hardware
-	- Billed per instance
-	- No control over instance placement
-- **Capacity Reservations**
-	- Ensure you have the available capacity in an AZ to launch EC2 instances when needed
-	- Planned end-date for the reservation (no need for 1 or 3-year commitment)
-	- Need to specify the following to create capacity reservation:
+#### On-demand Instances
+- Pay per use (no upfront payment)
+- Highest cost
+- No long-term commitment 
+- Recommended for short-term, uninterrupted and **unpredictable** workloads
+#### Standard Reserved Instances
+- Reservation Period: 1 year or 3 years
+- Recommended for steady-state applications (like database)
+- **Sell unused instances** on the Reserved Instance Marketplace
+#### Convertible Reserved Instances
+- Can change the instance type
+- Lower discount
+- **Cannot sell unused instances** on the Reserved Instance Marketplace
+#### Scheduled Reserved Instances
+- reserved for a time window (ex. everyday from 9AM to 5PM)
+#### Spot Instances
+- Work on a bidding basis where you are willing to pay a specific max hourly rate for the instance. Your instance can terminate if the spot price increases.
+- Good for workloads that are resilient to failure
+	- Distributed jobs (resilient if some nodes go down)
+	- Batch jobs
+#### Dedicated Hosts
+- Server hardware is allocated to a specific company (not shared with other companies)
+- 3 year reservation period
+- Billed per host
+- Useful for software that have BYOL (Bring Your Own License) or for companies that have strong regulatory or compliance needs
+#### Dedicated Instances
+- Dedicated hardware
+- Billed per instance
+- No control over instance placement
+#### Capacity Reservations
+- Ensure you have the available capacity in an AZ to launch EC2 instances when needed
+- Planned end-date for the reservation (no need for 1 or 3-year commitment)
+- Need to specify the following to create capacity reservation:
 	    - AZ
 	    - Number of instances
 	    - Instance attributes
@@ -108,7 +112,7 @@ updated: 2022-05-13T00:06:19+05:30
 
 ## Elastic IP
 - **Static Public IP** that you own as long as you don't delete it
-- Can be attached to an EC2 instance
+- Can be attached to an EC2 instance (even when it is stopped)
 - Soft limit of 5 elastic IPs per account
 - **Billed as long as you own the IP but not attached it to anything** 
 
@@ -123,7 +127,7 @@ updated: 2022-05-13T00:06:19+05:30
 - **Spread Placement Group (maximize availability)**
 	- Each instance is in a separate rack (physical hardware) inside an AZ
 	- Supports Multi AZ
-	- Up to 7 instances per AZ per placement group
+	- Up to 7 instances per AZ per placement group (ex. for 15 instances, need 3 AZ)
 	- Used for critical applications
 	- Image
 		- ![[attachments/Pasted image 20220505232110.png]]
@@ -170,6 +174,7 @@ updated: 2022-05-13T00:06:19+05:30
 - vCPU is the total number of concurrent threads that can be run on an EC2 instance
 - Usually 2 threads per CPU core (eg. 4 CPU cores ⇒ 8 vCPU)
 ## Storage
+[[Instance Store]]
 [[Elastic Block Storage (EBS)]]
 [[Elastic File System (EFS)]]
 ## Amazon Machine Image (AMI)
@@ -185,3 +190,9 @@ updated: 2022-05-13T00:06:19+05:30
 ## EC2 Classic & ClassicLink
 - Instances run in single network shared with other customers (this is how AWS started)
 - **ClassicLink** allows you to link EC2-Classic instances to a VPC in your account
+
+## Billing
+- **Reserved instances will be billed regardless of their state** (billed for a reserved period)
+- **On-demand instances in `stopping` state, preparing to hibernate will be billed**
+- If an instance is running, it will be billed
+- In all the other cases, an instance will not be billed

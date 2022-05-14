@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T19:23:46+05:30
-updated: 2022-05-10T23:45:51+05:30
+updated: 2022-05-14T12:54:17+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,6 +12,7 @@ updated: 2022-05-10T23:45:51+05:30
 - Pay per request (number of invocations) and compute time
 - Integrated with CloudWatch for monitoring
 - **Not good for running containerized applications**
+- Can package and deploy Lambda functions as container images
 
 ## Performance
 - Increasing RAM will improve CPU and network
@@ -19,9 +20,16 @@ updated: 2022-05-10T23:45:51+05:30
 - **Max execution time: 15 mins**
 - Disk capacity in function container (`/tmp`): 512 MB
 - Environment variables: 4 KB
+
+## Deployment
 - Deployment size
 	- Compressed: 50MB
 	- Uncompressed: 250 MB
+- If you intend to reuse code in more than one Lambda function, consider creating a **Lambda Layer** (a ZIP archive that contains libraries) for the reusable code. With layers, you can **use libraries in your function without including them in the deployment package**. Layers let you keep your deployment package small, which makes development easier. A function can use up to 5 layers at a time.
+
+## Networking
+- By default, **Lambda functions operate from an AWS-owned VPC** and hence have **access to any public internet** or **public AWS API** (ex. lambda functions can interact with AWS DynamoDB APIs to PutItem)
+- Once a Lambda function is **VPC-enabled**, all network traffic from your function is subject to the routing rules of your VPC/Subnet. If your function needs to interact with a public resource, it will need a [[Virtual Private Cloud (VPC)#NAT Gateway|NAT Gateway]]. You should only enable your functions for VPC access when you need to interact with a private resource located in a private subnet (ex. RDS database)
 
 ## Supported Languages
 -   Node.js (JavaScript)

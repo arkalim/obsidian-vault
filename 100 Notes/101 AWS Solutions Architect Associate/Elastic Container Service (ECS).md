@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-10T23:50:34+05:30
+updated: 2022-05-14T14:59:57+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -67,3 +67,13 @@ updated: 2022-05-10T23:50:34+05:30
 	- ![[attachments/Pasted image 20220509234001.png]]
 - Min: 100% and Max: 150% and starting number of tasks 4
 	- ![[attachments/Pasted image 20220509234016.png]]
+
+## Secrets in ECS tasks
+- Store the secrets in [[Secrets Manager]] or [[SSM Parameter Store|Parameter Store]] and encrypt them using KMS
+- Reference the secrets in container definition with the name of the environment variable
+- Create an **ECS task execution role** and reference it with your task definition, which allows access to both KMS and the Parameter Store/Secrets Manager.
+- Supported for both EC2 and Fargate launch types
+
+## Scaling ECS Tasks using EventBridge
+- You can use EventBridge (CloudWatch Events) to run Amazon ECS tasks when certain AWS events occur. 
+- Ex: set up a CloudWatch Events rule that runs an Amazon ECS task whenever a file is uploaded to an S3 bucket. You can also declare a reduced number of ECS tasks whenever a file is deleted from the S3 bucket.

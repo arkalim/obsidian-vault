@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-10T23:45:32+05:30
+updated: 2022-05-14T13:28:45+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -56,6 +56,7 @@ updated: 2022-05-10T23:45:32+05:30
 - **No security groups can be attached to NLBs.** They just forward the incoming traffic to the right target group as if those requests were directly coming from client. So, the **attached instances must allow TCP traffic on port 80 from anywhere**.
 - Within a target group, NLB can send traffic to
 	-   EC2 instances
+		- If you specify targets using an instance ID, traffic is routed to instances using the **primary private IP address**
 	-   IP addresses
 	    -   Used when you want to balance load for a physical server having a static IP.
 	-   Application Load Balancer (ALB)

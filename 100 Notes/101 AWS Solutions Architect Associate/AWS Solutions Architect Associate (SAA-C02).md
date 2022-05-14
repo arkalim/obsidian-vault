@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-13T23:55:57+05:30
+updated: 2022-05-14T18:11:27+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -20,6 +20,7 @@ updated: 2022-05-13T23:55:57+05:30
 [[Workflows]]
 
 #### Storage
+[[Instance Store]]
 [[Simple Storage Service (S3)]]
 [[Elastic Block Storage (EBS)]]
 [[Elastic File System (EFS)]]
@@ -29,6 +30,9 @@ updated: 2022-05-13T23:55:57+05:30
 [[FSx]]
 [[Storage Gateway]]
 [[DynamoDB]]
+[[Redshift]]
+[[Neptune]]
+[[ElasticSearch]]
 
 #### Data Migration & Sync
 [[Snow Family]]
@@ -74,10 +78,12 @@ updated: 2022-05-13T23:55:57+05:30
 [[Serverless Application Model (SAM)]]
 [[Continuous Integration Continuous Delivery (CICD)]]
 [[CloudFormation]]
+[[Blue-Green Deployment]]
 
 #### Analytics
 [[Athena]]
 [[Elastic Map Reduce (EMR)]]
+[[Glue]]
 
 #### Containerization
 [[Elastic Container Service (ECS)]]
@@ -90,6 +96,7 @@ updated: 2022-05-13T23:55:57+05:30
 [[Config]]
 [[CostExplorer]]
 [[Trusted Advisor]]
+[[X-Ray]]
 
 #### Parameters & Encryption
 [[Key Management Service (KMS)]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T21:06:16+05:30
-updated: 2022-05-10T23:48:49+05:30
+updated: 2022-05-14T13:00:39+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -13,8 +13,8 @@ updated: 2022-05-10T23:48:49+05:30
 - Throughput
 	- Publishing: 1MB/sec per shard or 1000 msg/sec per shard
 	- Consuming: 
-		- 2MB/sec per shard (shared between all consumers)
-		- 2MB/sec per shard per consumer (dedicated throughput for each consumer)
+		- 2MB/sec per shard (throughput shared between all consumers)
+		- **Enhanced Fanout**: 2MB/sec per shard per consumer (dedicated throughput for each consumer)
 - Throughput scales with shards (**manual scaling**)
 - **Not Serverless**
 - Billing per shard (provisioned)

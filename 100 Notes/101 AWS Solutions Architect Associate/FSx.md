@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T12:33:55+05:30
-updated: 2022-05-10T23:47:24+05:30
+updated: 2022-05-14T11:33:54+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,10 +12,11 @@ updated: 2022-05-10T23:47:24+05:30
 
 ## FSx for Windows
 - Shared File System for Windows (like EFS but for Windows)
-- Supports SMB protocol, Windows NTFS, Microsoft Active Directory integration, ACLs, user quotas
+- Supports **SMB** protocol, Windows **NTFS**, Microsoft **Active Directory** integration, ACLs, user quotas
 - Built on SSD, scale up to 10s of GB/s, millions of IOPS, 100s PB of data
 - Supports Multi-AZ (high availability)
 - Data is backed-up daily to S3
+- Does not integrate with S3 (cannot store cold data)
 
 ## FSx for Lustre
 - Parallel distributed file system for **HPC** (like EFS but for HPC)
@@ -24,6 +25,7 @@ updated: 2022-05-10T23:47:24+05:30
 - Seamless integration with S3
     - Can read S3 buckets as a file system (through FSx)
     - Can write the output back to S3 (through FSx)
+- Ability to both process the **hot data** in a parallel and distributed fashion as well as easily store the **cold data** on Amazon S3
 
 ## FSx Deployment Options
 - **Scratch File System**

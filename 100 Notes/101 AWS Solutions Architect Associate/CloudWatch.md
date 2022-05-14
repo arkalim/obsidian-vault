@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T22:08:38+05:30
-updated: 2022-05-10T23:51:18+05:30
+updated: 2022-05-14T14:09:42+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -25,6 +25,15 @@ updated: 2022-05-10T23:51:18+05:30
 -   EC2 instances have metrics every 5 minutes
 -   With detailed monitoring (for a cost), you get metrics every 1 minute
 -   Use detailed monitoring if you want to react faster to changes (eg. scale faster for your ASG)
+- Available metrics in CloudWatch:
+	- CPU Utilization
+	- Disk Reads
+	- Network Utilization
+- Custom metrics:
+	- Memory utilization
+	-   Disk swap utilization
+	-   Disk space utilization
+	-   Page file utilization
 
 ## Dashboards
 - Setup custom dashboards for quick access to key metrics and alarms
