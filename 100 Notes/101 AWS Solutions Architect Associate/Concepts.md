@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:45:21+05:30
-updated: 2022-05-14T21:12:07+05:30
+updated: 2022-05-14T22:11:39+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -113,11 +113,3 @@ When a client sends an HTTP request to a server, it does so on a fixed IP and po
     -   2001:db8:: ⇒ the last 6 segments are zero
     -   ::1234:5678 ⇒ the first 6 segments are zero
     -   2001:db8::1234:5678 ⇒ the middle 4 segments are zero
-
-## Important Ports
-- FTP: 21
-- SSH: 22
-- SFTP: 22 (same as SSH) - used for uploading files using SSH
-- HTTP: 80
-- HTTPS: 443
-- RDP (Remote Desktop Protocol): 3389

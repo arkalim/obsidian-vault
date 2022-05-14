@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-14T18:43:30+05:30
+updated: 2022-05-14T22:11:02+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -133,4 +133,14 @@ updated: 2022-05-14T18:43:30+05:30
 
 ## Theory
 [[Concepts]]
+[[Important Ports]]
 [[Shared Responsibility Model]]
+
+## Certification
+-   AWS Solutions Architect Associate (SAA-C02)
+-   Certificate Validity: 3 years
+-   Grading: 100-1000 (passing score = 720) - 72% correct required to pass
+-   Pass / Fail Exam (score doesn’t appear on the certificate)
+-   65 questions - 130 minutes (2h 10min)
+-   Can request extra 30 mins on exam if you are a non-native English speaker
+-   How to book: [Ultimate AWS Certified Solutions Architect Associate 2022 | Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture/13531270#announcements)
