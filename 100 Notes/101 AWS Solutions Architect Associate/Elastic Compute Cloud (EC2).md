@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-14T18:21:05+05:30
+updated: 2022-05-14T21:50:18+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -86,9 +86,10 @@ updated: 2022-05-14T18:21:05+05:30
 - Dedicated hardware
 - Billed per instance
 - No control over instance placement
-#### Capacity Reservations
+#### On-Demand Capacity Reservations
 - Ensure you have the available capacity in an AZ to launch EC2 instances when needed
-- Planned end-date for the reservation (no need for 1 or 3-year commitment)
+- Can reserve for a recurring schedule (ex. everyday from 9AM to 5PM)
+- No need for 1 or 3-year commitment (independent of billing discounts)
 - Need to specify the following to create capacity reservation:
 	    - AZ
 	    - Number of instances
@@ -114,7 +115,10 @@ updated: 2022-05-14T18:21:05+05:30
 - **Static Public IP** that you own as long as you don't delete it
 - Can be attached to an EC2 instance (even when it is stopped)
 - Soft limit of 5 elastic IPs per account
-- **Billed as long as you own the IP but not attached it to anything** 
+- Doesn’t incur charges as long as the following conditions are met (EIP behaving like any other public IP randomly assigned to an EC2 instance):
+	-   The Elastic IP is associated with an Amazon EC2 instance
+	-   The instance associated with the Elastic IP is running
+	-   The instance has only one Elastic IP attached to it
 
 ## Placement Groups (Placement Strategies)
 - **Cluster Placement Group (optimize for network)**
@@ -138,6 +142,8 @@ updated: 2022-05-14T18:21:05+05:30
 	- Used in big data applications (Hadoop, HDFS, HBase, Cassandra, Kafka)
 	- Image
 		- ![[attachments/Pasted image 20220505232434.png]]
+
+> If you receive a **capacity error** when launching an instance in a placement group that already has running instances, stop and start all of the instances in the placement group, and try the launch again. Restarting the instances may migrate them to hardware that has capacity for all the requested instances.
 
 ## Elastic Network Interface (ENI)
 - ENI is a virtual network card that **gives a private IP to an EC2 instance**
@@ -177,6 +183,10 @@ updated: 2022-05-14T18:21:05+05:30
 [[Instance Store]]
 [[Elastic Block Storage (EBS)]]
 [[Elastic File System (EFS)]]
+
+## Monitoring
+[[CloudWatch#EC2 Monitoring]]
+
 ## Amazon Machine Image (AMI)
 - AMIs are the image of the instance after installing all the necessary OS, software and configuring everything. 
 - It boots much faster because the whole thing is pre-packaged and doesn’t have to be installed separately for each instance.
@@ -196,3 +206,8 @@ updated: 2022-05-14T18:21:05+05:30
 - **On-demand instances in `stopping` state, preparing to hibernate will be billed**
 - If an instance is running, it will be billed
 - In all the other cases, an instance will not be billed
+
+## Run Command
+- Systems Manager **Run Command** lets you remotely and securely manage the configuration of your **managed instances**. A _managed instance_ is any EC2 instance that has been configured for **Systems Manager**. 
+- Run Command enables you to automate common administrative tasks and perform ad-hoc configuration changes at scale. 
+- You can use Run Command from the **AWS Console**, the AWS CLI, AWS Tools for Windows PowerShell, or the AWS SDKs. Run Command is offered at no additional cost.

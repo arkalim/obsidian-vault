@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T13:08:31+05:30
-updated: 2022-05-14T15:57:01+05:30
+updated: 2022-05-14T19:53:41+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -27,8 +27,8 @@ updated: 2022-05-14T15:57:01+05:30
 -   Used to backup on-premise storage volumes as EBS snapshots in S3
 -   Uses **iSCSI protocol**
 -   Two kinds of volumes:
-    -   Cached volumes: low latency access to most recent data
-    -   Stored volumes: entire dataset is on premise, scheduled backups to S3
+    -   **Cached volumes**: low latency access to most recent data
+    -   **Stored volumes**: entire dataset is on premise, scheduled backups to S3
 - Diagram
 	- ![[attachments/Pasted image 20220509132530.png]]
 

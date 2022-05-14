@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-10T23:45:40+05:30
+updated: 2022-05-14T20:27:04+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -24,6 +24,7 @@ updated: 2022-05-10T23:45:40+05:30
 - **Step Scaling**
 	- Scale incrementally in steps using CloudWatch alarms
 	- Ex. when CPU > 70%, then add 2 units and when CPU < 30%, then remove 1 unit
+	- Specify the **instance warmup time** to scale faster
 - **Target Tracking Scaling**
 	- ASG maintains a CloudWatch metric and scale accordingly (automatically creates CW alarms)
 	- Ex. maintain CPU usage at 40%
@@ -57,12 +58,21 @@ updated: 2022-05-10T23:45:40+05:30
 ## Termination Policy
 - Select the AZ with the most number of instances
 - Delete the instance with the oldest launch configuration
-- If ambiguous, delete the instance which is closest to the next billing hour
+- Delete the instance which is closest to the next billing hour
+- Flow diagram
+	- ![[attachments/Pasted image 20220514202214.png]]
 
 ## Lifecycle Hooks
 - Used to perform extra steps before creating or terminating an instance. Example: 
 	- Install some extra software or do some checks (during pending state) before declaring the instance as "in service"
 	- Before the instance is terminated (terminating state), extract the log files
 - **Without lifecycle hooks, pending and terminating states are avoided**
-- Image
+- Flow diagram
 	- ![[attachments/Pasted image 20220506232117.png]]
+
+## Attach running instances to an existing ASG
+- The running instance must meet the following criteria:
+	-   The AMI used to launch the instance still exists
+	-   The instance is not a member of another ASG
+	-   The instance is launched into one of the AZ defined in your ASG
+	-   If the ASG has an attached load balancer

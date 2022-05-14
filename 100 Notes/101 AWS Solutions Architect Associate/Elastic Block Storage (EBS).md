@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-14T18:03:18+05:30
+updated: 2022-05-14T20:09:12+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -27,7 +27,7 @@ updated: 2022-05-14T18:03:18+05:30
 	- **3 IOPS per GB**
 	- **Max IOPS: 16,000** (at 5,334 GB)
 #### Provisioned IOPS SSD**
-- Optimized for **Transaction-intensive Applications** with high frequency of small reads and writes to the storage. They are sensitive to increased I/O latency.
+- Optimized for **Transaction-intensive Applications** with high frequency of **small & random IO operations**. They are sensitive to increased I/O latency.
 - Maintain high IOPS while keeping I/O latency down by maintaining a **low queue length** and a high number of IOPS available to the volume.
 - Supports EBS Multi-attach (not supported by other types)
 - **io1** or **io2**
@@ -41,7 +41,7 @@ updated: 2022-05-14T18:03:18+05:30
 	-   Max IOPS: 256,000
 	-   1000 lOPS per GB
 #### Hard Disk Drives (HDD)
-- Optimized for **Throughput-intensive Applications** that are less sensitive to increased I/O latency
+- Optimized for **Throughput-intensive Applications** that require **large & sequential IO operations** and are less sensitive to increased I/O latency (big data, data warehousing, log processing)
 - Maintain high throughput to HDD-backed volumes by maintaining a **high queue length** when performing large, sequential I/O
 - Cannot be used as boot volume for an EC2 instance
 - Storage: 125 MiB - 16 TiB

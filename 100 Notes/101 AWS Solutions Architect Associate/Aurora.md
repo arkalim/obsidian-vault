@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-14T17:28:54+05:30
+updated: 2022-05-14T21:45:51+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -13,6 +13,7 @@ updated: 2022-05-14T17:28:54+05:30
 - Preferred over [[Relational Database Service (RDS)]]
 - Auto-scaling (max 128TB)
 - Up to 15 read replicas
+- Replication: Asynchronous (milliseconds) 
 - Supports only MySQL & PostgreSQL
 - Cloud-optimized (5x performance improvement over MySQL on RDS, over 3x the performance of PostgreSQL on RDS)
 - **Backtrack**: restore data at any point of time without taking backups
@@ -32,7 +33,10 @@ updated: 2022-05-14T17:28:54+05:30
 ## High Availability & Read Scaling
 -   Self healing (if some data is corrupted, it will be automatically healed)
 -   Storage is striped across 100s of volumes (more resilient)
--   **Automated failover** for master (a read replica is promoted as the new master in less than 30 seconds)
+-   **Automated failover**
+	- A read replica is promoted as the new master in less than 30 seconds
+	- Aurora flips the **CNAME** record for your DB Instance to point at the healthy replica
+	- In case **no replica** is available, Aurora will attempt to **create a new DB Instance** in the **same AZ** as the original instance. This replacement of the original instance is done on a **best-effort basis** and may not succeed.
 -   Support for Cross Region Replication
 -   Aurora maintains 6 copies of your data across 3 AZ:
     -   4 copies out of 6 needed for writes (can still write if 1 AZ completely fails)

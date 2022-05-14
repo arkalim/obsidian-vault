@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-14T13:28:45+05:30
+updated: 2022-05-14T20:44:30+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -52,14 +52,15 @@ updated: 2022-05-14T13:28:45+05:30
 - **Lower latency** ~ 100 ms (vs 400 ms for ALB)
 - **1 static IP per AZ** (vs a static hostname for CLB & ALB)
 - **Elastic IP can be assigned to NLB** (helpful for whitelisting specific IP)
+- **Does not support weighted routing**
 - Maintains the same connection from client all the way to the target
 - **No security groups can be attached to NLBs.** They just forward the incoming traffic to the right target group as if those requests were directly coming from client. So, the **attached instances must allow TCP traffic on port 80 from anywhere**.
 - Within a target group, NLB can send traffic to
-	-   EC2 instances
+	-   **EC2 instances**
 		- If you specify targets using an instance ID, traffic is routed to instances using the **primary private IP address**
-	-   IP addresses
+	-   **IP addresses**
 	    -   Used when you want to balance load for a physical server having a static IP.
-	-   Application Load Balancer (ALB)
+	-   **Application Load Balancer (ALB)**
 	    -   Used when you want a static IP provided by an NLB but also want to use the features provided by ALB at the application layer.
 
 #### Gateway Load Balancer (GWLB)
@@ -112,6 +113,11 @@ updated: 2022-05-14T13:28:45+05:30
 - When an instance is to be de-registered from the ELB, the in-flight requests being served by that instance are given some pre-defined time to complete before the ELB de-registers it.
 - ELB stops sending new requests to the EC2 instance which is de-registering
 - Set manually (0 to 3600 seconds) (**default: 300 seconds**)
+
+## Access Logs
+- Captures detailed information about requests sent to the load balancer
+- Used to analyze traffic patterns and troubleshoot issues
+- Disabled by default
 
 ## Misc
 - Security Groups for a public facing ELB

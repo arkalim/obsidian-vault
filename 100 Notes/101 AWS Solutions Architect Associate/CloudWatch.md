@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T22:08:38+05:30
-updated: 2022-05-14T14:09:42+05:30
+updated: 2022-05-14T18:36:27+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -22,18 +22,29 @@ updated: 2022-05-14T14:09:42+05:30
 - Accepts metric data points two weeks in the past and two hours in the future
 
 #### EC2 Monitoring
--   EC2 instances have metrics every 5 minutes
--   With detailed monitoring (for a cost), you get metrics every 1 minute
--   Use detailed monitoring if you want to react faster to changes (eg. scale faster for your ASG)
-- Available metrics in CloudWatch:
+- Must run a **CloudWatch agent** on instance to push system **metrics and logs** to CloudWatch.
+- EC2 instances have metrics **every 5 minutes**
+- With **detailed monitoring** (for a cost), you get metrics **every 1 minute**
+- Use detailed monitoring if you want to react faster to changes (eg. scale faster for your ASG)
+- **Available metrics in CloudWatch**:
 	- CPU Utilization
-	- Disk Reads
 	- Network Utilization
-- Custom metrics:
-	- Memory utilization
-	-   Disk swap utilization
-	-   Disk space utilization
-	-   Page file utilization
+	- Disk Performance
+	- Disk Reads/Writes
+- **Custom metrics**:
+	- Memory utilization (memory usage)
+	- Disk swap utilization
+	- Disk space utilization
+	- Page file utilization
+- lAM permissions must allow the instance to push logs to CloudWatch
+- CloudWatch agent can be used for logging on premises servers too
+- Can send logs & additional system-level metrics
+    -   CPU (active, guest, idle, system, user, steal)
+    -   Disk metrics (free, used, total), Disk IO (writes, reads, bytes, iops)
+    -   RAM (free, inactive, used, total, cached)
+    -   Netstat (number of TCP and UDP connections, net packets, bytes)
+    -   Processes (total, dead, bloqued, idle, running, sleep)
+    -   Swap Space (free, used, used %)
 
 ## Dashboards
 - Setup custom dashboards for quick access to key metrics and alarms
@@ -57,18 +68,6 @@ updated: 2022-05-14T14:09:42+05:30
 - To stream logs in real-time, apply a **Subscription Filter** on logs
 - Logs from multiple accounts and regions can be aggregated using subscription filters
 	- ![[attachments/Pasted image 20220510222924.png]]
-
-#### EC2 Logs
-- By default, no logs from your EC2 machine will go to CloudWatch. You need to run a CloudWatch agent on instance to push the logs to CloudWatch.
-- lAM permissions must allow the instance to push logs to CloudWatch
-- CloudWatch agent can be used for logging on premises servers too
-- Can send logs & additional system-level metrics such as:
-    -   CPU (active, guest, idle, system, user, steal)
-    -   Disk metrics (free, used, total), Disk IO (writes, reads, bytes, iops)
-    -   RAM (free, inactive, used, total, cached)
-    -   Netstat (number of TCP and UDP connections, net packets, bytes)
-    -   Processes (total, dead, bloqued, idle, running, sleep)
-    -   Swap Space (free, used, used %)
 
 ## Alarms
 -   Alarms are used to trigger notifications for CW metrics based on **Metric Filters**

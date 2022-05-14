@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T22:12:04+05:30
-updated: 2022-05-13T22:21:03+05:30
+updated: 2022-05-14T20:39:54+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -9,10 +9,11 @@ updated: 2022-05-13T22:21:03+05:30
 - Cloud is perfect for HPC
 - **Cluster placement group** for low latency inter-nodal communication
 - **EC2 Enhanced Networking (SR-IOV)**
-	- **Elastic Network Adapter (ENA)** - up to 100 Gbps
+	- **Elastic Network Adapter (ENA)**
+		- Supported in both Linux & **Windows**
 	- **Elastic Fabric Adapter (EFA)**
 	    -   Enhanced for HPC
-	    -   **Linux** only
+	    -   Supported in **Linux** only
 	    -   Leverages **Message Passing Interface (MPI)** standard
 	    -   Bypasses the underlying Linux OS to provide low-latency networking
 - **AWS Batch**

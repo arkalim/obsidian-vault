@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-14T14:24:29+05:30
+updated: 2022-05-14T21:54:13+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -35,7 +35,7 @@ updated: 2022-05-14T14:24:29+05:30
 	- ![[attachments/Pasted image 20220511122254.png]]
 
 ## Web Identity Federation with Cognito
-- **Use for web identity providers** like CUP, FaceBook, Google etc.
+- Use for **OpenID Connect (OIDC) compatible IDP** like CUP, FaceBook, Google etc.
 - Example: provide temporary access to write to S3 bucket using Facebook Login
 - Steps
     -   Log in to federated identity provider or remain anonymous

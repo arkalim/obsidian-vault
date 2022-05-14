@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-14T15:48:40+05:30
+updated: 2022-05-14T20:03:31+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -156,6 +156,7 @@ updated: 2022-05-14T15:48:40+05:30
 	- ![[attachments/Pasted image 20220512222517.png]]
 - Powered by **AWS PrivateLink**
 - Route table is updated automatically
+- Bound to a region (do not support inter-region communication)
 - Two types:
 	- **Interface Endpoint**
 		- Provisions an **ENI** (private IP) as an entry point per subnet

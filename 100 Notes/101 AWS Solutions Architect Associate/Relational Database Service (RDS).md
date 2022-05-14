@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-14T18:08:51+05:30
+updated: 2022-05-14T21:46:15+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -42,7 +42,7 @@ updated: 2022-05-14T18:08:51+05:30
 - Allows us to scale the read operation (SELECT) on RDS
 	- ![[attachments/Pasted image 20220507005920.png]]
 - **Up to 5 read replicas** (within AZ, cross AZ or cross region)
-- **Asynchronous Replication**
+- Replication: Asynchronous (seconds)
 - **Replicas can be promoted to their own DB**
 - **Applications must update the connection string to leverage read replicas**
 - Network fee for replication
@@ -63,6 +63,7 @@ updated: 2022-05-14T18:08:51+05:30
 	- Encrypted DB  => Encrypted Snapshots, Encrypted Replicas and vice versa
 - In flight encryption
 	- **SSL certificates**
+	- Force all connections to your DB instance to use SSL by setting the `rds.force_ssl` parameter to `true`
 - To encrypt an un-encrypted RDS database:
     -   Create a snapshot of the un-encrypted database
     -   Copy the snapshot and enable encryption for the snapshot
@@ -74,7 +75,7 @@ updated: 2022-05-14T18:08:51+05:30
 - EC2 instances access the DB using **IAM DB Authentication**
 	- EC2 instance has an IAM role which allows is to make an API call to the RDS service to get the **auth token** which it uses to access the MySQL database.
 		- ![[attachments/Pasted image 20220507011632.png]]
-	- **Only works with MySQL and PostgreSQL**
+	- Only works with **MySQL** and **PostgreSQL**
 	- Auth token is valid for 15 mins
 
 ## RDS Events

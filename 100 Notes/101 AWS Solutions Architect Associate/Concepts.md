@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:45:21+05:30
-updated: 2022-05-13T22:29:58+05:30
+updated: 2022-05-14T21:12:07+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -120,3 +120,4 @@ When a client sends an HTTP request to a server, it does so on a fixed IP and po
 - SFTP: 22 (same as SSH) - used for uploading files using SSH
 - HTTP: 80
 - HTTPS: 443
+- RDP (Remote Desktop Protocol): 3389

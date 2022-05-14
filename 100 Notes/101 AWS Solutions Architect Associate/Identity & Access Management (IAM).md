@@ -1,13 +1,13 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-11T20:25:32+05:30
+updated: 2022-05-14T21:10:14+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 
 # IAM
-- Global Service
+- Global Service (IAM entities like roles can be used in any region without recreation)
 
 ## Users & Groups
 - Groups cannot be nested
@@ -16,7 +16,7 @@ updated: 2022-05-11T20:25:32+05:30
 - **Root User** has full access to the account 
 - **IAM User** has limited permission to the account
 - You should log in as an IAM user with **admin access** even if you have root access. This is just to be sure that nothing goes wrong by accident.
-
+- A new IAM user created using the AWS CLI or AWS API has no AWS credentials
 ## Policies
 - Policies are JSON documents that outline permissions for users, groups or roles
 - Two types

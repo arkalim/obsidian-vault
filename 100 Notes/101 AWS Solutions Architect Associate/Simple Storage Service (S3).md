@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-14T17:16:48+05:30
+updated: 2022-05-14T21:57:42+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -59,8 +59,10 @@ updated: 2022-05-14T17:16:48+05:30
 	- Grant public access to the bucket
 	- Force objects to be encrypted at upload
 	- Cross-account access
-	-   Object Access Control List (ACL) - bucket policy that applies to the objects
-	-   Bucket Access Control List (ACL) - bucket policy that applies to the bucket
+	-   Object Access Control List (ACL) - applies to the objects while uploading
+	-   Bucket Access Control List (ACL) - access policy that applies to the bucket
+
+> By default, an S3 object is owned by the account that uploaded it even if the bucket is owned by another account. To get full access to the object, the object owner must explicitly grant the bucket owner access. As a bucket owner, you can create a bucket policy to require external users to grant `bucket-owner-full-control` when uploading objects so the bucket owner can have full access to the objects.
 
 ## S3 Static Websites
 - Host static websites and have them accessible on the public internet
@@ -79,6 +81,7 @@ updated: 2022-05-14T17:16:48+05:30
 - Can only be enabled or disabled by the root user
 
 ## Access Logs
+- Most detailed way of logging access to S3 buckets (better than [[CloudTrail]])
 - Store S3 access logs into another bucket
 - Logging bucket should not be the same as monitored bucket (logging loop)
 
@@ -151,7 +154,7 @@ updated: 2022-05-14T17:16:48+05:30
 	-   No retrieval charges
 - #### Moving between Storage Classes
 	- In the diagram below, transition can only happen in the downward direction
-	- ![[attachments/Pasted image 20220507215812.png]]
+	- ![[attachments/Pasted image 20220514201314.png]]
 
 ## Lifecycle Rules
 - Used to automate transition or expiration actions on S3 objects

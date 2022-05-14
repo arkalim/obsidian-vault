@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-14T18:11:27+05:30
+updated: 2022-05-14T18:43:30+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -123,6 +123,7 @@ updated: 2022-05-14T18:11:27+05:30
 #### Misc
 [[Amazon WorkSpaces]]
 [[Well Architected Framework]]
+[[Extras]]
 
 ## Architecture
 [[Serverless ToDo List App]]
