@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Inspector.md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "5ce45551b5b06a47",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
+    "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "100 Notes/101 AWS Solutions Architect Associate/attachments/Pasted image 20220514104745.png",
     "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "100 Notes/100 Notes.md",
-    "000 Home.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Important Ports.md"
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
   ]
 }

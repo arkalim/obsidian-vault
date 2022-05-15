@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-16T00:00:43+05:30
+updated: 2022-05-16T00:11:21+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -194,6 +194,8 @@ updated: 2022-05-16T00:00:43+05:30
 - It boots much faster because the whole thing is pre-packaged and doesn’t have to be installed separately for each instance.
 - Good for static configurations
 - Bound to a region (can be copied across regions)
+
+> When the new AMI is copied from region A into region B, it automatically creates a snapshot in region B because AMIs are based on the underlying snapshots.
 
 ## Instance Metadata
 - Url to fetch metadata about the instance (http://169.254.169.254/latest/meta-data)
