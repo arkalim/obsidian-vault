@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-15T23:53:10+05:30
+updated: 2022-05-16T00:19:22+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -163,6 +163,10 @@ updated: 2022-05-15T23:53:10+05:30
 	-   delete a version of an object
 	-   delete incomplete multi-part uploads
 -   Lifecycle Rules can be created for a prefix (ex `s3://mybucket/mp3/*`) or objects tags (ex Department: Finance)
+
+> - When you apply a retention period to an object version explicitly, you specify a `Retain Until Date` for the object version
+> - When you use bucket default settings, you don't specify a `Retain Until Date`. Instead, you specify a duration, for which every object version placed in the bucket should be protected.
+> - Different versions of a single object can have different retention modes and periods
 
 ## S3 Analytics
 - Provides analytics to determine when to transition data into different storage classes

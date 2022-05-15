@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5ce45551b5b06a47",
+        "id": "6692d5a61d5df252",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md"
               }
             }
           },
@@ -142,15 +142,15 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "5ce45551b5b06a47",
+  "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
     "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "100 Notes/101 AWS Solutions Architect Associate/attachments/Pasted image 20220514104745.png",
     "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
