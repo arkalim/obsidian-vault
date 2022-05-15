@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T21:06:16+05:30
-updated: 2022-05-14T13:00:39+05:30
+updated: 2022-05-16T00:06:58+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -9,7 +9,7 @@ updated: 2022-05-14T13:00:39+05:30
 
 ## Kinesis Data Stream (KDS)
 - Real-time data streaming service
-- **Used to ingest data in real time**
+- **Used to ingest data in real time directly from source**
 - Throughput
 	- Publishing: 1MB/sec per shard or 1000 msg/sec per shard
 	- Consuming: 
@@ -31,6 +31,7 @@ updated: 2022-05-14T13:00:39+05:30
 ## Kinesis Data Firehose (KDF)
 - Used to load streaming data into a target location
 - **Writes data in batches efficiently (near real time)**
+- **Can ingest data in real time directly from source**
 - Greater the batch size, higher the write efficiency
 - **Auto-scaling**
 - **Serverless**
@@ -48,6 +49,7 @@ updated: 2022-05-14T13:00:39+05:30
 ## Kinesis Data Analytics (KDA)
 - Perform real-time analytics on Kinesis streams using SQL
 - Creates streams from SQL query response
+- **Cannot ingest data directly from source** (ingests data from KDS or KDF)
 - **Auto-scaling**
 - **Serverless**
 - **Real-time Analytics**
