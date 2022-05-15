@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-14T21:50:18+05:30
+updated: 2022-05-16T00:00:43+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -169,7 +169,9 @@ updated: 2022-05-14T21:50:18+05:30
 	- Should be used for applications that take a long time to start
 	- Only supported for on-demand & reserved instances (not spot instances)
 	- Max hibernation duration = 60 days
-
+- **Standby**
+	- Instance remains attached to the [[Auto Scaling Group (ASG)|ASG]] but is temporarily put out of service (the ASG doesn't replace this instance)
+	- Used to install updates or troubleshoot a running instance
 ## EC2 Nitro
 - Newer virtualization technology for EC2 instances
 - Better networking options (enhanced networking, HPC, IPv6)

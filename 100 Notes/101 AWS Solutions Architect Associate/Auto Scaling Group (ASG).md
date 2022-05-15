@@ -1,11 +1,10 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-14T20:27:04+05:30
+updated: 2022-05-16T00:02:45+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
-
 # Auto Scaling Group (ASG)
 - Regional Service
 - Supports Multi AZ
@@ -13,6 +12,8 @@ updated: 2022-05-14T20:27:04+05:30
 - Free (pay for the underlying resources)
 - IAM roles attached to an ASG will get assigned to the launched EC2 instances
 - ASG can terminate instances marked as unhealthy by an ELB (and hence replace them)
+
+> To prevent ASG from replacing unhealthy instances, suspend the **ReplaceUnhealthy** process type
 
 ## Scaling Policies
 - **Scheduled Scaling**
