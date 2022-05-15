@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T20:57:12+05:30
-updated: 2022-05-11T21:58:34+05:30
+updated: 2022-05-15T23:34:38+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -27,6 +27,9 @@ updated: 2022-05-11T21:58:34+05:30
 		- Generated and imported from outside
 			- Must be 256-bit symmetric key
 			- Not recommended
+		- Deletion has a waiting period
+
+> To delete a CMK you schedule key deletion. You can set the waiting period from a minimum of 7 days up to a maximum of 30 days. The default waiting period is 30 days. During the waiting period, the CMK status and key state is Pending deletion. To recover the CMK, you can cancel key deletion before the waiting period ends. After the waiting period ends you cannot cancel key deletion, and AWS KMS deletes the CMK.
 
 ## Asymmetric Keys
 -   Public (Encrypt) and Private Key (Decrypt) pair
