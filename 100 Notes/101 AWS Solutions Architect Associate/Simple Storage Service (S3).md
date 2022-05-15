@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-16T00:19:22+05:30
+updated: 2022-05-16T00:22:53+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -27,6 +27,9 @@ updated: 2022-05-16T00:19:22+05:30
 -   Any file that is not versioned prior to enabling versioning will have version “null”
 -   Suspending versioning does not delete the previous versions, just disables it for the future
 -   To restore a deleted object, delete it's "delete market"
+
+> - Versioning can only be suspended once it has been enabled.
+> - Once you version-enable a bucket, it can never return to an unversioned state.
 
 ## Encryption
 - Can be enabled at the bucket level or at the object level
