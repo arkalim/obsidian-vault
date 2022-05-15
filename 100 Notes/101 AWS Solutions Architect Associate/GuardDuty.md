@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T23:22:50+05:30
-updated: 2022-05-11T23:25:12+05:30
+updated: 2022-05-16T00:13:40+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -14,5 +14,7 @@ updated: 2022-05-11T23:25:12+05:30
     -   **DNS Logs** (compromised EC2 instances sending encoded data within DNS queries)
     -   **EKS Audit Logs** (suspicious activities and potential EKS cluster compromises)
 - Setup CloudWatch Event rules to target AWS Lambda or SNS for automation
+
+> Disabling GuardDuty will delete all remaining data, including your findings and configurations
 
 ![[attachments/Pasted image 20220511232409.png]]

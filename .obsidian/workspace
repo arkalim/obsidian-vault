@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Inspector.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md"
               }
             }
           },
@@ -144,8 +144,8 @@
   },
   "active": "5ce45551b5b06a47",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
     "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "100 Notes/101 AWS Solutions Architect Associate/attachments/Pasted image 20220514104745.png",
     "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
