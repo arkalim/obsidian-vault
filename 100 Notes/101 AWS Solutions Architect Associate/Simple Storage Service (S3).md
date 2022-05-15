@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-14T21:57:42+05:30
+updated: 2022-05-15T23:53:10+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -189,6 +189,11 @@ updated: 2022-05-14T21:57:42+05:30
 - Select a subset of data from S3 using SQL queries (server-side filtering)
 - Less network cost
 - Less CPU cost on the client-side
+
+## Data Transfer Costs
+- Uploads to S3 are free
+- Downloads from S3 are paid
+- Using S3 Transfer Acceleration, you pay only for transfers that are accelerated
 
 ## S3 Notification Events
 - Optional
