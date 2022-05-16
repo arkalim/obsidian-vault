@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T22:08:38+05:30
-updated: 2022-05-14T18:36:27+05:30
+updated: 2022-05-16T21:59:21+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -68,6 +68,8 @@ updated: 2022-05-14T18:36:27+05:30
 - To stream logs in real-time, apply a **Subscription Filter** on logs
 - Logs from multiple accounts and regions can be aggregated using subscription filters
 	- ![[attachments/Pasted image 20220510222924.png]]
+
+> Metric Filters are a part of CloudWatch Logs (not CloudWatch Metrics)
 
 ## Alarms
 -   Alarms are used to trigger notifications for CW metrics based on **Metric Filters**
