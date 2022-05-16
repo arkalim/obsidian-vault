@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T23:46:12+05:30
-updated: 2022-05-10T23:51:10+05:30
+updated: 2022-05-16T21:50:38+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -8,6 +8,7 @@ updated: 2022-05-10T23:51:10+05:30
 # Elastic Kubernetes Service (EKS)
 - Used to launch [[Concepts#Kubernetes|Kubernetes]] (**open-source**) clusters on AWS
 - Supports both EC2 and Fargate launch types
+- **CloudWatch Container Insights** can be configured to view metrics and logs for an EKS cluster in the CloudWatch console
 - Inside the EKS cluster, we have EKS nodes (EC2 instances) and EKS pods (tasks) within them. We can use a private or public load balancer to access these EKS pods.![[attachments/Pasted image 20220509235639.png]]
 
 ## Use case
