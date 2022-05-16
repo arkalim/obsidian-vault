@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-14T21:10:14+05:30
+updated: 2022-05-16T22:55:00+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -8,6 +8,8 @@ updated: 2022-05-14T21:10:14+05:30
 
 # IAM
 - Global Service (IAM entities like roles can be used in any region without recreation)
+
+> **IAM Query API** can be used to make direct calls to the IAM web service (using access key ID and secret access key for authentication)
 
 ## Users & Groups
 - Groups cannot be nested
