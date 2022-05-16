@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-14T20:03:31+05:30
+updated: 2022-05-16T10:18:18+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -33,6 +33,8 @@ updated: 2022-05-14T20:03:31+05:30
 - Subnets in a VPC cannot have overlapping CIDRs
 -   **AWS reserves 5 IP addresses (first 4 & last 1) in each subnet**. These 5 IP addresses are not available for use. 
   Example: if CIDR block 10.0.0.0/24, then reserved IP addresses are 10.0.0.0, 10.0.0.1, 10.0.0.2, 10.0.0.3 & 10.0.0.255
+
+> To make the EC2 instances running in private subnets accessible on the internet, place them behind an internet-facing (running in public subnets) Elastic Load Balancer.
 
 ## Internet Gateway (IGW)
 - Allows resources in a VPC to connect to the Internet
