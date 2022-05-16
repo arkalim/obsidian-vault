@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:52:05+05:30
-updated: 2022-05-14T17:12:04+05:30
+updated: 2022-05-16T22:59:48+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,6 +12,8 @@ updated: 2022-05-14T17:12:04+05:30
 - Also a Domain Registrar (for registering domain names)
 - Only AWS service which provides 100% availability SLA
 - Affected by client's DNS caching (not suitable for [[Blue-Green Deployment]] if the client caches DNS queries)
+
+> It is recommended to use DNS names or URLs instead of IPs wherever possible
 
 ## Hosted Zone
 - A container for DNS records that define how to route traffic to a domain and its subdomains. 
