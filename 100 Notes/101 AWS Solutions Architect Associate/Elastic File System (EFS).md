@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:18:34+05:30
-updated: 2022-05-10T23:46:50+05:30
+updated: 2022-05-16T21:40:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -11,7 +11,7 @@ updated: 2022-05-10T23:46:50+05:30
 - Can be mounted to multiple EC2 instances **across AZs**
 - **Pay per use** (no capacity provisioning)
 - **Auto scaling** (up to petabytes)
-- Compatible with Linux based AMIs (**POSIX** file system)
+- Compatible with **Linux** based AMIs (**POSIX** file system)
 - **Uses security group to control access to EFS**
 - Lifecycle management feature to move files to EFS-IA after N days
 
