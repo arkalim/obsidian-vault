@@ -1,6 +1,6 @@
 ---
 created: 2022-05-08T13:28:22+05:30
-updated: 2022-05-14T16:02:15+05:30
+updated: 2022-05-16T20:58:29+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -23,9 +23,11 @@ updated: 2022-05-14T16:02:15+05:30
 	- Can be used as ingress to upload files to S3
 - **Custom Origin** (for HTTP) - need to be publicly accessible on HTTP by public IPs of edge locations
 	- EC2 Instance
-	- ALB
+	- ELB
 	- S3 Website
 	- On-premise backend
+
+> To restrict access to ELB directly when it is being used as the origin in a CloudFront distribution, create a VPC Security Group for the ELB and use AWS Lambda to automatically update the CloudFront internal service IP addresses when they change.
 
 ## Signed URL / Cookies
 - Used to make a CloudFront distribution private (distribute to a subset of users)
