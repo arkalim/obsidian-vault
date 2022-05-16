@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-16T00:02:45+05:30
+updated: 2022-05-16T09:14:06+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -62,6 +62,9 @@ updated: 2022-05-16T00:02:45+05:30
 - Delete the instance which is closest to the next billing hour
 - Flow diagram
 	- ![[attachments/Pasted image 20220514202214.png]]
+
+> - ASG does not immediately terminate instances with an **Impaired** status, it waits a few minutes for the instance to recover.
+> - ASG doesn't terminate an instance that came into service based on EC2 status checks and ELB health checks until the **health check grace period** expires.
 
 ## Lifecycle Hooks
 - Used to perform extra steps before creating or terminating an instance. Example: 
