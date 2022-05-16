@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-16T22:34:23+05:30
+updated: 2022-05-16T22:49:07+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -23,9 +23,10 @@ updated: 2022-05-16T22:34:23+05:30
 ## SAML 2.0 Federation
 - Used to integrate **Active Directory / ADFS** with AWS using SAML compatible IDP
 - **Client exchanges SAML assertion for security credentials from STS** using the STS **AssumeRoleWithSAML** API
-- **SAML 2.0 Federation is the old way**, [[Single Sign-On (SSO)]] Federation is the new way
 - Flow diagram
 	- ![[attachments/Pasted image 20220511103954.png]]
+
+> SSO can be implemented using an existing IDP like AD using SAML 2.0 Federation
 
 ## Custom Identity Broker Federation
 - Used when the identity provider is not compatible with SAML 2.0
