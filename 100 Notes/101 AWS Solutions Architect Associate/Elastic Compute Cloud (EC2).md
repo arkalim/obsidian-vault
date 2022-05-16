@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-16T00:11:21+05:30
+updated: 2022-05-16T11:43:07+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -94,6 +94,9 @@ updated: 2022-05-16T00:11:21+05:30
 	    - AZ
 	    - Number of instances
 	    - Instance attributes
+
+> [!important]- Reserved Capacity & Instances Comparison
+> ![[attachments/Pasted image 20220516114146.png]]
 
 ## Spot Instances
 #### Spot Requests
