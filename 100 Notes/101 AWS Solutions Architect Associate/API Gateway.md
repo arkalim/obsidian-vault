@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T20:11:03+05:30
-updated: 2022-05-10T23:48:19+05:30
+updated: 2022-05-16T09:09:29+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -38,7 +38,7 @@ updated: 2022-05-10T23:48:19+05:30
 -   Uses a Lambda function to validate the token being passed in the header and return an lAM policy to determine if the user should be allowed to access the resource.
 -   Option to cache result of authentication
 -   For OAuth / SAML / 3rd party type of authentication
-- Good to provide access outside your AWS account
+- Good to provide access outside your AWS account if you have an existing IDP
 - Diagram
 	- ![[attachments/Pasted image 20220510203327.png]]
 
