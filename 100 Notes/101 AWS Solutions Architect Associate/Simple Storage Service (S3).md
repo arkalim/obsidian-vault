@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-16T22:17:33+05:30
+updated: 2022-05-16T22:41:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -110,7 +110,7 @@ updated: 2022-05-16T22:17:33+05:30
 
 ## Storage Classes
 - Data can be transitioned between storage classes manually or automatically using lifecycle rules
-- **General Purpose**
+- **Standard**
 	- **99.99% availability**
 	- Most expensive
 	- Instant retrieval
@@ -119,7 +119,8 @@ updated: 2022-05-16T22:17:33+05:30
 - **Infrequent Access**
 	- For data that is infrequently accessed, but requires rapid access when needed
 	- Lower storage cost than Standard but **cost on retrieval**
-	- Can move data to IA only after 30 days in Standard
+	- Can **move data directly into IA**
+	- Can **move data into IA from Standard only after 30 days**
 	- Two types:
 		- **Standard IA**
 		    -   **99.9% Availability**
@@ -130,6 +131,7 @@ updated: 2022-05-16T22:17:33+05:30
 - **Glacier**
 	- For data archival
 	- Cost for storage and retrieval
+	- **Can move data into Glacier from Standard anytime**
 	- Objects cannot be directly accessed, they first need to be restored which could take some time (depending on the tier) to fetch the object.
 	- Three types:
 		- **Glacier Instant Retrieval**
