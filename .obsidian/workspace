@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md",
-            "mode": "preview",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
+            "mode": "source",
             "source": true
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Instance Store.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md",
     "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
     "100 Notes/101 AWS Solutions Architect Associate/Transit Gateway.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Kubernetes Service (EKS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Organizations.md"
+    "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md"
   ]
 }

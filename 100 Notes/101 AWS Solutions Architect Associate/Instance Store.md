@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14T18:11:43+05:30
-updated: 2022-05-14T18:20:14+05:30
+updated: 2022-05-16T22:37:39+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
