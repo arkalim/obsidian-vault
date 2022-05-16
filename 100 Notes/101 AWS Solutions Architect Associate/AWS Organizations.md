@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T20:02:59+05:30
-updated: 2022-05-14T12:00:09+05:30
+updated: 2022-05-16T21:32:57+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -15,6 +15,8 @@ updated: 2022-05-14T12:00:09+05:30
 - Pricing benefits from aggregated usage of AWS resources
 - API to automate AWS account creation (on demand account creation)
 - Establish Cross Account Roles for Admin purposes where the master account can assume an admin role in any of the children accounts
+
+> Organization API can only create member accounts. They cannot configure anything within those accounts (use [[CloudFormation]] for that).
 
 ## Organizational Units (OU)
 - Folders for grouping AWS accounts of an organization
