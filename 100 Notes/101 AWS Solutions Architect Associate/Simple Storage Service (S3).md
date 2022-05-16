@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-16T21:46:32+05:30
+updated: 2022-05-16T22:17:33+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -57,7 +57,9 @@ updated: 2022-05-16T21:46:32+05:30
 >- Bucket policy can be used to force a specific type of encryption on the objects uploaded to S3 
 
 ## Access Management
-- **User based security**: IAM policies define which API calls should be allowed for a specific user
+- **User based security**
+	- IAM policies define which API calls should be allowed for a specific user
+	- Preferred over bucket policy for **fine-grained access control**
 - **Resource based security (Bucket Policy)**
 	- Grant public access to the bucket
 	- Force objects to be encrypted at upload
