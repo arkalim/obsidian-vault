@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-16T08:52:30+05:30
+updated: 2022-05-16T09:38:45+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -65,8 +65,8 @@ updated: 2022-05-16T08:52:30+05:30
 - Client needs to have multiple DB connections for failover
 
 ## Aurora Global Database
--   Optional
 -   Entire database is replicated across regions to recover from region failure
+-   Designed for **globally distributed applications** with **low latency local reads** in each region
 -   1 Primary Region (read / write)
 -   Up to 5 secondary (read-only) regions (replication lag < 1 second)
 -   Up to 16 Read Replicas per secondary region
