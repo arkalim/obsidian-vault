@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-16T22:41:09+05:30
+updated: 2022-05-16T23:11:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -206,6 +206,7 @@ updated: 2022-05-16T22:41:09+05:30
 - Uploads to S3 are free
 - Downloads from S3 are paid
 - Using S3 Transfer Acceleration, you pay only for transfers that are accelerated
+- Since S3 is bound to a region, data transfer within a region is free
 
 ## S3 Notification Events
 - Optional
