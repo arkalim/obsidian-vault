@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-16T21:01:30+05:30
+updated: 2022-05-16T21:46:32+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -83,8 +83,9 @@ updated: 2022-05-16T21:01:30+05:30
 - **Bucket Versioning must be enabled**
 - Can only be enabled or disabled by the root user
 
-## Access Logs
+## Server Access Logging
 - Most detailed way of logging access to S3 buckets (better than [[CloudTrail]])
+- Does not support **Data Events** & **Log File Validation** (use [[CloudTrail]] for that)
 - Store S3 access logs into another bucket
 - Logging bucket should not be the same as monitored bucket (logging loop)
 

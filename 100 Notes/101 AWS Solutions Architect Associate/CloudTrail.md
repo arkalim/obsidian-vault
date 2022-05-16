@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T00:01:49+05:30
-updated: 2022-05-14T20:01:29+05:30
+updated: 2022-05-16T21:43:26+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -14,6 +14,8 @@ updated: 2022-05-14T20:01:29+05:30
 - Export CloudTrail logs into
 	- [[CloudWatch#Logs|CloudWatch Logs]]
 	- [[Simple Storage Service (S3)|S3]] (encrypted by default using **SSE-S3**)
+
+> Modifications to log files can be detected by enabling **Log File Validation** on the logging bucket
 
 ## Event Types
 #### Management Events

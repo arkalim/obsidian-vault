@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md"
               }
             }
           },
@@ -136,15 +136,15 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Organizations.md",
@@ -153,7 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/ElastiCache.md",
     "100 Notes/101 AWS Solutions Architect Associate/Redshift.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md"
   ]
 }
