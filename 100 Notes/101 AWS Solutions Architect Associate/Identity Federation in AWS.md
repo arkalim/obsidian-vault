@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-14T21:54:13+05:30
+updated: 2022-05-16T22:29:57+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -33,6 +33,8 @@ updated: 2022-05-14T21:54:13+05:30
 - The identity broker must determine the appropriate lAM policy
 - Flow diagram
 	- ![[attachments/Pasted image 20220511122254.png]]
+
+
 
 ## Web Identity Federation with Cognito
 - Use for **OpenID Connect (OIDC) compatible IDP** like CUP, FaceBook, Google etc.
