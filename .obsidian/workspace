@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Route 53.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Route 53.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Route 53.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
               }
             }
           },
@@ -144,6 +144,7 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Route 53.md",
     "100 Notes/101 AWS Solutions Architect Associate/Security Token Service (STS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
@@ -152,7 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Instance Store.md",
-    "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Transit Gateway.md"
+    "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T19:50:26+05:30
-updated: 2022-05-16T09:30:49+05:30
+updated: 2022-05-16T23:03:50+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -14,6 +14,8 @@ updated: 2022-05-16T09:30:49+05:30
 - **Max message size: 256KB**
 - **Default message retention: 4 days (max: 14 days)**
 - **Consumers could be EC2 instances or Lambda functions**
+
+> SQS cannot ingest data, it must be sent to the queue by the producer (use [[Kinesis#Kinesis Data Stream KDS|Kinesis Data Stream]] or [[Kinesis#Kinesis Data Firehose KDF|Kinesis Data Firehose]] instead)
 
 ## Queue Types
 #### Standard Queue
