@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-15T23:31:31+05:30
+updated: 2022-05-16T20:54:59+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -102,7 +102,9 @@ updated: 2022-05-15T23:31:31+05:30
 
 
 ## In-flight Encryption
-- SSL certificates are loaded on Load Balancers to allow HTTPS connection from the client. Downstream communication happens over HTTP inside the VPC which is secure.
+- Use an NLB with a TCP listener & terminate SSL on EC2 instances
+- Use an ALB with an HTTPS listener, install SSL certificates on the ALB & terminate SSL on the ALB
+- Communication between ALB & EC2 instances can happen over HTTP inside the VPC
 - **Server Name Indication (SNI)**
 	- SNI allows us to load multiple SSL certificates on one Load Balancer to serve multiple websites securely
 		- ![[attachments/Pasted image 20220506222424.png]]
