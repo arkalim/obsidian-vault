@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T22:59:59+05:30
-updated: 2022-05-14T17:36:57+05:30
+updated: 2022-05-16T10:27:02+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -27,7 +27,8 @@ updated: 2022-05-14T17:36:57+05:30
     -   References
     -   Functions
 
-> You can associate the `CreationPolicy` attribute with a resource to prevent its status from reaching create complete until CloudFormation receives a specified number of `cfn-signal` or the timeout period is exceeded.
+> - You can associate the `CreationPolicy` attribute with a resource to prevent its status from reaching create complete until CloudFormation receives a specified number of `cfn-signal` or the timeout period is exceeded.
+> - Use CloudFormation with securely configured templates to ensure that applications are deployed in secure configurations
 
 ## Stack Sets
 -   Create, update, or delete stacks across **multiple accounts and regions** with a single operation

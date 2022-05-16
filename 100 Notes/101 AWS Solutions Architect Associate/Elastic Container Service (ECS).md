@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-14T14:59:57+05:30
+updated: 2022-05-16T10:29:15+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -39,6 +39,7 @@ updated: 2022-05-14T14:59:57+05:30
 	- Each task can have a separate role
 	- **Use different roles for the different ECS Services**
 	- Task Role is defined in the task definition
+	- Use `taskRoleArn` parameter to assign IAM policies to ECS Task Execution Role
 
 ## ECS Services
 - An ECS Service is a collection of ECS tasks that perform the same function
