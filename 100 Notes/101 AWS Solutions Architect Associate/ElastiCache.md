@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:11:37+05:30
-updated: 2022-05-14T00:13:16+05:30
+updated: 2022-05-16T21:11:02+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -28,6 +28,7 @@ updated: 2022-05-14T00:13:16+05:30
 | **HIPAA compliant**                                            | **Not HIPAA compliant**                              |
 | Data is stored in an in-memory DB which is replicated          | Data is partitioned across multiple nodes (sharding) |
 | **Redis Sorted Sets** are used in realtime Gaming Leaderboards |                                                      |
+| Good for auto-completion                                                               |                                                      |
 
 ## Security & Access Management
 - Network security is managed using Security Groups (only allow EC2 security group for incoming requests)
