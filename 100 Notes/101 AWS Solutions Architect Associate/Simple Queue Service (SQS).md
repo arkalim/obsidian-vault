@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T19:50:26+05:30
-updated: 2022-05-13T22:05:38+05:30
+updated: 2022-05-16T09:30:49+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -86,3 +86,6 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 ## SQS + Lambda + DLQ
 - Failed messages (after the set number of retries) are sent to the DLQ by the SQS queue
 	- ![[attachments/Pasted image 20220513220430.png]]
+
+## Handling Priority
+> Use two SQS queues, one for low priority (ex. free) and the other for high priority (ex. paid). Configure your consuming application to only poll the low priority queue if the high priority queue is empty.
