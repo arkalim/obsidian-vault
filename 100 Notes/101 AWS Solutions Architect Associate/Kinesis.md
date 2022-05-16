@@ -1,11 +1,12 @@
 ---
 created: 2022-05-09T21:06:16+05:30
-updated: 2022-05-16T00:06:58+05:30
+updated: 2022-05-16T09:03:26+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Kinesis
+> Kinesis Agent cannot write to a Kinesis Firehose for which the delivery stream source is already set as Kinesis Data Streams
 
 ## Kinesis Data Stream (KDS)
 - Real-time data streaming service
