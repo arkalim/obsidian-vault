@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-14T21:46:15+05:30
+updated: 2022-05-16T10:24:15+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -64,6 +64,7 @@ updated: 2022-05-14T21:46:15+05:30
 - In flight encryption
 	- **SSL certificates**
 	- Force all connections to your DB instance to use SSL by setting the `rds.force_ssl` parameter to `true`
+	- To enable encryption in transit, download the **AWS-provided root certificates** & used them when connecting to DB
 - To encrypt an un-encrypted RDS database:
     -   Create a snapshot of the un-encrypted database
     -   Copy the snapshot and enable encryption for the snapshot
