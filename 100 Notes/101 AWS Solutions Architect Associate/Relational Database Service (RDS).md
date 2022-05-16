@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-16T10:24:15+05:30
+updated: 2022-05-16T10:32:58+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -70,6 +70,10 @@ updated: 2022-05-16T10:24:15+05:30
     -   Copy the snapshot and enable encryption for the snapshot
     -   Restore the database from the encrypted snapshot
     -   Migrate applications to the new database, and delete the old database
+- To create an encrypted cross-region read replica from a non-encrypted master:
+	- Encrypt a snapshot from the unencrypted master DB instance
+	- Create a new encrypted master DB instance
+	- Create an encrypted cross-region Read Replica from the new encrypted master
 
 ## Access Management
 - Username and Password can be used to login into the database
