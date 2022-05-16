@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T10:37:26+05:30
-updated: 2022-05-14T12:06:14+05:30
+updated: 2022-05-16T23:16:10+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -24,3 +24,9 @@ updated: 2022-05-14T12:06:14+05:30
 - Two step process:
 	1. Use the **Schema Conversion Tool (SCT)** to convert the source schema and code to match that of the target database
 	2. Use the **Database Migration Service (DMS)** to migrate data from the source database to the target database
+
+## Migrating using [[Snow Family]]
+1.  Use the Schema Conversion Tool (SCT) to extract the data locally and move it to the Edge device
+2. Ship the Edge device or devices back to AWS
+3. After AWS receives your shipment, the Edge device automatically loads its data into an Amazon S3 bucket.
+4. AWS DMS takes the files and migrates the data to the target data store (eg. DynamoDB)
