@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-14T21:45:51+05:30
+updated: 2022-05-16T08:49:23+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -41,6 +41,8 @@ updated: 2022-05-14T21:45:51+05:30
 -   Aurora maintains 6 copies of your data across 3 AZ:
     -   4 copies out of 6 needed for writes (can still write if 1 AZ completely fails)
     -   3 copies out of 6 need for reads
+
+> Each Read Replica is associated with a priority tier (0-15). In the event of a failover, Amazon Aurora will promote the Read Replica that has the highest priority (the lowest numbered tier). If two or more Aurora Replicas share the same priority, then Amazon RDS promotes the replica that is largest in size. If two or more Aurora Replicas share the same priority and size, then Amazon Aurora promotes an arbitrary replica in the same promotion tier.
 
 ## Encryption & Network Security
 -   Encryption at rest using KMS (same as RDS)
