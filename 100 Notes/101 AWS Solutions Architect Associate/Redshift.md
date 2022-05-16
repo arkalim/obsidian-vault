@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14T00:18:36+05:30
-updated: 2022-05-14T11:56:18+05:30
+updated: 2022-05-16T21:06:19+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -11,6 +11,7 @@ updated: 2022-05-14T11:56:18+05:30
 - Used for **Online Analytical Processing (OLAP)** and high performance querying
 - **Columnar storage** of data with **massively parallel query execution** in **SQL**
 - Faster querying than [[Athena]] due to indexes
+- Can be used for both long complex queries as well as short fast queries
 - Need to provision instances as a part of the Redshift cluster (pay for the instances provisioned)
 - Integrated with **Business Intelligence (BI) tools** such as **QuickSight** or **Tableau**
 - Redshift Cluster can have **1 to 128 nodes (128TB per node)**
