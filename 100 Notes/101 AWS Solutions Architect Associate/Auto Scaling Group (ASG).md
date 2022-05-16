@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-16T09:14:06+05:30
+updated: 2022-05-16T09:18:13+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,8 +12,6 @@ updated: 2022-05-16T09:14:06+05:30
 - Free (pay for the underlying resources)
 - IAM roles attached to an ASG will get assigned to the launched EC2 instances
 - ASG can terminate instances marked as unhealthy by an ELB (and hence replace them)
-
-> To prevent ASG from replacing unhealthy instances, suspend the **ReplaceUnhealthy** process type
 
 ## Scaling Policies
 - **Scheduled Scaling**
@@ -55,6 +53,10 @@ updated: 2022-05-16T09:14:06+05:30
 ## Scaling Cooldown
 - After a scaling activity happens, the ASG goes into cooldown period (default 300 seconds) during which it does not launch or terminate additional instances (ignores scaling requests) to allow the metrics to stabilize.
 - Use a ready-to-use AMI to launch instances faster to be able to reduce the cooldown period
+
+## Health Checks
+- By default, ASG uses the EC2 status check (not the ELB health check). This could explain why some instances that are labelled as unhealthy by an ELB are still not terminated by the ASG.
+- To prevent ASG from replacing unhealthy instances, suspend the **ReplaceUnhealthy** process type
 
 ## Termination Policy
 - Select the AZ with the most number of instances
