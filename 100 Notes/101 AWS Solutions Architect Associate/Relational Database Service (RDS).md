@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-16T10:32:58+05:30
+updated: 2022-05-16T21:24:36+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -48,6 +48,8 @@ updated: 2022-05-16T10:32:58+05:30
 - Network fee for replication
 	- Same region: free
 	- Cross region: paid
+
+> You can create a read replica as a Multi-AZ DB instance. A standby of the replica will be created in another AZ for failover support for the replica.
 
 ## Multi AZ
 - Increase availability of the RDS database by replicating it to another AZ
