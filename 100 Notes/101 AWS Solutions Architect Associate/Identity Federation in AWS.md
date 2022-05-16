@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-16T22:29:57+05:30
+updated: 2022-05-16T22:34:23+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -28,13 +28,16 @@ updated: 2022-05-16T22:29:57+05:30
 	- ![[attachments/Pasted image 20220511103954.png]]
 
 ## Custom Identity Broker Federation
-- Use only if identity provider is not compatible with SAML 2.0
+- Used when the identity provider is not compatible with SAML 2.0
 - **Identity broker gets security credentials from STS** using the STS **AssumeRole** or **GetFederationToken** API
 - The identity broker must determine the appropriate lAM policy
 - Flow diagram
 	- ![[attachments/Pasted image 20220511122254.png]]
 
-
+> [!info]- Steps in Custom Identity Broker Federation
+> -   Verify that the user is authenticated by your local IDP (could be AD)
+> -   Call the STS **AssumeRole** or **GetFederationToken** API to obtain temporary security credentials for the user
+> -   Call the **AWS Federation Endpoint** and supply the temporary security credentials to request a **sign-in token**
 
 ## Web Identity Federation with Cognito
 - Use for **OpenID Connect (OIDC) compatible IDP** like CUP, FaceBook, Google etc.
