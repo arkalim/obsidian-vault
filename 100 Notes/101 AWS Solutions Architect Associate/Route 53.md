@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:52:05+05:30
-updated: 2022-05-16T22:59:48+05:30
+updated: 2022-05-17T21:48:46+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -36,7 +36,7 @@ updated: 2022-05-16T22:59:48+05:30
 -   **NS** (Name Servers) - controls how traffic is routed for a domain
 - **Alias** - maps a hostname to an AWS resource
 	- **AWS proprietary**
-	- Can point to root and non-root domains
+	- Can point to root (zone apex) and non-root domains
 	- **Alias Record is of type A or AAAA** (IPv4 / IPv6)
 	- Targets can be
 		- Elastic Load Balancers

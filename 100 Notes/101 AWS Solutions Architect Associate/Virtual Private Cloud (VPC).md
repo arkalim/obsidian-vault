@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-17T10:15:33+05:30
+updated: 2022-05-17T21:52:40+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -194,3 +194,10 @@ updated: 2022-05-17T10:15:33+05:30
 	- ![[attachments/Pasted image 20220513005755.png]]
 - Similar to [[Virtual Private Cloud (VPC)#NAT Gateway|NAT Gateway]] but for IPv6
 - Must update Route Tables
+
+## VPC Console Wizard
+>  - Supported Configurations:
+> 	- VPC with a single public subnet
+> 	- VPC with public and private subnets (NAT)
+> 	- VPC with public and private subnets and AWS Site-to-Site VPN access
+> 	- VPC with a private subnet only and AWS Site-to-Site VPN access
