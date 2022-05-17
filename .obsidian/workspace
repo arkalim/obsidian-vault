@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
               }
             }
           },
@@ -154,11 +154,11 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "ac6a89aa4e2bc4ff",
+  "active": "dafd9a2fdaaee1e7",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Route 53.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
     "100 Notes/101 AWS Solutions Architect Associate/extra.md",
     "100 Notes/101 AWS Solutions Architect Associate/Intro to AWS.md",
