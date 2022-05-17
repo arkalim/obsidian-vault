@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-16T10:29:15+05:30
+updated: 2022-05-17T10:10:42+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -78,3 +78,9 @@ updated: 2022-05-16T10:29:15+05:30
 ## Scaling ECS Tasks using EventBridge
 - You can use EventBridge (CloudWatch Events) to run Amazon ECS tasks when certain AWS events occur. 
 - Ex: set up a CloudWatch Events rule that runs an Amazon ECS task whenever a file is uploaded to an S3 bucket. You can also declare a reduced number of ECS tasks whenever a file is deleted from the S3 bucket.
+
+## Troubleshooting Steps
+-   Verify that the Docker daemon is running on the container instance.
+-   Verify that the Docker Container daemon is running on the container instance.
+-   Verify that the container agent is running on the container instance.
+-   Verify that the IAM instance profile has the necessary permissions.

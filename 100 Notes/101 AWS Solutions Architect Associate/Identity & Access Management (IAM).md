@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-16T22:55:00+05:30
+updated: 2022-05-17T10:13:10+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,9 +12,13 @@ updated: 2022-05-16T22:55:00+05:30
 > **IAM Query API** can be used to make direct calls to the IAM web service (using access key ID and secret access key for authentication)
 
 ## Users & Groups
+- Groups are collections of users and have policies attached to them
 - Groups cannot be nested
 - User can belong to multiple groups
 - User doesn't have to belong to a group
+-   A group is not an identity and cannot be identified as a principal in an IAM policy
+-   Use groups to assign permissions to users
+-   Only users and services can assume a role (not groups)
 - **Root User** has full access to the account 
 - **IAM User** has limited permission to the account
 - You should log in as an IAM user with **admin access** even if you have root access. This is just to be sure that nothing goes wrong by accident.

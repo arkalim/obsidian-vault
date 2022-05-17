@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Continuous Integration Continuous Delivery (CICD).md",
-            "mode": "preview",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
+            "mode": "source",
             "source": true
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Continuous Integration Continuous Delivery (CICD).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Continuous Integration Continuous Delivery (CICD).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Container Service (ECS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Continuous Integration Continuous Delivery (CICD).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
     "100 Notes/101 AWS Solutions Architect Associate/Cognito.md",
     "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Single Sign-On (SSO).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md"
   ]
 }
