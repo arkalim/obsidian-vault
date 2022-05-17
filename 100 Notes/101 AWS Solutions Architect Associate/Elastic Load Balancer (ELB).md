@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-16T20:54:59+05:30
+updated: 2022-05-17T19:27:02+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -13,6 +13,8 @@ updated: 2022-05-16T20:54:59+05:30
 - Separate public traffic from private traffic
 - Health checks allow ELB to know which instances are working properly (done on a port and a route, `/health` is common)
 - If no targets are associated with the target groups => **503 Service Unavailable**
+
+> Using ALB & NLB, instances in peered VPCs can be used as targets using IP addresses.
 
 ## Types
 
@@ -126,4 +128,4 @@ updated: 2022-05-16T20:54:59+05:30
 - Security Groups for a public facing ELB
 	- ELB will be publicly available on the internet, so it’s security group should allow HTTP and HTTPS traffic from anywhere. EC2 should only allow traffic from the ELB, so the its security group should allow HTTP requests from ELB’s security group.
 	- Image
-		- ![[attachments/Pasted image 20220506205310.png]]
+		- ![[attachments/Pasted image 20220506205310.png]] 
