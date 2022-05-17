@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T19:50:26+05:30
-updated: 2022-05-17T21:38:27+05:30
+updated: 2022-05-17T21:59:52+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -74,7 +74,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 
 #### Long Polling
 - Poll the queue for longer
-- Decreases the number of API calls made to SQS
+- Decreases the number of API calls made to SQS (**cheaper**)
 - Reduces latency (incoming messages during the polling will be read instantaneously)
 - **Polling time: 1 sec to 20 sec**
 - Long Polling is preferred over Short Polling
