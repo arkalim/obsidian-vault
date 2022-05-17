@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:52:05+05:30
-updated: 2022-05-17T21:48:46+05:30
+updated: 2022-05-17T22:35:23+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -105,3 +105,7 @@ updated: 2022-05-17T21:48:46+05:30
 ## GoDaddy with Route 53
 - Use GoDaddy as registrar and Route 53 as DNS
 	- Once we register a hostname at GoDaddy, we need to update the name servers (NS) of GoDaddy to match the name servers of a public hosted zone created in Route 53. This way, GoDaddy will use Route 53’s DNS.
+
+## DNS Resolution in Hybrid Cloud
+- To resolve DNS queries for resources in the VPC from the on-premises network, create an inbound endpoint on Route 53 Resolver and then DNS resolvers on the on-premises network can forward DNS queries to Route 53 Resolver via this endpoint.
+- To resolve DNS queries for resources in the on-premises network from the VPC, create an outbound endpoint on Route 53 Resolver and then Route 53 Resolver can conditionally forward queries to resolvers on the on-premises network via this endpoint. To conditionally forward queries, create Resolver rules that specify the domain names for the DNS queries that you want to forward (such as example.com) and the IP addresses of the DNS resolvers on the on-premises network that you want to forward the queries to.
