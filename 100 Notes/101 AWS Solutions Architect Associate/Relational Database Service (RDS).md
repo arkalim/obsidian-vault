@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-17T09:50:27+05:30
+updated: 2022-05-17T19:13:36+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -26,7 +26,7 @@ updated: 2022-05-17T09:50:27+05:30
 -   **Automated Backups** (enabled by default)
     -   Daily full backup of the database (during the defined maintenance window)
     -   Backup retention: 7 days (max 35 days)
-    -   Transaction logs are backed-up every 5 minutes (point in time recovery)
+    -   Transaction logs are backed-up every **5 minutes** (point in time recovery)
 -   **DB Snapshots**:
     -   Manually triggered
     -   Backup retention: unlimited
