@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T19:50:26+05:30
-updated: 2022-05-16T23:03:50+05:30
+updated: 2022-05-17T21:38:27+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -70,7 +70,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 - Consumers see the message after some delay
 - Default: 0 (Max: 15 min)
 - Can be set at the queue level
-- Can override the default queue delay for a specific message using the **DelaySeconds** parameter in the message
+- Can override the default queue delay for a specific message using the **DelaySeconds** parameter in the message (**message timer**)
 
 #### Long Polling
 - Poll the queue for longer
