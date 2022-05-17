@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T22:41:35+05:30
-updated: 2022-05-12T22:47:29+05:30
+updated: 2022-05-17T21:46:32+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -14,6 +14,6 @@ updated: 2022-05-12T22:47:29+05:30
 ![[attachments/Pasted image 20220512224053.png]]
 
 ## VPN CloudHub
-- **Low-cost hub-and-spoke model** for **network connectivity between an VPC and multiple on-premise data centers**
+- **Low-cost hub-and-spoke model** for **network connectivity between a VPC and multiple on-premise data centers**
 - Every participating network can communicate with one another through the VPN connection
 ![[attachments/Pasted image 20220512224648.png]]
