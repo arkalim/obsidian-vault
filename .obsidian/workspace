@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Shared Responsibility Model.md",
     "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Beanstalk.md",
     "100 Notes/101 AWS Solutions Architect Associate/Lambda.md",
     "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Container Service (ECS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Continuous Integration Continuous Delivery (CICD).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Container Service (ECS).md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T22:59:59+05:30
-updated: 2022-05-16T21:30:56+05:30
+updated: 2022-05-17T10:25:17+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -33,3 +33,10 @@ updated: 2022-05-16T21:30:56+05:30
 ## Stack Sets
 -   Create, update, or delete stacks across **multiple accounts and regions** with a single operation
 -   When you update a stack set, all associated stack instances are updated throughout all accounts and regions.
+
+## Updating Stacks
+- CloudFormation provides two methods for updating stacks: 
+	- **Direct update**
+		- CloudFormation immediately deploys the submitted changes. You cannot preview the changes.
+	- **Change Sets**
+		-  You can preview the changes CloudFormation will make to your stack, and then decide whether to apply those changes.
