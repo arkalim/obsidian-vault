@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
     "100 Notes/101 AWS Solutions Architect Associate/Transit Gateway.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md"
   ]
 }

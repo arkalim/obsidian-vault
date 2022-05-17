@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-17T10:38:26+05:30
+updated: 2022-05-17T21:44:30+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -74,6 +74,7 @@ updated: 2022-05-17T10:38:26+05:30
 - reserved for a time window (ex. everyday from 9AM to 5PM)
 #### Spot Instances
 - Work on a bidding basis where you are willing to pay a specific max hourly rate for the instance. Your instance can terminate if the spot price increases.
+- **Spot blocks** are designed not to be interrupted
 - Good for workloads that are resilient to failure
 	- Distributed jobs (resilient if some nodes go down)
 	- Batch jobs
@@ -101,7 +102,10 @@ updated: 2022-05-17T10:38:26+05:30
 ## Spot Instances
 #### Spot Requests
 - **One-time**: Request once opened, spins up the spot instances and the request closes.
-- **Persistent**: Request will stay disabled while the spot instances are up and running. Once these instances stop or terminate and need to be restarted, the request will become active again, ready to start the instances.
+- **Persistent**: 
+	- Request will stay disabled while the spot instances are up and running. 
+	- It becomes active after the spot instance is interrupted. 
+	- If you stop the spot instance, the request will become active only after you start the spot instance. 
 - You can only cancel spot instance requests that are open, active, or disabled.
 - Cancelling a Spot Request does not terminate instances. You must first cancel a Spot Request, and then terminate the associated Spot Instances.
 
