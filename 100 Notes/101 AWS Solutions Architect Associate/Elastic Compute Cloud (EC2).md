@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-16T11:43:07+05:30
+updated: 2022-05-17T10:38:26+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -42,10 +42,10 @@ updated: 2022-05-16T11:43:07+05:30
 - **Only contain Allow rules**
 - External firewall for EC2 instances (if a request is blocked by SG, instance won't even know)
 - Security groups rules can reference by IP or by Security Group
-- Default SG allows
-	- inbound traffic from the same SG
-	- all outbound traffic
-- For a new SG
+- Default SG
+	- inbound traffic from the same SG is allowed
+	- all outbound traffic is allowed
+- New SG
 	- all inbound traffic is blocked
 	- all outbound traffic is allowed
 - A security group can be attached to multiple instances and vice versa

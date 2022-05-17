@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:18:34+05:30
-updated: 2022-05-16T21:40:09+05:30
+updated: 2022-05-17T10:37:00+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -31,3 +31,7 @@ updated: 2022-05-16T21:40:09+05:30
 ## Storage Tiers
 -   **Standard** - for frequently accessed files
 -   **Infrequent access (EFS-IA)** - cost to retrieve files, lower price to store
+
+## Security
+- **EFS Security Groups** to control network traffic
+- **POSIX Permissions** to control access from hosts by user or group

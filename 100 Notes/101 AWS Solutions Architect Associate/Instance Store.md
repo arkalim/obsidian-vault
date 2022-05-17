@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14T18:11:43+05:30
-updated: 2022-05-16T22:37:39+05:30
+updated: 2022-05-17T10:35:01+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -11,6 +11,8 @@ updated: 2022-05-16T22:37:39+05:30
 - **Highest IOPS** of any available storage (millions of IOPS)
 - **Ephemeral storage** (loses data when the instance is stopped or terminted)
 - Good for buffer / cache / scratch data / temporary content
+
+> You can specify the instance store volumes only when you launch an instance. You can’t attach instance store volumes to an instance after you’ve launched it.
 
 ## RAID
 - **RAID 0**
