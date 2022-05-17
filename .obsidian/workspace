@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Serverless Application Model (SAM).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Serverless Application Model (SAM).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Serverless Application Model (SAM).md"
               }
             }
           },
@@ -144,6 +144,7 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Serverless Application Model (SAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
@@ -152,7 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/attachments/Pasted image 20220514110201.png",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Notification Service (SNS).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
+    "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md"
   ]
 }
