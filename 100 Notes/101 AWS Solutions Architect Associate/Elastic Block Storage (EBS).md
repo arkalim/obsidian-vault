@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-17T09:37:21+05:30
+updated: 2022-05-17T10:43:03+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -66,6 +66,8 @@ updated: 2022-05-17T09:37:21+05:30
 	-   Create an EBS snapshot of the volume
     -   Copy the EBS snapshot and encrypt the new copy
     -   Create a new EBS volume from the encrypted snapshot (the volume will be automatically encrypted)
+
+> All EBS types and all instance families support encryption but not all instance types support encryption.
 
 ## Snapshots
 - **Data Lifecycle Manager (DLM)** can be used to automate the creation, retention, and deletion of snapshots of EBS volumes
