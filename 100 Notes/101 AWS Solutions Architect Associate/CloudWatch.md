@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T22:08:38+05:30
-updated: 2022-05-17T22:11:03+05:30
+updated: 2022-05-17T22:13:49+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -86,7 +86,7 @@ updated: 2022-05-17T22:11:03+05:30
     -   Trigger Auto Scaling Action (ASG)
     -   Send notification to SNS
 
-> [!tip]- EC2 Instance Recovery
+> [!info]- EC2 Instance Recovery
 > - CloudWatch **alarm** to automatically recover an EC2 instance if it becomes **impaired**
 > - **Terminated instances cannot be recovered**
 > - After the recovery, the following are retained
