@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
               }
             }
           },
@@ -144,6 +144,8 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
     "100 Notes/101 AWS Solutions Architect Associate/Cognito.md",
     "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
@@ -151,8 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Single Sign-On (SSO).md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md",
-    "100 Notes/100 Notes.md",
-    "000 Home.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md"
+    "100 Notes/100 Notes.md"
   ]
 }
