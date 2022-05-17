@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T20:11:03+05:30
-updated: 2022-05-16T22:15:08+05:30
+updated: 2022-05-17T09:39:45+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -15,7 +15,8 @@ updated: 2022-05-16T22:15:08+05:30
 - **Can be integrated with any HTTP endpoint in the backend or any AWS API**
 - Returns **429 Too Many Requests** error for throttling requests
 
-> We can use an API Gateway REST API to directly access a DynamoDB table by creating a proxy for the DynamoDB query API.
+> - We can use an API Gateway REST API to directly access a DynamoDB table by creating a proxy for the DynamoDB query API.
+> - API cache is not enabled for a method, it is enabled for a stage
 
 ## Endpoint Types
 -   **Edge-Optimized** (default)

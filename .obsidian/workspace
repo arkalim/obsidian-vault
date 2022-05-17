@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "6692d5a61d5df252",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Cognito.md",
+    "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Single Sign-On (SSO).md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md",
     "100 Notes/100 Notes.md",
     "000 Home.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md"
   ]
 }
