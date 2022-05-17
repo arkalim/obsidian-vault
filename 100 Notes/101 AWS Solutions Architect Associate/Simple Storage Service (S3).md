@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-16T23:11:09+05:30
+updated: 2022-05-17T21:28:08+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -185,17 +185,16 @@ updated: 2022-05-16T23:11:09+05:30
 - Recommended to spread data across prefixes for maximum performance
 - SSE-KMS may create bottleneck in S3 performance
 - Performance Optimizations
-	- Upload
-		- Multi-part Upload
-			- parallelizes upload
-			- **recommended for files > 100MB**
-			- **must use for files > 5GB**
-		- S3 Transfer Acceleration
-			- data is ingested at the nearest edge location and is transferred over AWS private network (very fast)
-	- Download
-		- Byte-range fetches
-			- Parallelize GET requests by fetching specific byte ranges in each request
-			- Better resilience in case of failures since we only need to refetch the failed byte range and not the whole file
+	- **Multi-part Upload**
+		- parallelizes upload
+		- **recommended for files > 100MB**
+		- **must use for files > 5GB**
+	- **Byte-range fetches**
+		- Parallelize download requests by fetching specific byte ranges in each request
+		- Better resilience in case of failures since we only need to refetch the failed byte range and not the whole file
+	- **S3 Transfer Acceleration**
+		- Speed up **upload and download** for large objects (>1GB) for global users 
+		- Data is ingested at the nearest edge location and is transferred over AWS private network (uses [[CloudFront]] internally)
 
 ## S3 Select
 - Select a subset of data from S3 using SQL queries (server-side filtering)
