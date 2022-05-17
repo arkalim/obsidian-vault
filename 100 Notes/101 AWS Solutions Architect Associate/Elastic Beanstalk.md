@@ -1,12 +1,13 @@
 ---
 created: 2022-05-07T15:34:27+05:30
-updated: 2022-05-14T21:27:23+05:30
+updated: 2022-05-17T10:19:12+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Elastic Beanstalk
 - Used to **deploy applications** on AWS infrastructure
+- **Platform as a Service (PaaS)**
 - Automatically handles capacity provisioning, load balancing, scaling, application health monitoring, instance configuration, etc. but **we have full control over the configuration**
 - Free (pay for the underlying resources)
 - Supports versioning of application code

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T19:23:46+05:30
-updated: 2022-05-14T12:54:17+05:30
+updated: 2022-05-17T10:18:03+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -30,6 +30,8 @@ updated: 2022-05-14T12:54:17+05:30
 ## Networking
 - By default, **Lambda functions operate from an AWS-owned VPC** and hence have **access to any public internet** or **public AWS API** (ex. lambda functions can interact with AWS DynamoDB APIs to PutItem)
 - Once a Lambda function is **VPC-enabled**, all network traffic from your function is subject to the routing rules of your VPC/Subnet. If your function needs to interact with a public resource, it will need a [[Virtual Private Cloud (VPC)#NAT Gateway|NAT Gateway]]. You should only enable your functions for VPC access when you need to interact with a private resource located in a private subnet (ex. RDS database)
+
+> To enable your Lambda function to access resources inside your private VPC, you must provide **VPC subnet IDs** and **Security Group IDs**. AWS Lambda uses this information to set up ENIs.
 
 ## Supported Languages
 -   Node.js (JavaScript)
