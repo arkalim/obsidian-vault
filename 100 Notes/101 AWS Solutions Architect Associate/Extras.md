@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14T18:44:27+05:30
-updated: 2022-05-17T22:20:32+05:30
+updated: 2022-05-17T22:26:29+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -10,4 +10,4 @@ updated: 2022-05-17T22:20:32+05:30
 - AWS customers are welcome to carry out security assessments or **penetration tests** against their AWS infrastructure **without prior approval** for **8 services**.
 
 ---
-10, 24, 39, 57, 59
+10, 39, 57, 59

@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a8e0da271f5bfe1d",
+        "id": "ac6a89aa4e2bc4ff",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "dafd9a2fdaaee1e7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
               }
             }
           },
@@ -142,17 +154,17 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "a8e0da271f5bfe1d",
+  "active": "dafd9a2fdaaee1e7",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
+    "100 Notes/101 AWS Solutions Architect Associate/extra.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Intro to AWS.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Directory Services.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Route 53.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Site-to-Site VPN.md"
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Directory Services.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-14T22:11:02+05:30
+updated: 2022-05-17T22:22:29+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -10,6 +10,9 @@ updated: 2022-05-14T22:11:02+05:30
 # AWS Solutions Associate Architect Associate
 
 ## Notes
+
+#### Intro
+[[Intro to AWS]]
 
 #### Computing
 [[Elastic Compute Cloud (EC2)]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-17T21:52:40+05:30
+updated: 2022-05-17T22:27:38+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -47,6 +47,8 @@ updated: 2022-05-17T21:52:40+05:30
 - Route table of the public subnets must be edited to allow requests destined outside the VPC to be routed to the IGW
 	- ![[attachments/Pasted image 20220512222218.png]]
 - One IGW per VPC and vice-versa
+
+> IGW performs network address translation (NAT) for a public EC2 instance
 
 ## Bastion Hosts
 - A EC2 instance running in the public subnet (accessible from public internet), to allow users to SSH into the instances in the private subnet.
