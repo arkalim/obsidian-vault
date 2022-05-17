@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-16T22:38:00+05:30
+updated: 2022-05-17T09:37:21+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -69,6 +69,8 @@ updated: 2022-05-16T22:38:00+05:30
 
 ## Snapshots
 - **Data Lifecycle Manager (DLM)** can be used to automate the creation, retention, and deletion of snapshots of EBS volumes
+- Snapshots are incremental
+- Only the most recent snapshot is required to restore the volume
 
 ## RAID
 - **RAID 0**
