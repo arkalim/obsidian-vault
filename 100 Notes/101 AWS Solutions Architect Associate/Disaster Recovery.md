@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T10:34:58+05:30
-updated: 2022-05-13T10:34:58+05:30
+updated: 2022-05-18T09:40:21+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -15,18 +15,20 @@ updated: 2022-05-13T10:34:58+05:30
 ## Strategies
 
 #### Backup & Restore
-- Backup every day or week => High RPO
+- High RPO (hours)
 - Need to spin up instances and restore volumes from snapshots in case of disaster => High RTO
 - Cheapest & easiest to manage
 
 #### Pilot Light
-- **Critical parts of the app are always running** in the cloud (eg. continuous replication of data to another region) => Low RPO
+- **Critical parts of the app are always running** in the cloud (eg. continuous replication of data to another region)
+- Low RPO (minutes)
 - Critical systems are already up => Low RTO
+- Ideal when RPO should be in minutes and the solution should be inexpensive
 - DB is critical so it is replicated continuously but EC2 instance is spin up only when a disaster strikes
 
 #### Warm Standby
 - A complete backup system is up and running at the minimum capacity. This system is quickly scaled to production capacity in case of a disaster.
-- Very low RPO & RTO
+- Very low RPO & RTO (minutes)
 - Expensive
 
 #### Multi-Site or Hot Site Approach
