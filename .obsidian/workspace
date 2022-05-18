@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
             "mode": "preview",
             "source": true
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
               }
             }
           },
@@ -154,17 +154,17 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "84beb1b14bacc718",
+  "active": "ac6a89aa4e2bc4ff",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
     "100 Notes/101 AWS Solutions Architect Associate/Athena.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Disaster Recovery.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
     "100 Notes/101 AWS Solutions Architect Associate/ElastiCache.md",
     "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md"
   ]
 }

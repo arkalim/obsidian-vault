@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T21:06:16+05:30
-updated: 2022-05-16T09:03:26+05:30
+updated: 2022-05-18T13:00:47+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -37,7 +37,7 @@ updated: 2022-05-16T09:03:26+05:30
 - **Auto-scaling**
 - **Serverless**
 - Destinations:
-    -   AWS: Redshift, Amazon S3, ElasticSearch
+    -   AWS: Redshift, Amazon S3, **ElasticSearch**
     -   3rd party: Splunk, MongoDB, DataDog, NewRelic, etc.
     -   Custom: send to any HTTP endpoint
 -   Pay for data going through Firehose (no provisioning)
