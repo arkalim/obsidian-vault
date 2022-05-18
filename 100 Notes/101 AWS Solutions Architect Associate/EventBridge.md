@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T23:40:57+05:30
-updated: 2022-05-10T23:49:10+05:30
+updated: 2022-05-18T08:56:06+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -13,7 +13,9 @@ updated: 2022-05-10T23:49:10+05:30
     -   **Custom Event bus**: for your own applications
 -   Event Rules: how to process the events
 -   **Event buses support cross-account access**
--   Cron Jobs: when creating an EB rule, we can select “Schedule” instead of event pattern to trigger an event based on a cron expression.
+-   **Cron Jobs**: when creating an EB rule, we can select “Schedule” instead of event pattern to trigger an event based on a cron expression.
+
+> EventBridge is recommended for decoupling applications that reacts to events from third-party **SaaS** applications.
 
 ## Schema Registry
 -   Defines how the data is structured in the event bus
