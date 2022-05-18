@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
             "mode": "preview",
             "source": true
           }
@@ -157,6 +157,7 @@
   "active": "ac6a89aa4e2bc4ff",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
@@ -164,7 +165,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Athena.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Disaster Recovery.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Athena.md"
   ]
 }
