@@ -4,25 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ac6a89aa4e2bc4ff",
+        "id": "14ba1e326906402d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
             "mode": "source",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "84beb1b14bacc718",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-            "mode": "preview",
             "source": true
           }
         }
@@ -154,9 +142,10 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "ac6a89aa4e2bc4ff",
+  "active": "14ba1e326906402d",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Instance Store.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Cost Effective Highly Available Monolithic Architecture.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
@@ -164,7 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
     "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md"
   ]
 }
