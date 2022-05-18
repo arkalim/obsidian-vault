@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-18T23:16:29+05:30
+updated: 2022-05-18T23:24:12+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -20,7 +20,8 @@ updated: 2022-05-18T23:16:29+05:30
 - Durability: 99.999999999% (total 11 9's)
 - **SYNC** command can be used to **copy data between buckets**, possibly in **different regions**
 
-> S3 delivers **strong read-after-write consistency** (if an object is overwritten and immediately read, S3 always returns the latest version of the object)
+> - S3 delivers **strong read-after-write consistency** (if an object is overwritten and immediately read, S3 always returns the latest version of the object)
+> - S3 is strongly consistent for all GET, PUT and LIST operations
 
 ## Bucket Versioning
 -   Enabled at the bucket level

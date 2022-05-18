@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
-            "mode": "preview",
+            "mode": "source",
             "source": true
           }
         }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
             "mode": "preview",
             "source": true
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md"
               }
             }
           },
@@ -154,17 +154,17 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "14ba1e326906402d",
+  "active": "9d9f8a82306106e3",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
     "100 Notes/101 AWS Solutions Architect Associate/Instance Store.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Cost Effective Highly Available Monolithic Architecture.md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Glue.md"
   ]
 }
