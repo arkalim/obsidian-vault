@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-17T10:43:03+05:30
+updated: 2022-05-18T23:32:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -14,6 +14,8 @@ updated: 2022-05-17T10:43:03+05:30
 - By default, upon instance termination, the root EBS volume is deleted and any other attached EBS volume is not deleted (can be over-ridden)
 - To replicate an EBS volume across AZ or region, need to copy its snapshot
 - EBS Multi-attach allows the same EBS volume to attach to multiple EC2 instances **in the same AZ**
+
+> `DeleteOnTermination` attribute can be updated for the root EBS volume only from the CLI
 
 ## Volume Types
 #### General Purpose SSD
