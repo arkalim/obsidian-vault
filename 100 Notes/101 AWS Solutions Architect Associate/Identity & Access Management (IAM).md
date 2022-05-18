@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-18T09:13:55+05:30
+updated: 2022-05-18T23:44:18+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -54,6 +54,8 @@ updated: 2022-05-18T09:13:55+05:30
 
 ## Roles
 - Collection of policies for AWS services
+
+> If you are going to use an IAM Service Role with Amazon EC2 or another AWS service that uses Amazon EC2, you must store the role in an **instance profile**. When you create an IAM service role for EC2, the role automatically has EC2 identified as a trusted entity.
 
 ## Reporting Tools
 - **Credentials Report**
