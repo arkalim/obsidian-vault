@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-18T08:49:50+05:30
+updated: 2022-05-18T23:26:32+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -101,4 +101,7 @@ updated: 2022-05-18T08:49:50+05:30
 	- Gathers metrics from an agent running on the RDS instance
 		- OS processes
 		- RDS child processes
-	- Used to monitor different **processes or threads on a DB instance** (ex. percentage of the CPU bandwidth and total memory consumed by each database process in your RDS instance)
+	- Used to monitor different **processes or threads on a DB instance** (ex. percentage of the CPU bandwidth and total memory consumed by each database process in your RDS instance
+
+## Maintenance & Upgrade
+Any database engine level upgrade for an RDS DB instance with Multi-AZ deployment triggers both the primary and standby DB instances to be upgraded at the same time. This causes **downtime** until the upgrade is complete.
