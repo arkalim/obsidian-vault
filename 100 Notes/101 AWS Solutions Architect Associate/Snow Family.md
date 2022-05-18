@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T10:08:33+05:30
-updated: 2022-05-18T09:05:25+05:30
+updated: 2022-05-18T22:10:59+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -33,7 +33,7 @@ updated: 2022-05-18T09:05:25+05:30
 		- Transfer up to petabytes
 - **Snowmobile**
 	- 100 PB storage
-	- Used when transferring > 10PB
+	- Used when transferring **> 10PB**
 	- Transfer up to exabytes
 	- Does not support **Storage Clustering**
 
