@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-18T09:21:08+05:30
+updated: 2022-05-18T12:56:17+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -14,6 +14,8 @@ updated: 2022-05-18T09:21:08+05:30
 - ASG can terminate instances marked as unhealthy by an ELB (and hence replace them)
 
 > Even if an ASG is deployed across 3 AZs, minimum number of instances to remain highly available is still 2
+
+> If you have an ASG with running instances and you delete the ASG, the instances will be terminated and the ASG will be deleted.
 
 ## Scaling Policies
 - **Scheduled Scaling**
