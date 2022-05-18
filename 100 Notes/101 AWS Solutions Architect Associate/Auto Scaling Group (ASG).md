@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-17T21:36:34+05:30
+updated: 2022-05-18T09:21:08+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,6 +12,8 @@ updated: 2022-05-17T21:36:34+05:30
 - Free (pay for the underlying resources)
 - IAM roles attached to an ASG will get assigned to the launched EC2 instances
 - ASG can terminate instances marked as unhealthy by an ELB (and hence replace them)
+
+> Even if an ASG is deployed across 3 AZs, minimum number of instances to remain highly available is still 2
 
 ## Scaling Policies
 - **Scheduled Scaling**
