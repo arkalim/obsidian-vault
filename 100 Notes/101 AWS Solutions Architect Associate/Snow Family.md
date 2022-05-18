@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T10:08:33+05:30
-updated: 2022-05-10T23:47:54+05:30
+updated: 2022-05-18T09:05:25+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -19,20 +19,23 @@ updated: 2022-05-10T23:47:54+05:30
 	- USB-C power using a cord or the optional battery
 	- Good for space-constrained environment
 	- DataSync Agent is preinstalled
+	- Does not support **Storage Clustering**
 -   **Snowball Edge**
 	-  **Compute Optimized**
 		-   52 vCPUs, 208 GB of RAM
 		-   42 TB storage
 		-   **Optional GPU** (useful for video processing or machine learning)
+		- Supports **Storage Clustering**
 	-   **Storage Optimized**
 		- Up to 40 CPUs, 80 GB of RAM
 		- 80 TB storage
-		- **Object storage clustering available** (up to 15 nodes)
+		- Supports **Storage Clustering** (up to 15 nodes)
 		- Transfer up to petabytes
 - **Snowmobile**
 	- 100 PB storage
 	- Used when transferring > 10PB
 	- Transfer up to exabytes
+	- Does not support **Storage Clustering**
 
 
 ## Data Migration
