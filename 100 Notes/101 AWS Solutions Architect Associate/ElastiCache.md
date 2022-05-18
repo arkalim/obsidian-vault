@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:11:37+05:30
-updated: 2022-05-16T21:11:02+05:30
+updated: 2022-05-18T09:25:12+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -22,13 +22,14 @@ updated: 2022-05-16T21:11:02+05:30
 | Redis                                                          | Memcached                                            |
 | -------------------------------------------------------------- | ---------------------------------------------------- |
 | In-memory data store                                           | Distributed memory object cache                      |
-| Replication (for scaling reads & HA)                           | No replication                                       |
+| Read Replicas (for scaling reads & HA)                         | No replication                                       |
 | Backup & restore                                               | No backup & restore                                  |
 | **Single-threaded**                                            | **Multi-threaded**                                   |
 | **HIPAA compliant**                                            | **Not HIPAA compliant**                              |
 | Data is stored in an in-memory DB which is replicated          | Data is partitioned across multiple nodes (sharding) |
 | **Redis Sorted Sets** are used in realtime Gaming Leaderboards |                                                      |
-| Good for auto-completion                                                               |                                                      |
+| Good for auto-completion                                       |                                                      |
+| Multi-AZ support with automatic failover (disaster recovery)                                                               |                                                      |
 
 ## Security & Access Management
 - Network security is managed using Security Groups (only allow EC2 security group for incoming requests)
