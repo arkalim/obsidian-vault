@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T20:57:12+05:30
-updated: 2022-05-15T23:49:40+05:30
+updated: 2022-05-18T13:35:48+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -18,13 +18,15 @@ updated: 2022-05-15T23:49:40+05:30
 - **Symmetric keys** (necessary for envelope encryption)
 - **Must call KMS API to encrypt data**
 - Two types:
-	- **AWS Managed Service Default CMK** (free)
+	- **AWS Owned Service Default CMK** (free)
 		- Default KMS key for each supported service
 		- Fully managed by AWS (cannot view, rotate or delete them)
-	- **Customer Managed CMK** (1$/month)
-		-  Generated in KMS
+	- **Customer Owned CMK** (1$/month)
+		-  **AWS Managed CMK**
+			- Generated in KMS
 			- Option to enable automatic yearly rotation
-		- Generated and imported from outside
+		- **Customer Managed CMK**
+			- Generated and imported from outside
 			- Must be 256-bit symmetric key
 			- Not recommended
 		- Deletion has a waiting period (**pending deletion state**) between **7 - 30 days** (default 30 days). The key can be recovered during the pending deletion state.
