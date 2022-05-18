@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-18T12:48:46+05:30
+updated: 2022-05-18T13:12:12+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -19,6 +19,8 @@ updated: 2022-05-18T12:48:46+05:30
 - **Max Object Size: 5TB**
 - Durability: 99.999999999% (total 11 9's)
 - **SYNC** command can be used to **copy data between buckets**, possibly in **different regions**
+
+> S3 delivers **strong read-after-write consistency** (if an object is overwritten and immediately read, S3 always returns the latest version of the object)
 
 ## Bucket Versioning
 -   Enabled at the bucket level
@@ -71,7 +73,9 @@ updated: 2022-05-18T12:48:46+05:30
 
 ## S3 Static Websites
 - Host static websites and have them accessible on the public internet over **HTTP only** (for HTTPS, use [[CloudFront]] with S3 bucket at the origin)
-- The website URL will be `<bucket-name>.s3-website-<AWS-region>.amazonaws.com`
+- The website URL will be either of the following:
+	- `<bucket-name>.s3-website-<region>.amazonaws.com`
+	- `<bucket-name>.s3-website.<region>.amazonaws.com`
 - If you get a `403 (Forbidden)` error, make sure the bucket policy allows public reads
 - For cross-origin access to the S3 bucket, we need to enable [[Concepts#Cross-Origin Resource Sharing CORS|CORS]] on the bucket
 	- ![[attachments/Pasted image 20220507175558.png]]
