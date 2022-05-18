@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-17T22:22:29+05:30
+updated: 2022-05-18T22:17:06+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -133,6 +133,7 @@ updated: 2022-05-17T22:22:29+05:30
 [[Serverless Blogging Website]]
 [[Serverless Premium Stock Video Website]]
 [[DDoS Protection]]
+[[Cost Effective Highly Available Monolithic Architecture]]
 
 ## Theory
 [[Concepts]]
