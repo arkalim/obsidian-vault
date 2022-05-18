@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-17T21:28:08+05:30
+updated: 2022-05-18T12:48:46+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -213,7 +213,7 @@ updated: 2022-05-17T21:28:08+05:30
 - Object name filtering using prefix and suffix matching
 - Targets
     -   SNS topics
-    -   SQS queues
+    -   **SQS Standard** queues (not FIFO queues)
     -   Lambda functions
 
 ## Requester Pays Buckets
