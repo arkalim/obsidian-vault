@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -157,8 +157,8 @@
   "active": "84beb1b14bacc718",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
     "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
     "100 Notes/101 AWS Solutions Architect Associate/Athena.md",

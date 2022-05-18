@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T20:57:12+05:30
-updated: 2022-05-18T13:35:48+05:30
+updated: 2022-05-18T13:37:25+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -18,7 +18,7 @@ updated: 2022-05-18T13:35:48+05:30
 - **Symmetric keys** (necessary for envelope encryption)
 - **Must call KMS API to encrypt data**
 - Two types:
-	- **AWS Owned Service Default CMK** (free)
+	- **AWS Owned CMK** (free)
 		- Default KMS key for each supported service
 		- Fully managed by AWS (cannot view, rotate or delete them)
 	- **Customer Owned CMK** (1$/month)
