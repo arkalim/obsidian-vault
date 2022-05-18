@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
               }
             }
           },
@@ -154,12 +154,12 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "84beb1b14bacc718",
+  "active": "ac6a89aa4e2bc4ff",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
     "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
