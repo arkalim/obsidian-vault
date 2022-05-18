@@ -14,6 +14,18 @@
             "source": true
           }
         }
+      },
+      {
+        "id": "84beb1b14bacc718",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -145,6 +157,7 @@
   "active": "ac6a89aa4e2bc4ff",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/extra.md",
     "100 Notes/101 AWS Solutions Architect Associate/EventBridge.md",
@@ -152,7 +165,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Route 53.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Intro to AWS.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md"
   ]
 }
