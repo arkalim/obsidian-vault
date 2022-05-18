@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-18T13:12:12+05:30
+updated: 2022-05-18T13:18:25+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -72,7 +72,7 @@ updated: 2022-05-18T13:12:12+05:30
 > By default, an S3 object is owned by the account that uploaded it even if the bucket is owned by another account. To get full access to the object, the object owner must explicitly grant the bucket owner access. As a bucket owner, you can create a bucket policy to require external users to grant `bucket-owner-full-control` when uploading objects so the bucket owner can have full access to the objects.
 
 ## S3 Static Websites
-- Host static websites and have them accessible on the public internet over **HTTP only** (for HTTPS, use [[CloudFront]] with S3 bucket at the origin)
+- Host static websites (may contain **client-side scripts**) and have them accessible on the public internet over **HTTP only** (for HTTPS, use [[CloudFront]] with S3 bucket at the origin)
 - The website URL will be either of the following:
 	- `<bucket-name>.s3-website-<region>.amazonaws.com`
 	- `<bucket-name>.s3-website.<region>.amazonaws.com`
