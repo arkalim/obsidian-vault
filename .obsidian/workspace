@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
             "mode": "preview",
             "source": true
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md"
               }
             }
           },
@@ -156,6 +156,7 @@
   },
   "active": "84beb1b14bacc718",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
@@ -164,7 +165,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/EventBridge.md",
     "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Route 53.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Route 53.md"
   ]
 }

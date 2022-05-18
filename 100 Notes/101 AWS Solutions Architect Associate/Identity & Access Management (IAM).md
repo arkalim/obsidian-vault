@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-17T10:13:10+05:30
+updated: 2022-05-18T09:13:55+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -26,13 +26,22 @@ updated: 2022-05-17T10:13:10+05:30
 ## Policies
 - Policies are JSON documents that outline permissions for users, groups or roles
 - Two types
-	- **User based policies**:  IAM policies define which API calls should be allowed for a specific user
-	- **Resource based policies**: control access to an AWS resource
+	- **User based policies**
+		- IAM policies define which API calls should be allowed for a specific user
+	- **Resource based policies**
+		- Control access to an AWS resource
+		- Grant the specified principal permission to perform actions on the resource and define under what conditions this applies
 - An IAM principal can access a resource if the user policy ALLOWS it OR the resource policy ALLOWS it AND there’s no explicit DENY. 
 - Policies assigned to a user are called inline policies
 - Follow **least privilege principle** for IAM Policies
 - Policy Structure
 	- ![[attachments/Pasted image 20220505202904.png]]
+
+#### Trust Policies
+- Defines which principal entities (accounts, users, roles, federated users) can assume the role 
+- An IAM role is both an identity and a resource that supports resource-based policies. 
+- You must attach both a trust policy and an identity-based policy to an IAM role. 
+- The **IAM service supports only one type of resource-based policy** called a **role trust policy**, which is **attached to an IAM role**.
 
 ## Protect IAM Accounts
 - **Password Policy**
