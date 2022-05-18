@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
             "mode": "preview",
             "source": true
           }
@@ -157,6 +157,7 @@
   "active": "dafd9a2fdaaee1e7",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
@@ -164,7 +165,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
     "100 Notes/101 AWS Solutions Architect Associate/extra.md",
     "100 Notes/101 AWS Solutions Architect Associate/Intro to AWS.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
   ]
 }
