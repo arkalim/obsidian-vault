@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-18T13:18:25+05:30
+updated: 2022-05-18T23:16:29+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -137,6 +137,7 @@ updated: 2022-05-18T13:18:25+05:30
 	- Cost for storage and retrieval
 	- **Can move data into Glacier from Standard anytime**
 	- Objects cannot be directly accessed, they first need to be restored which could take some time (depending on the tier) to fetch the object.
+	- **Default encryption for data at rest and in-transit**
 	- Three types:
 		- **Glacier Instant Retrieval**
 			- **99.9% availability**

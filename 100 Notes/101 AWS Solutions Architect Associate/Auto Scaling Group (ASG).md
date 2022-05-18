@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-18T23:00:09+05:30
+updated: 2022-05-18T23:10:35+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -64,6 +64,8 @@ updated: 2022-05-18T23:00:09+05:30
 - By default, ASG uses the EC2 status check (not the ELB health check). This could explain why some instances that are labelled as unhealthy by an ELB are still not terminated by the ASG.
 - To prevent ASG from replacing unhealthy instances, suspend the **ReplaceUnhealthy** process type
 
+> ASG creates a new scaling activity for terminating the unhealthy instance and then terminates it. Later, another scaling activity launches a new instance to replace the terminated instance.
+
 ## Termination Policy
 - Select the AZ with the most number of instances
 - Delete the instance with the oldest launch configuration
@@ -73,6 +75,9 @@ updated: 2022-05-18T23:00:09+05:30
 
 > - ASG does not immediately terminate instances with an **Impaired** status, it waits a few minutes for the instance to recover.
 > - ASG doesn't terminate an instance that came into service based on EC2 status checks and ELB health checks until the **health check grace period** expires.
+
+## Rebalancing AZs
+- ASG ensures that the group never goes below the minimum scale. Actions such as changing the AZ for the group or explicitly terminating or detaching instances can lead to the ASG becoming unbalanced between AZs. In such cases, ASG compensates by **rebalancing** the AZs by **launching new instances before terminating the old ones**, so that rebalancing does not compromise the performance or availability of the application.
 
 ## Lifecycle Hooks
 - Used to perform extra steps before creating or terminating an instance. Example: 
