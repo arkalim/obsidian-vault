@@ -157,6 +157,7 @@
   "active": "ac6a89aa4e2bc4ff",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
     "100 Notes/101 AWS Solutions Architect Associate/Disaster Recovery.md",
     "100 Notes/101 AWS Solutions Architect Associate/ElastiCache.md",
     "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
@@ -164,7 +165,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/extra.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md"
   ]
 }
