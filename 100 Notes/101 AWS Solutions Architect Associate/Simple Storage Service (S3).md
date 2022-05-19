@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-20T00:00:32+05:30
+updated: 2022-05-20T00:05:15+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -115,6 +115,7 @@ updated: 2022-05-20T00:00:32+05:30
 
 ## Storage Classes
 - Data can be transitioned between storage classes manually or automatically using lifecycle rules
+- Data can be put directly into any storage class
 - **Standard**
 	- **99.99% availability**
 	- Most expensive
@@ -124,7 +125,6 @@ updated: 2022-05-20T00:00:32+05:30
 - **Infrequent Access**
 	- For data that is infrequently accessed, but requires rapid access when needed
 	- Lower storage cost than Standard but **cost on retrieval**
-	- Can **move data directly into IA**
 	- Can **move data into IA from Standard only after 30 days**
 	- Two types:
 		- **Standard IA**
