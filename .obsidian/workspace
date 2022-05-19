@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Extras.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
               }
             }
           },
@@ -154,10 +154,10 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "77ebea36b0c7d77c",
+  "active": "32456bcdbac27286",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
     "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
