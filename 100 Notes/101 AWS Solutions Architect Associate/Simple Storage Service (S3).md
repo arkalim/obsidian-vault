@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-20T00:11:37+05:30
+updated: 2022-05-20T00:24:51+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -199,7 +199,7 @@ updated: 2022-05-20T00:11:37+05:30
 		- Parallelize download requests by fetching specific byte ranges in each request
 		- Better resilience in case of failures since we only need to refetch the failed byte range and not the whole file
 	- **S3 Transfer Acceleration**
-		- Speed up **upload and download** for large objects (>1GB) for global users 
+		- Speed up **upload and download** for **large objects (>1GB)** for **global users** 
 		- Data is ingested at the nearest edge location and is transferred over AWS private network (uses [[CloudFront]] internally)
 
 ## S3 Select
