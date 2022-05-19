@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-19T22:48:05+05:30
+updated: 2022-05-19T22:57:37+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -90,4 +90,3 @@ updated: 2022-05-19T22:48:05+05:30
 	-   The AMI used to launch the instance still exists
 	-   The instance is not a member of another ASG
 	-   The instance is launched into one of the AZ defined in your ASG
-	-   If the ASG has an attached load balancer
