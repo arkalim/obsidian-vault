@@ -1,12 +1,12 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T10:24:55+05:30
+updated: 2022-05-19T20:41:46+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 
-# EC2
+# Elastic Compute Cloud (EC2)
 - Regional Service
 - EC2 (Elastic Compute Cloud) is an **Infrastructure as a Service (IaaS)**
 - Stopping & Starting an instance may change its public IP but not its private IP

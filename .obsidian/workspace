@@ -7,8 +7,12 @@
         "id": "77ebea36b0c7d77c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+            "mode": "preview",
+            "source": true
+          }
         }
       },
       {
@@ -87,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
+              }
             }
           },
           {
