@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-19T22:27:02+05:30
+updated: 2022-05-19T22:35:49+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -111,9 +111,9 @@ updated: 2022-05-19T22:27:02+05:30
 - **Server Name Indication (SNI)**
 	- SNI allows us to load multiple SSL certificates on one Load Balancer to serve multiple websites securely
 		- ![[attachments/Pasted image 20220506222424.png]]
-	- Only works for ALB & NLB (CLB only supports one SSL certificate)
+	- **Only works for ALB & NLB** (CLB only supports one SSL certificate)
 	- Newer protocol, not every client supports it yet
-	- **Supported in CloudFront**
+	- **Supported in CloudFront** also
 
 ## Connection Draining (De-registration Delay)
 - When an instance is to be de-registered from the ELB, the in-flight requests being served by that instance are given some pre-defined time to complete before the ELB de-registers it.
