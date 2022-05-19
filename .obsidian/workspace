@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
             "mode": "preview",
             "source": true
           }
@@ -157,6 +157,7 @@
   "active": "77ebea36b0c7d77c",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
     "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
@@ -164,7 +165,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Untitled.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
-    "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md"
+    "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md"
   ]
 }
