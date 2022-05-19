@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-18T23:26:32+05:30
+updated: 2022-05-19T08:58:41+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -79,7 +79,7 @@ updated: 2022-05-18T23:26:32+05:30
 
 ## Access Management
 - Username and Password can be used to login into the database
-- EC2 instances & [[Lambda]] functions should access the DB using **IAM DB Authentication** (AWSAuthenticationPlugin with IAM)
+- EC2 instances & [[Lambda]] functions should access the DB using **IAM DB Authentication** (**AWSAuthenticationPlugin** with **IAM**)
 	- EC2 instance or Lambda function has an IAM role which allows is to make an API call to the RDS service to get the **auth token** which it uses to access the MySQL database.
 		- ![[attachments/Pasted image 20220507011632.png]]
 	- Only works with **MySQL** and **PostgreSQL**
