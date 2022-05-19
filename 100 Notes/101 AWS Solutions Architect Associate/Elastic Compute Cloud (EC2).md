@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T21:03:30+05:30
+updated: 2022-05-19T21:09:37+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -132,7 +132,7 @@ updated: 2022-05-19T21:03:30+05:30
 	- All the instances are placed on the same hardware (same rack)
 	-   Pros: Great network (10 Gbps bandwidth between instances)
 	-   Cons: If the rack fails, all instances will fail at the same time
-	-   Used in HPC (minimize inter-node latency & maximize throughput)
+	-   Used in **HPC** (minimize inter-node latency & maximize throughput)
 	- Image
 		- ![[attachments/Pasted image 20220505231518.png]]
 - **Spread Placement Group (maximize availability)**
@@ -146,7 +146,7 @@ updated: 2022-05-19T21:03:30+05:30
 	- Instances in a partition share rack with each other
 	- If the rack goes down, the entire partition goes down
 	- Up to 7 partitions per AZ
-	- Used in big data applications (Hadoop, HDFS, HBase, Cassandra, Kafka)
+	- Used in **big data** applications (Hadoop, HDFS, HBase, Cassandra, Kafka)
 	- Image
 		- ![[attachments/Pasted image 20220505232434.png]]
 
