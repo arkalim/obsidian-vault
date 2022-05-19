@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-19T21:23:13+05:30
+updated: 2022-05-19T21:26:22+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -11,7 +11,7 @@ updated: 2022-05-19T21:23:13+05:30
 - Can only be mounted to 1 instance at a time (except EBS multi-attach)
 - **Bound to an AZ**
 - Must provision capacity in advance (size in GB & throughput in IOPS)
-- By default, upon instance termination, the root EBS volume is deleted and any other attached EBS volume is not deleted (can be over-ridden)
+- By default, upon instance termination, the root EBS volume is deleted and any other attached EBS volume is not deleted (can be over-ridden using `DeleteOnTermination` attribute)
 - To replicate an EBS volume across AZ or region, need to copy its snapshot
 - EBS Multi-attach allows the same EBS volume to attach to multiple EC2 instances **in the same AZ**
 
