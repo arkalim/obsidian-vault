@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T20:41:46+05:30
+updated: 2022-05-19T20:51:50+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -40,8 +40,8 @@ updated: 2022-05-19T20:41:46+05:30
 
 ## Security Groups
 - **Only contain Allow rules**
-- External firewall for EC2 instances (if a request is blocked by SG, instance won't even know)
-- Security groups rules can reference by IP or by Security Group
+- External firewall for EC2 instances (if a request is blocked by SG, instance will never know)
+- Security groups rules can reference a resource by IP or Security Group
 - Default SG
 	- inbound traffic from the same SG is allowed
 	- all outbound traffic is allowed
@@ -49,9 +49,9 @@ updated: 2022-05-19T20:41:46+05:30
 	- all inbound traffic is blocked
 	- all outbound traffic is allowed
 - A security group can be attached to multiple instances and vice versa
-- Bound to a region or VPC
+- Bound to a VPC (and hence to a region)
 - Recommended to maintain a separate security group for SSH access
-- Blocked requests will give a **time out** error
+- Blocked requests will give a **Time Out** error
 
 ## IAM Roles for EC2 instances
 - Never enter AWS credentials into the EC2 instance, instead attach IAM roles to the instances
