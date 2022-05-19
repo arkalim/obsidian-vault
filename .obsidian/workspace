@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "77ebea36b0c7d77c",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Instance Store.md",
     "100 Notes/101 AWS Solutions Architect Associate/Intro to AWS.md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
   ]
 }

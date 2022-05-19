@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T22:08:00+05:30
+updated: 2022-05-19T22:14:37+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -228,7 +228,8 @@ updated: 2022-05-19T22:08:00+05:30
 - **Dedicated**: Instance runs on single-tenant hardware
 - **Host**: Instance runs on dedicated host
 
-> Tenancy of an instance can only be changed from **host to dedicated** or **dedicated to host** after the instance has been launched.
+> - Tenancy of an instance can only be changed from **host to dedicated** or **dedicated to host** after the instance has been launched.
+> - Dedicated instance tenancy takes precedence over Default instance tenancy
 
 ## Troubleshooting
 - The following are a few reasons why an instance might immediately terminate:
