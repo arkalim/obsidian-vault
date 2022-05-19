@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T20:51:50+05:30
+updated: 2022-05-19T20:54:45+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -54,7 +54,7 @@ updated: 2022-05-19T20:51:50+05:30
 - Blocked requests will give a **Time Out** error
 
 ## IAM Roles for EC2 instances
-- Never enter AWS credentials into the EC2 instance, instead attach IAM roles to the instances
+- Never enter AWS credentials into the EC2 instance, instead attach [[Identity & Access Management (IAM)#Roles|IAM Roles]] to the instances
 
 ## Purchasing Options
 #### On-demand Instances
