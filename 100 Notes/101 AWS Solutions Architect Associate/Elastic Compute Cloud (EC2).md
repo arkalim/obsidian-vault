@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T20:54:45+05:30
+updated: 2022-05-19T20:58:15+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -80,9 +80,9 @@ updated: 2022-05-19T20:54:45+05:30
 	- Batch jobs
 #### Dedicated Hosts
 - Server hardware is allocated to a specific company (not shared with other companies)
-- 3 year reservation period
+- **3 year reservation** period
 - Billed per host
-- Useful for software that have BYOL (Bring Your Own License) or for companies that have strong regulatory or compliance needs
+- Useful for software that have **BYOL (Bring Your Own License)** or for companies that have strong regulatory or compliance needs
 #### Dedicated Instances
 - Dedicated hardware
 - Billed per instance
