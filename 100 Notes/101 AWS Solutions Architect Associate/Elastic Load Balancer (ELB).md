@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-19T19:35:38+05:30
+updated: 2022-05-19T22:16:38+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,7 +12,8 @@ updated: 2022-05-19T19:35:38+05:30
 - Spread load across multiple EC2 instances
 - Separate public traffic from private traffic
 - Health checks allow ELB to know which instances are working properly (done on a port and a route, `/health` is common)
-- If no targets are associated with the target groups => **503 Service Unavailable**
+
+> If no targets are associated with the target groups => **503 Service Unavailable**
 
 > Using ALB & NLB, instances in peered VPCs can be used as targets using IP addresses.
 
