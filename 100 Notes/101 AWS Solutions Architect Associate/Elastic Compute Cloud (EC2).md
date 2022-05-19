@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T22:04:44+05:30
+updated: 2022-05-19T22:08:00+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -219,8 +219,8 @@ updated: 2022-05-19T22:04:44+05:30
 - In all the other cases, an instance will not be billed
 
 ## Run Command
-- Systems Manager **Run Command** lets you remotely and securely manage the configuration of your **managed instances**. A _managed instance_ is any EC2 instance that has been configured for **Systems Manager**. 
-- Run Command enables you to automate common administrative tasks and perform ad-hoc configuration changes at scale. 
+- Systems Manager **Run Command** lets you remotely and securely **manage the configuration** of your **managed instances**. A _managed instance_ is any EC2 instance that has been configured for **Systems Manager**. 
+- Run Command enables you to **automate common administrative tasks** and perform ad-hoc configuration changes at scale. 
 - You can use Run Command from the **AWS Console**, the AWS CLI, AWS Tools for Windows PowerShell, or the AWS SDKs. Run Command is offered at no additional cost.
 
 ## Instance Tenancy
