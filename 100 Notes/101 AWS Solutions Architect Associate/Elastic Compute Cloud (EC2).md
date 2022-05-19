@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T22:02:32+05:30
+updated: 2022-05-19T22:04:44+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -214,7 +214,7 @@ updated: 2022-05-19T22:02:32+05:30
 
 ## Billing
 - **Reserved instances will be billed regardless of their state** (billed for a reserved period)
-- **On-demand instances in `stopping` state, preparing to hibernate will be billed**
+- **On-demand instances in `stopping` state when preparing to hibernate will be billed**
 - If an instance is running, it will be billed
 - In all the other cases, an instance will not be billed
 
