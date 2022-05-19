@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T21:16:11+05:30
+updated: 2022-05-19T22:02:32+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -200,7 +200,7 @@ updated: 2022-05-19T21:16:11+05:30
 - AMIs are the image of the instance after installing all the necessary OS, software and configuring everything. 
 - It boots much faster because the whole thing is pre-packaged and doesn’t have to be installed separately for each instance.
 - Good for static configurations
-- Bound to a region (can be copied across regions)
+- **Bound to a region** (can be copied across regions)
 
 > When the new AMI is copied from region A into region B, it automatically creates a snapshot in region B because AMIs are based on the underlying snapshots.
 

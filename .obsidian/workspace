@@ -145,6 +145,7 @@
   "active": "77ebea36b0c7d77c",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Instance Store.md",
@@ -152,7 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
   ]
 }
