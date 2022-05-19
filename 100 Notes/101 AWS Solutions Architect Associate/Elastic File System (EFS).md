@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:18:34+05:30
-updated: 2022-05-19T21:50:44+05:30
+updated: 2022-05-19T21:53:34+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -23,7 +23,7 @@ updated: 2022-05-19T21:50:44+05:30
 
 ## Throughput Mode
 -   **Bursting** (default)
-    - 50MB/s throughput per TB storage
+    - Throughput: 50MB/s per TB
 	- Burst of up to 100MB/s.
 -   **Provisioned**
     - Fixed throughput (provisioned)
