@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T23:17:47+05:30
-updated: 2022-05-14T17:59:41+05:30
+updated: 2022-05-19T23:22:26+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -8,7 +8,7 @@ updated: 2022-05-14T17:59:41+05:30
 # Workflows
 
 ## Step Functions
-- Used to build **serverless workflows** to orchestrate **Lambda functions**
+- Used to build **serverless workflows** to **orchestrate Lambda functions**
 - Represent flow as a **JSON state machine**
 - Maximum workflow execution time: 1 year
 - Features: sequence, parallel, conditions, timeouts, error handling, etc.

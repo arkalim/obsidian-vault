@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-19T20:31:52+05:30
+updated: 2022-05-19T23:23:39+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -24,9 +24,9 @@ updated: 2022-05-19T20:31:52+05:30
 
 #### Storage
 [[Instance Store]]
-[[Simple Storage Service (S3)]]
 [[Elastic Block Storage (EBS)]]
 [[Elastic File System (EFS)]]
+[[Simple Storage Service (S3)]]
 [[Relational Database Service (RDS)]]
 [[Aurora]]
 [[ElastiCache]]
