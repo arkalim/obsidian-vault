@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-19T21:26:22+05:30
+updated: 2022-05-19T21:38:08+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -31,7 +31,7 @@ updated: 2022-05-19T21:26:22+05:30
 #### Provisioned IOPS SSD**
 - Optimized for **Transaction-intensive Applications** with high frequency of **small & random IO operations**. They are sensitive to increased I/O latency.
 - Maintain high IOPS while keeping I/O latency down by maintaining a **low queue length** and a high number of IOPS available to the volume.
-- Supports EBS Multi-attach (not supported by other types)
+- **Supports EBS Multi-attach** (not supported by other types)
 - **io1** or **io2**
 	-   Storage: **4 GB - 16 TB**
 	-   Max IOPS: **64,000 for Nitro EC2 instances** & **32,000 for non-Nitro**
