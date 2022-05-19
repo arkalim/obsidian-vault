@@ -14,18 +14,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "2cb6ee54bd65aaf1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -91,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
               }
             }
           },
@@ -154,10 +142,10 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "2cb6ee54bd65aaf1",
+  "active": "77ebea36b0c7d77c",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic File System (EFS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Instance Store.md",
     "100 Notes/101 AWS Solutions Architect Associate/Intro to AWS.md",

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:18:34+05:30
-updated: 2022-05-19T21:53:34+05:30
+updated: 2022-05-19T21:55:19+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -34,4 +34,4 @@ updated: 2022-05-19T21:53:34+05:30
 
 ## Security
 - **EFS Security Groups** to control network traffic
-- **POSIX Permissions** to control access from hosts by user or group
+- **POSIX Permissions** to control access from hosts by IAM User or Group
