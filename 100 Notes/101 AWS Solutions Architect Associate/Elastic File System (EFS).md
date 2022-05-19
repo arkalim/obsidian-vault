@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:18:34+05:30
-updated: 2022-05-17T10:37:00+05:30
+updated: 2022-05-19T21:50:44+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -10,10 +10,10 @@ updated: 2022-05-17T10:37:00+05:30
 - AWS managed Network File System (NFS)
 - Can be mounted to multiple EC2 instances **across AZs**
 - **Pay per use** (no capacity provisioning)
-- **Auto scaling** (up to petabytes)
+- **Auto scaling** (up to PBs)
 - Compatible with **Linux** based AMIs (**POSIX** file system)
 - **Uses security group to control access to EFS**
-- Lifecycle management feature to move files to EFS-IA after N days
+- Lifecycle management feature to move files to **EFS-IA** after N days
 
 ## Performance Mode
 - **General Purpose** (default)
