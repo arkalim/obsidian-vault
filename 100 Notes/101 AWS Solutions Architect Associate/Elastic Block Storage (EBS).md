@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-19T21:38:08+05:30
+updated: 2022-05-19T21:45:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
@@ -45,8 +45,8 @@ updated: 2022-05-19T21:38:08+05:30
 #### Hard Disk Drives (HDD)
 - Optimized for **Throughput-intensive Applications** that require **large & sequential IO operations** and are less sensitive to increased I/O latency (big data, data warehousing, log processing)
 - Maintain high throughput to HDD-backed volumes by maintaining a **high queue length** when performing large, sequential I/O
-- Cannot be used as boot volume for an EC2 instance
-- Storage: 125 MiB - 16 TiB
+- **Cannot be used as boot volume** for an EC2 instance
+- Storage: 125 MB - 16 TB
 - **Throughput Optimized HDD (st1)**
 	- Optimized for large sequential reads and writes (Big Data, Data Warehouses, Log Processing)
 	- **Max throughput: 500 MB/s**
