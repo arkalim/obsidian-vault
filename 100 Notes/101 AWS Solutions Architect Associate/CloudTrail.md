@@ -1,12 +1,12 @@
 ---
 created: 2022-05-11T00:01:49+05:30
-updated: 2022-05-16T21:43:26+05:30
+updated: 2022-05-19T10:30:28+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # CloudTrail
-- **Global Service**
+- **Global Service** (a single trail can be applied to multiple regions)
 - Provides governance, compliance and audit for the AWS Account
 - Enabled by default
 - Records the API calls made within the AWS account
@@ -41,3 +41,8 @@ updated: 2022-05-16T21:43:26+05:30
     -   show anomalies in the Cloud Trail console
     -   can can be logged to S3
     -   can trigger an EventBridge event for automation
+
+## Encryption
+> CloudTrail logs are encrypted by default using SSE-S3
+
+> A single KMS key can be used to encrypt log files for trails applied to all regions

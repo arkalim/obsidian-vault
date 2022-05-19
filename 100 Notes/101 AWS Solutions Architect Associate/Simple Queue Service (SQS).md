@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T19:50:26+05:30
-updated: 2022-05-17T21:59:52+05:30
+updated: 2022-05-19T10:33:52+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -52,6 +52,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 ## Configurations
 #### Message Visibility Timeout
 - Once a message is polled by a consumer, it becomes invisible to other consumers for the duration of message visibility timeout. After the message visibility timeout is over, the message is visible in the queue.
+- If a consumer dies while processing the message, it will be visible in the queue after the visibility timeout
 - If a message is not processed within the visibility timeout, it will be processed again (by another consumer). However, a consumer could call the **ChangeMessageVisibility API** to change the visibility timeout for that specific message. This will get the consumer more time to process the message.
 - **Default: 30s** 
 - Can be configured for the entire queue
