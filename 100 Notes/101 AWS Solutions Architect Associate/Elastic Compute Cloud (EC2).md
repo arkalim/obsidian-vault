@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T21:09:37+05:30
+updated: 2022-05-19T21:16:11+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -174,8 +174,8 @@ updated: 2022-05-19T21:09:37+05:30
 	    - Processes that were previously running on the instance are resumed
 	    - Previously attached data volumes are reattached and the instance retains its instance ID
 	- Should be used for applications that take a long time to start
-	- Only supported for on-demand & reserved instances (not spot instances)
-	- Max hibernation duration = 60 days
+	- **Not supported for Spot Instances**
+	- Max hibernation duration = **60 days**
 - **Standby**
 	- Instance remains attached to the [[Auto Scaling Group (ASG)|ASG]] but is temporarily put out of service (the ASG doesn't replace this instance)
 	- Used to install updates or troubleshoot a running instance
