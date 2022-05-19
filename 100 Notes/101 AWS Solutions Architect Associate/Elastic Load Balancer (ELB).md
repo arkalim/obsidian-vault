@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-19T22:24:43+05:30
+updated: 2022-05-19T22:27:02+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -12,6 +12,7 @@ updated: 2022-05-19T22:24:43+05:30
 - Spread load across multiple EC2 instances
 - Separate public traffic from private traffic
 - Health checks allow ELB to know which instances are working properly (done on a port and a route, `/health` is common)
+- **Does not support weighted routing**
 
 > If no targets are associated with the target groups => **503 Service Unavailable**
 
@@ -56,7 +57,6 @@ updated: 2022-05-19T22:24:43+05:30
 - **Lower latency** ~ 100 ms (vs 400 ms for ALB)
 - **1 static public IP per AZ** (vs a static hostname for CLB & ALB)
 - **Elastic IP can be assigned to NLB** (helpful for whitelisting specific IP)
-- **Does not support weighted routing**
 - Maintains the same connection from client all the way to the target
 - **No security groups can be attached to NLBs.** They just forward the incoming traffic to the right target group as if those requests were directly coming from client. So, the **attached instances must allow TCP traffic on port 80 from anywhere**.
 - Within a target group, NLB can send traffic to
