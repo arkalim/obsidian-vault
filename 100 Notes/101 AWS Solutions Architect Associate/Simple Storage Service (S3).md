@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-20T00:24:51+05:30
+updated: 2022-05-20T00:28:33+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -203,7 +203,7 @@ updated: 2022-05-20T00:24:51+05:30
 		- Data is ingested at the nearest edge location and is transferred over AWS private network (uses [[CloudFront]] internally)
 
 ## S3 Select
-- Select a subset of data from S3 using SQL queries (server-side filtering)
+- Select a subset of data from S3 using **SQL queries** (**server-side filtering**)
 - Less network cost
 - Less CPU cost on the client-side
 
@@ -211,7 +211,7 @@ updated: 2022-05-20T00:24:51+05:30
 - Uploads to S3 are free
 - Downloads from S3 are paid
 - Using S3 Transfer Acceleration, you pay only for transfers that are accelerated
-- Since S3 is bound to a region, data transfer within a region is free
+- Since buckets are defined within a region, **data transfer within a region is free**
 
 ## S3 Notification Events
 - Optional
