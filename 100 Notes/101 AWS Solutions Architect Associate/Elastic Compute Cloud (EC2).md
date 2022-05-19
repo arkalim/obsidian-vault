@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-19T20:58:15+05:30
+updated: 2022-05-19T21:03:30+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -110,8 +110,8 @@ updated: 2022-05-19T20:58:15+05:30
 - Cancelling a Spot Request does not terminate instances. You must first cancel a Spot Request, and then terminate the associated Spot Instances.
 
 #### Spot Fleets
-- Combination of spot instances and on-demand instances (optional) that tries to **optimize for cost or capacity**
-- Launch Templates must be used to have on-demand instances in the fleet
+- Combination of spot and on-demand instances (optional) that tries to **optimize for cost or capacity**
+- **Launch Templates must be used to have on-demand instances in the fleet**
 - Can consist of instances of different classes
 - Strategies to allocate Spot Instances:
     - **lowestPrice** - from the pool with the lowest price (cost optimization, short workload)
