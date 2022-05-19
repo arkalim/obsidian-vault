@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-20T00:05:15+05:30
+updated: 2022-05-20T00:11:37+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -165,7 +165,7 @@ updated: 2022-05-20T00:05:15+05:30
 	- **99.9% availability**
 	- Moves objects automatically between Access Tiers based on usage
 	-   Small monthly monitoring and auto-tiering fee
-	-   No retrieval charges
+	-   **No retrieval charges**
 - #### Moving between Storage Classes
 	- In the diagram below, transition can only happen in the downward direction
 	- ![[attachments/Pasted image 20220514201314.png]]
