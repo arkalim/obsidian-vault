@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:42:37+05:30
-updated: 2022-05-19T23:50:59+05:30
+updated: 2022-05-20T00:00:32+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -97,14 +97,14 @@ updated: 2022-05-19T23:50:59+05:30
 - Logging bucket should not be the same as monitored bucket (logging loop)
 
 ## Replication
-- Asynchronous replication
-- Objects are replicated with the same version ID
-- Supports cross-region and cross-account replication
-- Versioning must be enabled for source and destination buckets
+- **Asynchronous replication**
+- Objects are replicated with the **same version ID**
+- Supports **cross-region** and **cross-account** replication
+- **Versioning must be enabled for source and destination buckets**
 - For DELETE operations:
     - Replicate delete markers from source to target (optional)
     - Permanent deletes are not replicated
-- There is no chaining of replication. So, if bucket 1 has replication into bucket 2, which has replication into bucket 3. Then objects created in bucket 1 are not replicated to bucket 3.
+- There is **no chaining of replication**. So, if bucket 1 has replication into bucket 2, which has replication into bucket 3. Then objects created in bucket 1 are not replicated to bucket 3.
 
 ## Pre-signed URL
 - Pre-signed URLs for S3 have temporary access token as query string parameters which allow anyone with the URL to temporarily access the resource before the URL expires (default 1h)
