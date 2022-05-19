@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-19T22:16:38+05:30
+updated: 2022-05-19T22:20:04+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -29,8 +29,8 @@ updated: 2022-05-19T22:16:38+05:30
 - **Load balancing to multiple applications** (target groups)
 - Operates at Layer 7 (HTTP, HTTPS and WebSocket)
 - Provides a fixed hostname (xxx.region.elb.amazonaws.com)
-- ALB terminates the upstream connection and creates a new downstream connection to the targets
-- Security Groups can be attached to ALBs to filters requests
+- ALB terminates the upstream connection and creates a new downstream connection to the targets (connection termination)
+- **Security Groups can be attached to ALBs** to filters requests
 - Great for micro services & container-based applications (Docker & ECS)
 - Client info is passed in the request headers
 	- Client IP => `X-Forwarded-For`
