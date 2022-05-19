@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-17T19:27:02+05:30
+updated: 2022-05-19T19:35:38+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -118,6 +118,8 @@ updated: 2022-05-17T19:27:02+05:30
 - When an instance is to be de-registered from the ELB, the in-flight requests being served by that instance are given some pre-defined time to complete before the ELB de-registers it.
 - ELB stops sending new requests to the EC2 instance which is de-registering
 - Set manually (0 to 3600 seconds) (**default: 300 seconds**)
+
+> For instances behind an ELB and using ASG, increase the de-registration delay to ensure that the in-flight requests are completed before the ELB deregisters an instance which is to be terminated by the ASG.
 
 ## Access Logs
 - Captures detailed information about requests sent to the load balancer
