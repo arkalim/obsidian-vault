@@ -1,13 +1,13 @@
 ---
 created: 2022-05-06T19:20:15+05:30
-updated: 2022-05-18T23:32:09+05:30
+updated: 2022-05-19T21:23:13+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 [[Elastic Compute Cloud (EC2)]]
 
 ---
 # Elastic Block Storage (EBS)
-- Volume Network Drive (provides low latency access to data)
+- Volume **Network Drive** (provides low latency access to data)
 - Can only be mounted to 1 instance at a time (except EBS multi-attach)
 - **Bound to an AZ**
 - Must provision capacity in advance (size in GB & throughput in IOPS)
