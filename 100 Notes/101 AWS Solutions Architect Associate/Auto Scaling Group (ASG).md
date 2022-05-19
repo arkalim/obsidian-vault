@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T22:38:07+05:30
-updated: 2022-05-18T23:10:35+05:30
+updated: 2022-05-19T22:48:05+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -53,8 +53,6 @@ updated: 2022-05-18T23:10:35+05:30
     -   Can be updated
     -   **Supports both On-Demand and Spot Instances**
     -   Recommended by AWS
-
-> **Dedicated** instance tenancy takes precedence over **default** instance tenancy
 
 ## Scaling Cooldown
 - After a scaling activity happens, the ASG goes into cooldown period (default 300 seconds) during which it does not launch or terminate additional instances (ignores scaling requests) to allow the metrics to stabilize.
