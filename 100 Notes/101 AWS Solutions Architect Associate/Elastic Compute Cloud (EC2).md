@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:29:09+05:30
-updated: 2022-05-17T22:19:37+05:30
+updated: 2022-05-19T10:24:55+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -229,3 +229,10 @@ updated: 2022-05-17T22:19:37+05:30
 - **Host**: Instance runs on dedicated host
 
 > Tenancy of an instance can only be changed from **host to dedicated** or **dedicated to host** after the instance has been launched.
+
+## Troubleshooting
+- The following are a few reasons why an instance might immediately terminate:
+	- You’ve reached your EBS volume limit.
+	- An EBS snapshot is corrupt.
+	- The root EBS volume is encrypted and you do not have permissions to access the KMS key for decryption.
+	- The instance store-backed AMI that you used to launch the instance is missing a required part.
