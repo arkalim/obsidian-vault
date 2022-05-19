@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-18T22:17:06+05:30
+updated: 2022-05-19T20:31:52+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -140,6 +140,9 @@ updated: 2022-05-18T22:17:06+05:30
 [[Important Ports]]
 [[Shared Responsibility Model]]
 
+
+## Course
+[AWS Certified Solutions Architect Associate (SAA-C02) | Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/)
 ## Certification
 -   AWS Solutions Architect Associate (SAA-C02)
 -   Certificate Validity: 3 years
