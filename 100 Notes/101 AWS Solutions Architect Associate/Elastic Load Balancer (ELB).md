@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-19T22:20:04+05:30
+updated: 2022-05-19T22:24:43+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -54,7 +54,7 @@ updated: 2022-05-19T22:20:04+05:30
 - Operates at Layer 4 (TCP, TLS, UDP)
 - Can handle millions of request per seconds (extreme performance)
 - **Lower latency** ~ 100 ms (vs 400 ms for ALB)
-- **1 static IP per AZ** (vs a static hostname for CLB & ALB)
+- **1 static public IP per AZ** (vs a static hostname for CLB & ALB)
 - **Elastic IP can be assigned to NLB** (helpful for whitelisting specific IP)
 - **Does not support weighted routing**
 - Maintains the same connection from client all the way to the target
