@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
             "mode": "preview",
             "source": true
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md"
               }
             }
           },
@@ -156,15 +156,15 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
+    "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Backup.md",
     "100 Notes/101 AWS Solutions Architect Associate/Disaster Recovery.md",
     "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Macie.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Inspector.md"
   ]
 }
