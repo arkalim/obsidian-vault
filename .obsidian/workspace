@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md"
               }
             }
           },
@@ -144,8 +144,8 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Backup.md",
     "100 Notes/101 AWS Solutions Architect Associate/SSM Parameter Store.md",
     "100 Notes/101 AWS Solutions Architect Associate/Resource Access Manager (RAM).md",

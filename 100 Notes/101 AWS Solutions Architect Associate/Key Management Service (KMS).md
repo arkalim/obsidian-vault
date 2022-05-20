@@ -1,12 +1,12 @@
 ---
 created: 2022-05-11T20:57:12+05:30
-updated: 2022-05-18T13:37:25+05:30
+updated: 2022-05-20T22:30:17+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Key Management Service (KMS)
-- Regional service (keys are bound to a region)
+- **Regional service (keys are bound to a region)**
 - Provides encryption and decryption of data and manages keys required for it
 - Encrypted secrets can be stored in the code or environment variables
 - **Encrypt up to 4KB of data per call (if data > 4 KB, use envelope encryption)**
@@ -50,7 +50,7 @@ updated: 2022-05-18T13:37:25+05:30
     -   Useful for cross-account access of your KMS key
 
 ## Cross-region Encrypted Snapshot Migration
--   Copy the snapshot to another region with re-encryption option using a new key in the new region (keys are bound to a region)
+-   Copy the snapshot to another region with **re-encryption option** using a new key in the new region (keys are bound to a region)
 
 ## Cross-account Encrypted Snapshot Migration
 - Attach a Key Policy to the main CMK to authorize access to an IAM role in the target account (cross-account access)
@@ -61,7 +61,7 @@ updated: 2022-05-18T13:37:25+05:30
 
 ## Key Rotation
 - **Automatic**
-	-   Supported only in Customer-managed CMK
+	-   Supported only in Customer-owned CMK
 	-   Automatic yearly key rotation
 	-   Previous key is kept active (to decrypt old data)
 	-   **New key has the same CMK ID** (only the backing key is changed)
