@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T20:08:31+05:30
+updated: 2022-05-20T20:41:32+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -81,9 +81,9 @@ updated: 2022-05-20T20:08:31+05:30
 [[CloudWatch]]
 [[CloudTrail]]
 [[Config]]
-[[CostExplorer]]
-[[Trusted Advisor]]
 [[X-Ray]]
+[[Trusted Advisor]]
+[[CostExplorer]]
 
 #### Containerization
 [[Elastic Container Service (ECS)]]
