@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-16T09:38:45+05:30
+updated: 2022-05-20T09:41:29+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -13,8 +13,8 @@ updated: 2022-05-16T09:38:45+05:30
 - Preferred over [[Relational Database Service (RDS)]]
 - Auto-scaling (max 128TB)
 - Up to 15 read replicas
-- Replication: Asynchronous (milliseconds) 
-- Supports only MySQL & PostgreSQL
+- **Asynchronous Replication** (milliseconds) 
+- **Supports only MySQL & PostgreSQL**
 - Cloud-optimized (5x performance improvement over MySQL on RDS, over 3x the performance of PostgreSQL on RDS)
 - **Backtrack**: restore data at any point of time without taking backups
 

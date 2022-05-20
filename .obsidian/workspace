@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Aurora.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Aurora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Aurora.md"
               }
             }
           },
@@ -144,6 +144,7 @@
   },
   "active": "77ebea36b0c7d77c",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Aurora.md",
     "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md",
@@ -152,7 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/Workflows.md",
     "100 Notes/101 AWS Solutions Architect Associate/High Performance Computing (HPC).md",
     "100 Notes/101 AWS Solutions Architect Associate/Lambda.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Load Balancer (ELB).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Auto Scaling Group (ASG).md"
   ]
 }
