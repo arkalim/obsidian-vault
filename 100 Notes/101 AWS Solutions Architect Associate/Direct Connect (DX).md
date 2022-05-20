@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T22:48:47+05:30
-updated: 2022-05-16T23:26:00+05:30
+updated: 2022-05-20T15:44:41+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -34,7 +34,7 @@ updated: 2022-05-16T23:26:00+05:30
 - **Best way** (redundant direct connect connections)
 	- ![[attachments/Pasted image 20220512234246.png]]
 - **Cost-effective way** (VPN connection as a backup)
-	- Implement an **IPSec VPN** connection and use the **same BGP prefix**. Both the Direct Connect connection and IPSec VPN are active and being advertised using the Border Gateway Protocol (BGP). The Direct Connect link will always be preferred unless it is unavailable.
+	- Implement an **IPSec VPN** connection and use the **same BGP prefix**. Both the Direct Connect connection and IPSec VPN are active and being advertised using the Border Gateway Protocol (BGP). The **Direct Connect link will always be preferred** unless it is unavailable.
 
 ## Direct Connect Gateway
 - Used to setup a Direct Connect to multiple VPCs, possibly in **different regions** but **same account**

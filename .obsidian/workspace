@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Site-to-Site VPN.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Site-to-Site VPN.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Site-to-Site VPN.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "d6bf16b42905e053",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Site-to-Site VPN.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Site-to-Site VPN.md",
     "100 Notes/101 AWS Solutions Architect Associate/PrivateLink.md",
     "100 Notes/101 AWS Solutions Architect Associate/Reachability Analyzer.md",
     "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
     "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
     "100 Notes/101 AWS Solutions Architect Associate/Resource Access Manager (RAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
+    "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md"
   ]
 }
