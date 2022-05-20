@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:11:37+05:30
-updated: 2022-05-20T10:18:24+05:30
+updated: 2022-05-20T10:26:03+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -32,7 +32,7 @@ updated: 2022-05-20T10:18:24+05:30
 | Multi-AZ support with automatic failover (disaster recovery)                                                               |                                                      |
 
 ## Security & Access Management
-- Network security is managed using Security Groups (only allow EC2 security group for incoming requests)
+- Network security is managed using **Security Groups** (only allow EC2 security group for incoming requests)
 - At rest encryption using KMS
 - In-flight encryption using SSL
 - Use **Redis Auth** to authenticate to ElastiCache for Redis

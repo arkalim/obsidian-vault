@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/ElastiCache.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/FSx.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/ElastiCache.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/FSx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/ElastiCache.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/FSx.md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "d6bf16b42905e053",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/FSx.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/ElastiCache.md",
     "100 Notes/101 AWS Solutions Architect Associate/Untitled.md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Aurora.md",
     "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Direct Connect (DX).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Workflows.md",
-    "100 Notes/101 AWS Solutions Architect Associate/High Performance Computing (HPC).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Workflows.md"
   ]
 }
