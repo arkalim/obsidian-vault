@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-19T10:22:14+05:30
+updated: 2022-05-20T09:11:40+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -42,7 +42,7 @@ updated: 2022-05-19T10:22:14+05:30
 - Allows us to scale the read operation (SELECT) on RDS
 	- ![[attachments/Pasted image 20220507005920.png]]
 - **Up to 5 read replicas** (within AZ, cross AZ or cross region)
-- Replication: Asynchronous (seconds)
+- **Asynchronous Replication** (seconds)
 - **Replicas can be promoted to their own DB**
 - **Applications must update the connection string to leverage read replicas**
 - Network fee for replication
