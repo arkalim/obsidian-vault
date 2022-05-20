@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T10:08:33+05:30
-updated: 2022-05-18T22:10:59+05:30
+updated: 2022-05-20T12:04:03+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -14,11 +14,11 @@ updated: 2022-05-18T22:10:59+05:30
 
 ## Devices
 - **Snowcone**
-	- 2 CPUs, 4 GB of RAM, wired or wireless access
-	- 80 TB storage
+	- 2 CPUs, **4GB RAM**, wired or wireless access
+	- 8 TB storage
 	- USB-C power using a cord or the optional battery
 	- Good for space-constrained environment
-	- DataSync Agent is preinstalled
+	- **DataSync Agent** is preinstalled
 	- Does not support **Storage Clustering**
 -   **Snowball Edge**
 	-  **Compute Optimized**
