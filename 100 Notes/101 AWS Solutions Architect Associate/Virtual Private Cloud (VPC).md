@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T14:29:21+05:30
+updated: 2022-05-20T14:45:05+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -114,7 +114,7 @@ updated: 2022-05-20T14:29:21+05:30
 	    - Diagram
 		    - ![[attachments/Pasted image 20220512210247.png]]
 	- **DNS Hostnames** (enableDnsHostnames)
-	    -  Assigns public hostname to EC2 instances in our VPC if they have a public IPv4
+	    -  Assigns **public hostname** to EC2 instances in our VPC if they have a public IPv4
 	    -  **Doesn't work until `enableDnsSupport=true`**
 	    -  By default
 	        - Default VPC - Enabled
