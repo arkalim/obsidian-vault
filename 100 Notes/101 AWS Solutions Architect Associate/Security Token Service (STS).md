@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T09:38:08+05:30
-updated: 2022-05-20T18:35:57+05:30
+updated: 2022-05-20T18:37:53+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -10,7 +10,7 @@ updated: 2022-05-20T18:35:57+05:30
 - Token is valid for up to 1h
 
 ## AssumeRole
-- Allows IAM Users to assume an IAM Role
+- **Allows IAM Users to assume an IAM Role**
 - Steps to assume a role
 	- Create an lAM Role (within your account or cross-account)
 	-  [[Identity & Access Management (IAM)#Trust Policies|Trust Policy]]: define which principals should be allowed to assume this role
