@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-20T10:08:36+05:30
+updated: 2022-05-20T10:11:55+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -71,8 +71,8 @@ updated: 2022-05-20T10:08:36+05:30
 -   Up to 5 secondary (read-only) regions (replication lag < 1 second)
 -   Up to 16 Read Replicas per secondary region
 -   Helps for decreasing latency for clients in other geographical locations
-- **RTO (recovery time objective) of less than 1 minute** (to promote another region as primary)
+- **RTO of less than 1 minute** (to promote another region as primary)
 
 ## Aurora Events
-- Invoke a **Lambda** function from an **Aurora MySQL-compatible DB cluster** with a **native function** or a **stored procedure**
+- Invoke a **Lambda** function from an **Aurora MySQL-compatible DB cluster** with a **native function** or a **stored procedure** (same as [[Relational Database Service (RDS)#RDS Events|RDS]])
 - Used to capture data changes whenever a row is modified
