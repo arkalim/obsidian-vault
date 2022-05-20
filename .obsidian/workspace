@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AppSync.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
               }
             }
           },
@@ -144,11 +144,11 @@
   },
   "active": "d6bf16b42905e053",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Transfer Family.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
     "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
     "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Transfer Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/ElasticSearch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Neptune.md",
