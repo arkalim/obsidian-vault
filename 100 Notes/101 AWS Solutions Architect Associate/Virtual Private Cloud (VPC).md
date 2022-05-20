@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T14:58:00+05:30
+updated: 2022-05-20T15:05:43+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -162,11 +162,11 @@ updated: 2022-05-20T14:58:00+05:30
 > VPC Peering does not facilitate centrally-managed VPC like [[Resource Access Manager (RAM)#VPC Sharing|VPC Sharing]]
 
 ## VPC Endpoints
-- Private endpoints within your VPC that allow AWS services to privately connect to resources within your VPC without traversing the public internet (cheaper)
+- **Private endpoints** within your VPC that allow AWS services to privately connect to resources within your VPC without traversing the public internet (cheaper)
 	- ![[attachments/Pasted image 20220512222517.png]]
 - Powered by **AWS PrivateLink**
-- Route table is updated automatically
-- Bound to a region (do not support inter-region communication)
+- **Route table is updated automatically**
+- **Bound to a region** (do not support inter-region communication)
 - Two types:
 	- **Interface Endpoint**
 		- Provisions an **ENI** (private IP) as an entry point per subnet
