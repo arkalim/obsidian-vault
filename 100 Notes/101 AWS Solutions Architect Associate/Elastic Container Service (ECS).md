@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-20T21:10:37+05:30
+updated: 2022-05-20T21:12:59+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -33,13 +33,13 @@ updated: 2022-05-20T21:10:37+05:30
         -   Make API calls to ECS service
         -   Send container logs to Cloud Watch
         -   Pull Docker image from ECR
-        -   Reference sensitive data in **Secrets Manager** or **SSM Parameter Store**
 - **Task Execution Role**
 	- Allows ECS tasks to access AWS resources
 	- Each task can have a separate role
 	- **Use different roles for the different ECS Services**
 	- Task Role is defined in the task definition
 	- Use `taskRoleArn` parameter to assign IAM policies to ECS Task Execution Role
+	- Ex. Reference sensitive data in **Secrets Manager** or **SSM Parameter Store**
 
 ## ECS Services
 - An ECS Service is a collection of ECS tasks that perform the same function
