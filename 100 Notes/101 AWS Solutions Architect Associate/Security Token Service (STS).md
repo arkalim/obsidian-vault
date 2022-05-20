@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T09:38:08+05:30
-updated: 2022-05-11T10:03:30+05:30
+updated: 2022-05-20T18:35:57+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -13,8 +13,8 @@ updated: 2022-05-11T10:03:30+05:30
 - Allows IAM Users to assume an IAM Role
 - Steps to assume a role
 	- Create an lAM Role (within your account or cross-account)
-	-   Role Policy: define which principals should be allowed to assume this role
-	-   Use STS AssumeRole API to retrieve temporary credentials for the IAM role
+	-  [[Identity & Access Management (IAM)#Trust Policies|Trust Policy]]: define which principals should be allowed to assume this role
+	-   Use STS `AssumeRole` API to retrieve temporary credentials for the IAM role
 	-  STS will check with IAM whether or not the user is allowed to assume that role
 	- ![[attachments/Pasted image 20220511095712.png]]
 - Use cases:
