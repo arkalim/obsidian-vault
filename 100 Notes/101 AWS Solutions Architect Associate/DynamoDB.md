@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T19:47:44+05:30
-updated: 2022-05-14T21:24:57+05:30
+updated: 2022-05-20T11:05:01+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -8,9 +8,9 @@ updated: 2022-05-14T21:24:57+05:30
 # DynamoDB
 - Serverless NoSQL DB with multi-AZ
 - Distributed Database
-- Not an in-memory database
+- Not an in-memory database (uses storage devices)
 - Storage auto-scaling
-- Single digit millisecond response time at any scale
+- **Single digit millisecond** response time at any scale
 - **Maximum size of an item: 400 KB**
 - Primary key (must be decided at creation) can be a single field or a pair of fields (partition key and sort key)
 - Indexes allow us to query on attributes other than the Primary Key
