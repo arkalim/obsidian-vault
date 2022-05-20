@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/DataSync.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AppSync.md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "d6bf16b42905e053",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
+    "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
     "100 Notes/101 AWS Solutions Architect Associate/Transfer Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/ElasticSearch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Neptune.md",
     "100 Notes/101 AWS Solutions Architect Associate/Redshift.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Block Storage (EBS).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Relational Database Service (RDS).md"
   ]
 }

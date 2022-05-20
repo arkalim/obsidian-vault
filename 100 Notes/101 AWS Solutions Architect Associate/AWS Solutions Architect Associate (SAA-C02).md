@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T12:11:32+05:30
+updated: 2022-05-20T12:44:00+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -32,7 +32,6 @@ updated: 2022-05-20T12:11:32+05:30
 [[DynamoDB]]
 [[ElastiCache]]
 [[FSx]]
-[[Storage Gateway]]
 [[Redshift]]
 [[Neptune]]
 [[ElasticSearch]]
@@ -40,6 +39,7 @@ updated: 2022-05-20T12:11:32+05:30
 #### Data Migration & Sync
 [[Snow Family]]
 [[Database Migration Service (DMS)]]
+[[Storage Gateway]]
 [[DataSync]]
 [[AppSync]]
 [[Transfer Family]]
