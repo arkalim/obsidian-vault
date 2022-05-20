@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T19:58:24+05:30
-updated: 2022-05-17T21:58:08+05:30
+updated: 2022-05-20T19:11:16+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -22,7 +22,6 @@ updated: 2022-05-17T21:58:08+05:30
 -   AD connector will proxy all the requests to the on-premise AD
 -   **Users are managed on the on-premise AD only**
 - Does not support directory-aware workloads on AWS
--   Supports 
 
 ## Simple AD
 -   AD-compatible managed directory on AWS (**cannot be joined with on-premise AD**)
