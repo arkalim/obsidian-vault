@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-20T19:01:46+05:30
+updated: 2022-05-20T19:04:05+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -17,8 +17,6 @@ updated: 2022-05-20T19:01:46+05:30
 	-   Web Identity Federation without Amazon Cognito (not recommended)
 	-   Single Sign On
 	-   Non-SAML with AWS Microsoft AD
-- Diagram
-	- ![[attachments/Pasted image 20220511103332.png]]
 
 ## SAML 2.0 Federation
 - Used to integrate **Active Directory / ADFS** with AWS using **SAML compatible IDP**
@@ -45,7 +43,7 @@ updated: 2022-05-20T19:01:46+05:30
 - Example: provide temporary access to write to S3 bucket using Facebook Login
 - Steps
     -   Log in to federated identity provider to get JWT
-    -   Use the JWT to authenticate to Federated Identity Pool
+    -   Use the JWT to authenticate to **Federated Identity Pool**
     -   Get temporary AWS credentials back from the Federated Identity Pool
 - Flow diagram
 	- ![[attachments/Pasted image 20220511124149.png]]
