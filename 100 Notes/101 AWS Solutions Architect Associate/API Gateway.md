@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T20:11:03+05:30
-updated: 2022-05-20T13:29:58+05:30
+updated: 2022-05-20T13:35:02+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -32,7 +32,7 @@ updated: 2022-05-20T13:29:58+05:30
 ## Access Management
 #### IAM Policy
 -   Create an IAM policy and attach to User or Role to allow it to call an API
--   Good to provide access within your own AWS account
+-   Good to provide **access within your own AWS account**
 -   Leverages **Sig v4** where lAM credential are in the request headers
 - Diagram
 	- ![[attachments/Pasted image 20220510203344.png]]
@@ -40,7 +40,7 @@ updated: 2022-05-20T13:29:58+05:30
 #### Lambda Authorizer
 -   Uses a Lambda function to validate the token being passed in the header and return an lAM policy to determine if the user should be allowed to access the resource.
 -   Option to cache result of authentication
--   For OAuth / SAML / 3rd party type of authentication
+-   For **OAuth / SAML / 3rd party type of authentication**
 - Good to provide access outside your AWS account if you have an existing IDP
 - Diagram
 	- ![[attachments/Pasted image 20220510203327.png]]
