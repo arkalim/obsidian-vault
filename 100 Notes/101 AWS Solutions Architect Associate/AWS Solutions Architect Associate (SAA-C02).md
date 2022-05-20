@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T15:19:49+05:30
+updated: 2022-05-20T17:40:53+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -63,9 +63,6 @@ updated: 2022-05-20T15:19:49+05:30
 [[Amazon MQ]]
 [[EventBridge]]
 
-#### Distribution
-[[CloudFront]]
-[[Global Accelerator]]
 
 #### Access Management
 [[Identity & Access Management (IAM)]]
@@ -75,6 +72,10 @@ updated: 2022-05-20T15:19:49+05:30
 [[AWS Directory Services]]
 [[AWS Organizations]]
 [[Single Sign-On (SSO)]]
+
+#### Distribution
+[[CloudFront]]
+[[Global Accelerator]]
 
 #### Deployment
 [[Elastic Beanstalk]]
