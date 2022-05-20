@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T14:11:51+05:30
+updated: 2022-05-20T14:20:22+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -47,7 +47,7 @@ updated: 2022-05-20T14:11:51+05:30
 - Should be used to connect public resources to the internet (use NAT gateway for private resources)
 - Route table of the public subnets must be edited to allow requests destined outside the VPC to be routed to the IGW
 	- ![[attachments/Pasted image 20220512222218.png]]
-- One IGW per VPC and vice-versa
+- One IGW per VPC
 
 > IGW performs network address translation (NAT) for a public EC2 instance
 
