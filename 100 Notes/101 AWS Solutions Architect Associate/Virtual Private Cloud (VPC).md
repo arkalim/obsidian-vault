@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T14:24:19+05:30
+updated: 2022-05-20T14:29:21+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -88,7 +88,7 @@ updated: 2022-05-20T14:24:19+05:30
 	- ![[attachments/Pasted image 20220512101803.png]]
 
 ## NAT Gateway
-- AWS managed NAT with bandwidth autoscaling (up to 45Gbps)
+- AWS managed NAT with **bandwidth autoscaling** (up to 45Gbps)
 - Preferred over NAT instances
 - **Uses an Elastic IP** behind the scenes
 - **Bound to an AZ**
