@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T15:34:27+05:30
-updated: 2022-05-17T10:19:12+05:30
+updated: 2022-05-20T21:30:39+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -9,7 +9,7 @@ updated: 2022-05-17T10:19:12+05:30
 - Used to **deploy applications** on AWS infrastructure
 - **Platform as a Service (PaaS)**
 - Automatically handles capacity provisioning, load balancing, scaling, application health monitoring, instance configuration, etc. but **we have full control over the configuration**
-- Free (pay for the underlying resources)
+- **Free** (pay for the underlying resources)
 - Supports versioning of application code
 - Can create multiple environment (dev, test, prod)
 - Supports the deployment of web applications from **Docker** containers and automatically handles load balancing, auto-scaling, monitoring, and placing containers across the cluster.
