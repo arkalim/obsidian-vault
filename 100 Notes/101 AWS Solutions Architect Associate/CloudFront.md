@@ -1,6 +1,6 @@
 ---
 created: 2022-05-08T13:28:22+05:30
-updated: 2022-05-20T19:47:04+05:30
+updated: 2022-05-20T19:49:59+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -30,12 +30,12 @@ updated: 2022-05-20T19:47:04+05:30
 > To restrict access to ELB directly when it is being used as the origin in a CloudFront distribution, create a VPC Security Group for the ELB and use AWS Lambda to automatically update the CloudFront internal service IP addresses when they change.
 
 ## Signed URL / Cookies
-- Used to make a CloudFront distribution private (distribute to a subset of users)
+- Used to **make a CloudFront distribution private** (distribute to a subset of users)
 - Signed URL ⇒ access to individual files
 - Signed Cookies ⇒ access to multiple files
 - Whenever we create a signed URL / cookie, we attach a policy specifying:
     -   URL / Cookie Expiration (TTL)
-    -   IP ranges allowed to access the data
+    -   **IP ranges** allowed to access the data
     -   Trusted signers (which AWS accounts can create signed URLs)
 
 ## Pricing
