@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T00:09:08+05:30
-updated: 2022-05-20T16:53:01+05:30
+updated: 2022-05-20T16:55:56+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -22,6 +22,6 @@ updated: 2022-05-20T16:53:01+05:30
 - Only one VPN connection to a VPC having 2 tunnels out of which only 1 is used (1.25 Gbps)
 
 ## Share DX between multiple Accounts
-Share Transit Gateway across accounts using [[Resource Access Manager (RAM)|Resource Access Manager]] to share [[Direct Connect (DX)|Direct Connect]] connection between VPCs in **different regions & accounts**
+Share Transit Gateway across accounts using [[Resource Access Manager (RAM)|Resource Access Manager]] to share [[Direct Connect (DX)|Direct Connect]] connection between VPCs in the **same region but different accounts**
 
 ![[attachments/Pasted image 20220513003853.png]]
