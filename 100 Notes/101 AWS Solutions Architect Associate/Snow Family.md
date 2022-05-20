@@ -1,15 +1,19 @@
 ---
 created: 2022-05-09T10:08:33+05:30
-updated: 2022-05-20T12:04:03+05:30
+updated: 2022-05-20T12:08:36+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Snow Family
+- Offline data migration to [[Simple Storage Service (S3)|S3]] or [[Simple Storage Service (S3)#Storage Classes|Glacier]]
+- Used when it takes a long time to transfer data over the network
+- **Takes around 2 weeks to transfer the data**
+- **Snowball cannot import to Glacier directly** (transfer to S3, configure a lifecycle policy to transition the data into Glacier)
+- Pay per data transfer job
 - Hardware devices for
 	- Data Migration (between AWS & on-premise data center)
 	- Edge Computing
-- **Snowball cannot import to Glacier directly** (transfer to S3, configure a lifecycle policy to transition the data into Glacier)
 - Need to install **OpsHub** software on your computer to manage Snow Family devices
 
 ## Devices
@@ -39,10 +43,6 @@ updated: 2022-05-20T12:04:03+05:30
 
 
 ## Data Migration
-- Offline data migration to [[Simple Storage Service (S3)|S3]] or [[Simple Storage Service (S3)#Storage Classes|Glacier]]
-- Used when it takes a long time to transfer data over the network
-- **Takes around 2 weeks to transfer the data**
-- Pay per data transfer job
 - **Provides block storage and Amazon S3-compatible object storage**
 - Usage process
 	1.  Request Snowball devices from the AWS console for delivery
