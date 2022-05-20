@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-17T22:27:38+05:30
+updated: 2022-05-20T14:11:51+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -9,8 +9,9 @@ updated: 2022-05-17T22:27:38+05:30
 - Soft limit of 5 VPCs per region
 - Only the Private IPv4 ranges are allowed
 - AWS accounts have a default VPC
-- New EC2 instances are launched into the default VPC if no subnet is specified
 - Default VPC has Internet connectivity and all EC2 instances inside it have public IPv4 addresses and public and a private IPv4 DNS names
+
+> New EC2 instances are launched into the default VPC if no subnet is specified
 
 ## Classless Inter-Domain Routing (CIDR)
 - Way to define a range of IP addresses
