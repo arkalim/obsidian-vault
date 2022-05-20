@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
               }
             }
           },
@@ -144,8 +144,8 @@
   },
   "active": "d6bf16b42905e053",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/API Gateway.md",
     "100 Notes/101 AWS Solutions Architect Associate/Resource Access Manager (RAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md",
