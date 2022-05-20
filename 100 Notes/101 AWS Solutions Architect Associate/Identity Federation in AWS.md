@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-20T18:58:37+05:30
+updated: 2022-05-20T19:01:46+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -30,7 +30,7 @@ updated: 2022-05-20T18:58:37+05:30
 
 ## Custom Identity Broker Federation
 - Used when the identity provider is **not compatible with SAML 2.0 or OIDC**
-- **Identity broker gets security credentials from STS** using the STS **AssumeRole** or **GetFederationToken** API
+- **Identity broker gets security credentials from STS** using the STS `AssumeRole` or `GetFederationToken` API
 - The identity broker must determine the appropriate lAM role
 - Flow diagram
 	- ![[attachments/Pasted image 20220511122254.png]]
@@ -44,8 +44,8 @@ updated: 2022-05-20T18:58:37+05:30
 - Use for **OpenID Connect (OIDC) compatible IDP** like CUP, FaceBook, Google etc.
 - Example: provide temporary access to write to S3 bucket using Facebook Login
 - Steps
-    -   Log in to federated identity provider or remain anonymous
-    -   Use the token to authenticate to Federated Identity Pool
+    -   Log in to federated identity provider to get JWT
+    -   Use the JWT to authenticate to Federated Identity Pool
     -   Get temporary AWS credentials back from the Federated Identity Pool
 - Flow diagram
 	- ![[attachments/Pasted image 20220511124149.png]]
