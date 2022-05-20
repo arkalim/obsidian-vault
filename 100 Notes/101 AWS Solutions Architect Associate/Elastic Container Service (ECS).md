@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-20T21:08:03+05:30
+updated: 2022-05-20T21:10:37+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -50,14 +50,14 @@ updated: 2022-05-20T21:08:03+05:30
 
 ## Load Balancing
 - **EC2 Launch Type**
-	- Dynamic port is assigned randomly to ECS tasks
+	- **Dynamic port is assigned randomly to ECS tasks**
 	- Once the ALB is registered to a service in the ECS cluster, it will find the right port on the EC2 Instances
-	- You must allow on the EC2 instance’s security group any port from the ALB security group because it may attach on any port
+	- You **must allow on the EC2 instance’s security group any port from the ALB security group** because it may attach on any port
 	- Diagram
 		- ![[attachments/Pasted image 20220509232914.png]]
 - **Fargate Launch Type**
-	- Each task has a unique IP but same port (80)
-	-   You must allow on the ENI’s security group the task port (80) from the ALB security group
+	- **Each task has a unique IP but same port (80)**
+	-   You **must allow on the ENI’s security group the task port (80) from the ALB security group**
 	- Diagram
 		- ![[attachments/Pasted image 20220509233226.png]]
 
