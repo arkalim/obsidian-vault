@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-20T18:52:21+05:30
+updated: 2022-05-20T18:55:57+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -29,7 +29,7 @@ updated: 2022-05-20T18:52:21+05:30
 > SSO can be implemented using an existing IDP like AD using SAML 2.0 Federation
 
 ## Custom Identity Broker Federation
-- Used when the identity provider is not compatible with SAML 2.0
+- Used when the identity provider is not compatible with SAML 2.0 or OIDC
 - **Identity broker gets security credentials from STS** using the STS **AssumeRole** or **GetFederationToken** API
 - The identity broker must determine the appropriate lAM policy
 - Flow diagram
