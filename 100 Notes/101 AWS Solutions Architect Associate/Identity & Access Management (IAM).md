@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-20T18:09:34+05:30
+updated: 2022-05-20T18:17:13+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -43,6 +43,11 @@ updated: 2022-05-20T18:09:34+05:30
 - You must attach both a trust policy and an identity-based policy to an IAM role. 
 - The **IAM service supports only one type of resource-based policy** called a **role trust policy**, which is **attached to an IAM role**.
 
+## Roles
+- Collection of policies for AWS services
+
+> If you are going to use an IAM Service Role with Amazon EC2 or another AWS service that uses Amazon EC2, you must store the role in an **instance profile**. When you create an IAM service role for EC2, the role automatically has EC2 identified as a trusted entity.
+
 ## Protect IAM Accounts
 - **Password Policy**
 	- Used to enforce standards for password
@@ -51,11 +56,6 @@ updated: 2022-05-20T18:09:34+05:30
 	- Prevents **brute force** attack
 - **Multi Factor Authentication (MFA)**
 	- Both root user and IAM users should use MFA
-
-## Roles
-- Collection of policies for AWS services
-
-> If you are going to use an IAM Service Role with Amazon EC2 or another AWS service that uses Amazon EC2, you must store the role in an **instance profile**. When you create an IAM service role for EC2, the role automatically has EC2 identified as a trusted entity.
 
 ## Reporting Tools
 - **Credentials Report**
