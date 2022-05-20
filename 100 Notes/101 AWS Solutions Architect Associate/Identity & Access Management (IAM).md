@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-20T18:05:24+05:30
+updated: 2022-05-20T18:09:34+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -16,13 +16,13 @@ updated: 2022-05-20T18:05:24+05:30
 - Groups cannot be nested
 - User can belong to multiple groups
 - User doesn't have to belong to a group
--   A group is not an identity and cannot be identified as a principal in an IAM policy
--   Use groups to assign permissions to users
--   Only users and services can assume a role (not groups)
 - **Root User** has full access to the account 
 - **IAM User** has limited permission to the account
 - You should log in as an IAM user with **admin access** even if you have root access. This is just to be sure that nothing goes wrong by accident.
-- A new IAM user created using the AWS CLI or AWS API has no AWS credentials
+
+> - An IAM Group is not an identity and cannot be identified as a principal in an IAM policy
+> - Only users and services can assume a role (not groups)
+> - A new IAM user created using the AWS CLI or AWS API has no AWS credentials
 ## Policies
 - Policies are JSON documents that outline permissions for users, groups or roles
 - Two types
