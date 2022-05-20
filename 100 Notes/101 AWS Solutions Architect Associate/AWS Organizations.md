@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T20:02:59+05:30
-updated: 2022-05-16T21:32:57+05:30
+updated: 2022-05-20T19:18:40+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -24,9 +24,9 @@ updated: 2022-05-16T21:32:57+05:30
 	- ![[attachments/Pasted image 20220511200502.png]]
 
 ## Service Control Policies (SCP)
-- Whitelist or blacklist IAM actions at the OU or Account level
+- **Whitelist or blacklist IAM actions at the OU or Account level**
 - **Does not apply to the Master Account**
-- Applies to all the Users and Roles of the Account, including the Root User. So, if something is restricted for that account, even the root user of that account won’t be able to do it.
+- Applies to all the Users and Roles of the member accounts, including the root user. So, if something is restricted for that account, even the root user of that account won’t be able to do it.
 - Must have an explicit allow (**does not allow anything by default**)
 - **Does not apply to service-linked roles**
 - **Explicit Deny** has the highest precedence
