@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T19:13:05+05:30
+updated: 2022-05-20T20:08:31+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -77,6 +77,19 @@ updated: 2022-05-20T19:13:05+05:30
 [[CloudFront]]
 [[Global Accelerator]]
 
+#### Monitoring & Audit
+[[CloudWatch]]
+[[CloudTrail]]
+[[Config]]
+[[CostExplorer]]
+[[Trusted Advisor]]
+[[X-Ray]]
+
+#### Containerization
+[[Elastic Container Service (ECS)]]
+[[Elastic Kubernetes Service (EKS)]]
+[[Elastic Container Registry (ECR)]]
+
 #### Deployment
 [[Elastic Beanstalk]]
 [[Serverless Application Model (SAM)]]
@@ -88,19 +101,6 @@ updated: 2022-05-20T19:13:05+05:30
 [[Athena]]
 [[Elastic Map Reduce (EMR)]]
 [[Glue]]
-
-#### Containerization
-[[Elastic Container Service (ECS)]]
-[[Elastic Kubernetes Service (EKS)]]
-[[Elastic Container Registry (ECR)]]
-
-#### Monitoring & Audit
-[[CloudWatch]]
-[[CloudTrail]]
-[[Config]]
-[[CostExplorer]]
-[[Trusted Advisor]]
-[[X-Ray]]
 
 #### Parameters & Encryption
 [[Key Management Service (KMS)]]
