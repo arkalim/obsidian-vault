@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T00:09:08+05:30
-updated: 2022-05-20T16:49:13+05:30
+updated: 2022-05-20T16:53:01+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -16,7 +16,7 @@ updated: 2022-05-20T16:49:13+05:30
 	- ![[attachments/Pasted image 20220513002130.png]]
 
 ## Increasing BW of Site-to-Site VPN connection
--   **ECMP** (Equal-cost multi-path routing) is a routing strategy to allow to forward a packet over multiple best path
+-   **ECMP** (equal-cost multi-path) routing is a routing strategy to allow to forward a packet over multiple best path
 -   To increase the bandwidth of the connection between Transit Gateway and corporate data center, create multiple site-to-site VPN connections, each with 2 tunnels (2 x 1.25 = 2.5 Gbps per VPN connection).
 	- ![[attachments/Pasted image 20220513002301.png]]
 - Only one VPN connection to a VPC having 2 tunnels out of which only 1 is used (1.25 Gbps)
