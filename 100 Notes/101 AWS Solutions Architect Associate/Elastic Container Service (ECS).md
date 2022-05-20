@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-20T21:04:34+05:30
+updated: 2022-05-20T21:08:03+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -33,7 +33,7 @@ updated: 2022-05-20T21:04:34+05:30
         -   Make API calls to ECS service
         -   Send container logs to Cloud Watch
         -   Pull Docker image from ECR
-        -   Reference sensitive data in Secrets Manager or SSM Parameter Store
+        -   Reference sensitive data in **Secrets Manager** or **SSM Parameter Store**
 - **Task Execution Role**
 	- Allows ECS tasks to access AWS resources
 	- Each task can have a separate role
@@ -44,7 +44,7 @@ updated: 2022-05-20T21:04:34+05:30
 ## ECS Services
 - An ECS Service is a collection of ECS tasks that perform the same function
 - We can use ALB to send requests to these tasks
-- **Service CPU Usage** or the **SQS queue length for a service** are used for scaling
+- **Service CPU Usage** or the **SQS queue length** for a service are used for scaling
 - Diagram
 	- ![[attachments/Pasted image 20220509232531.png]]
 
