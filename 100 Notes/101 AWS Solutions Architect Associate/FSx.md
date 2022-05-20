@@ -1,12 +1,12 @@
 ---
 created: 2022-05-09T12:33:55+05:30
-updated: 2022-05-14T11:33:54+05:30
+updated: 2022-05-20T10:30:35+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # FSx
-- Allows us to launch 3rd party high-performance file systems on AWS
+- Allows us to launch **3rd party high-performance file systems** on AWS
 - Useful when we don’t want to use an AWS managed file system like S3
 - **Can be accessed from your on-premise infrastructure**
 
