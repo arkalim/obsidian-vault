@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T20:41:32+05:30
+updated: 2022-05-20T20:52:21+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -91,10 +91,10 @@ updated: 2022-05-20T20:41:32+05:30
 [[Elastic Container Registry (ECR)]]
 
 #### Deployment
+[[CloudFormation]]
 [[Elastic Beanstalk]]
 [[Serverless Application Model (SAM)]]
 [[Continuous Integration Continuous Delivery (CICD)]]
-[[CloudFormation]]
 [[Blue-Green Deployment]]
 
 #### Analytics
