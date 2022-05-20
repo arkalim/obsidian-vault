@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14T00:18:36+05:30
-updated: 2022-05-16T21:06:19+05:30
+updated: 2022-05-20T11:38:43+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -21,14 +21,14 @@ updated: 2022-05-16T21:06:19+05:30
 - Auto-healing feature
 
 ## Loading data into Redshift
-- **Kinesis Data Firehose**
-	- **Sends data to S3** and issues a **COPY** command to load it into Redshift
 - **S3**
-	- Use COPY command to load data from an S3 bucket into Redshift
+	- Use **COPY command** to load data from an S3 bucket into Redshift
 	- **Without Enhanced VPC Routing**
 		- data goes through the public internet
 	- **Enhanced VPC Routing**
 		- data goes through the VPC without traversing the public internet
+- **Kinesis Data Firehose**
+	- **Sends data to S3** and issues a **COPY** command to load it into Redshift
 - **EC2 Instance**
 	- Using **JDBC driver**
 	- Used when an application needs to write data to Redshift
