@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T13:08:31+05:30
-updated: 2022-05-20T10:54:00+05:30
+updated: 2022-05-20T10:55:59+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -37,7 +37,7 @@ updated: 2022-05-20T10:54:00+05:30
 	- ![[attachments/Pasted image 20220509132930.png]]
 
 #### FSx File Gateway
-- Used to expand on-premise storage by leveraging FSx for Windows
+- Used to expand on-premise Windows-based storage by leveraging FSx for Windows
 - Windows native compatibility (SMB, NTFS, Active Directory)
 - **Data is cached at the file gateway** for low latency access
 - Diagram
