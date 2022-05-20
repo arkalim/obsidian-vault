@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T00:09:08+05:30
-updated: 2022-05-17T19:22:50+05:30
+updated: 2022-05-20T16:49:13+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -8,8 +8,8 @@ updated: 2022-05-17T19:22:50+05:30
 # Transit Gateway
 - **Transitive peering** between thousands of VPCs and on-premise data centers using **hub-and-spoke (star) topology**
 - Works with **Direct Connect Gateway**, **VPN Connection** and **VPC**
-- Bound to a region 
-- Transitive peering between VPCs in **different regions** but **same account**
+- **Bound to a region** 
+- Transitive peering between VPCs in **same region & account**
 - **Route Tables** to control communication within the transitive network
 - Supports **IP Multicast** (not supported by any other AWS service)
 - Diagram
