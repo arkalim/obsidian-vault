@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T20:11:03+05:30
-updated: 2022-05-20T13:28:14+05:30
+updated: 2022-05-20T13:29:58+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -20,7 +20,7 @@ updated: 2022-05-20T13:28:14+05:30
 ## Endpoint Types
 -   **Edge-Optimized** (default)
     -   For global clients
-    -   Requests are routed through the CloudFront edge locations (improves latency)
+    -   Requests are routed through the [[CloudFront]] edge locations (improves latency)
     -   The API Gateway lives in only one region but it is accessible efficiently through edge locations
 -   **Regional**
     -   For clients within the same region
