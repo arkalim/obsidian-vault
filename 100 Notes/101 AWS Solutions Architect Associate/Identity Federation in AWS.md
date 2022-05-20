@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-20T19:04:05+05:30
+updated: 2022-05-20T19:29:40+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -29,7 +29,6 @@ updated: 2022-05-20T19:04:05+05:30
 ## Custom Identity Broker Federation
 - Used when the identity provider is **not compatible with SAML 2.0 or OIDC**
 - **Identity broker gets security credentials from STS** using the STS `AssumeRole` or `GetFederationToken` API
-- The identity broker must determine the appropriate lAM role
 - Flow diagram
 	- ![[attachments/Pasted image 20220511122254.png]]
 
