@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T15:05:43+05:30
+updated: 2022-05-20T15:10:23+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -180,12 +180,12 @@ updated: 2022-05-20T15:05:43+05:30
 ## VPC Flow Logs
 - Captures information about **IP traffic** going into your **interfaces**
 - Three levels:
-    -   VPC Flow Logs
-    -   Subnet Flow Logs
-    -   ENI Flow Logs
+    -   **VPC** Flow Logs
+    -   **Subnet** Flow Logs
+    -   **ENI** Flow Logs
 - Can be configured to show accepted, rejected or all traffic
-- Flow logs data can be sent to S3 (bulk analytics) or Cloud Watch Logs (near real-time decision making)
-- Query VPC flow logs using Athena in S3 or CloudWatch Logs Insights
+- Flow logs data can be sent to **S3** (bulk analytics) or **CloudWatch Logs** (near real-time decision making)
+- Query VPC flow logs using **Athena** in S3 or **CloudWatch Logs Insights**
 
 ## IPv6 Support
 - IPv4 cannot be disabled for your VPC
