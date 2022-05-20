@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-20T09:24:27+05:30
+updated: 2022-05-20T09:30:55+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -105,4 +105,4 @@ updated: 2022-05-20T09:24:27+05:30
 	- Used to monitor different **processes or threads on a DB instance** (ex. percentage of the CPU bandwidth and total memory consumed by each database process in your RDS instance
 
 ## Maintenance & Upgrade
-Any database engine level upgrade for an RDS DB instance with Multi-AZ deployment triggers both the primary and standby DB instances to be upgraded at the same time. This causes **downtime** until the upgrade is complete.
+Any database engine level upgrade for an RDS DB instance with Multi-AZ deployment triggers both the primary and standby DB instances to be upgraded at the same time. This causes **downtime** until the upgrade is complete. This is why it should be done during the maintenance window.
