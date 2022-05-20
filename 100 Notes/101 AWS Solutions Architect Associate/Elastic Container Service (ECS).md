@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-17T10:10:42+05:30
+updated: 2022-05-20T21:04:34+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -34,7 +34,7 @@ updated: 2022-05-17T10:10:42+05:30
         -   Send container logs to Cloud Watch
         -   Pull Docker image from ECR
         -   Reference sensitive data in Secrets Manager or SSM Parameter Store
-- **ECS Task Role**
+- **Task Execution Role**
 	- Allows ECS tasks to access AWS resources
 	- Each task can have a separate role
 	- **Use different roles for the different ECS Services**
