@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T14:20:22+05:30
+updated: 2022-05-20T14:24:19+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -63,7 +63,7 @@ updated: 2022-05-20T14:20:22+05:30
     -   Run 1 Bastion Host across 2 AZ with ASG 1:1:1
 -   Routing to the bastion host
     -   If 1 bastion host, use an elastic IP with EC2 user-data script to access it
-    -   If 2 bastion hosts, use an NLB (layer 4) deployed in multiple AZ. Bastion hosts can live in the private subnet (more secure)
+    -   If 2 bastion hosts, use a public-facing NLB (layer 4) deployed in multiple AZ. Bastion hosts can live in the private subnet (more secure)
 - Can’t use ALB as it works in layer 7 (HTTP protocol) and SSH works with TCP
 - Diagram
 	- ![[attachments/Pasted image 20220513222559.png]]
