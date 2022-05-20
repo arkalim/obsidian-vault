@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/OpsWorks.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "d93690060223f1fe",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recover",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/OpsWorks.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/OpsWorks.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md"
               }
             }
           },
@@ -144,15 +156,15 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/OpsWorks.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "100 Notes/101 AWS Solutions Architect Associate/CloudHSM.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Secrets Manager.md",
-    "100 Notes/101 AWS Solutions Architect Associate/SSM Parameter Store.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Key Management Service (KMS).md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Backup.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Resource Access Manager (RAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/Disaster Recovery.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Glue.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Virtual Private Cloud (VPC).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Simple Storage Service (S3).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Macie.md"
   ]
 }

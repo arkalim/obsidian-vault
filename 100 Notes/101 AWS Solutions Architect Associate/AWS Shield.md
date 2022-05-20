@@ -1,12 +1,11 @@
 ---
 created: 2022-05-11T22:43:45+05:30
-updated: 2022-05-11T23:17:15+05:30
+updated: 2022-05-20T23:07:07+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # AWS Shield
-- Provides DDoS mitigation and other web attacks
 
 ## Shield Standard
 -   Free service that is activated for every AWS customer
