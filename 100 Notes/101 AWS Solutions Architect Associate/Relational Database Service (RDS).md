@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-20T09:14:37+05:30
+updated: 2022-05-20T09:16:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -60,10 +60,10 @@ updated: 2022-05-20T09:14:37+05:30
 - **Cannot be used for scaling as the standby database cannot take read/write operation**
 
 ## Encryption
-- At rest encryption
+- **At rest encryption**
 	- KMS AES-256 encryption
 	- Encrypted DB  => Encrypted Snapshots, Encrypted Replicas and vice versa
-- In flight encryption
+- **In flight encryption**
 	- **SSL certificates**
 	- Force all connections to your DB instance to use SSL by setting the `rds.force_ssl` parameter to `true`
 	- To enable encryption in transit, download the **AWS-provided root certificates** & used them when connecting to DB
