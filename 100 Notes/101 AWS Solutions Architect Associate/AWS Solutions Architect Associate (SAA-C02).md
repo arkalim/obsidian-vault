@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T17:40:53+05:30
+updated: 2022-05-20T19:13:05+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -69,8 +69,8 @@ updated: 2022-05-20T17:40:53+05:30
 [[Cognito]]
 [[Security Token Service (STS)]]
 [[Identity Federation in AWS]]
-[[AWS Directory Services]]
 [[AWS Organizations]]
+[[AWS Directory Services]]
 [[Single Sign-On (SSO)]]
 
 #### Distribution
