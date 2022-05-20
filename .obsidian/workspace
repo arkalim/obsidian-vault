@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md"
               }
             }
           },
@@ -144,6 +144,7 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Athena.md",
     "100 Notes/101 AWS Solutions Architect Associate/Blue-Green Deployment.md",
@@ -152,7 +153,6 @@
     "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Beanstalk.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
-    "100 Notes/101 AWS Solutions Architect Associate/SSM Parameter Store.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md"
   ]
 }
