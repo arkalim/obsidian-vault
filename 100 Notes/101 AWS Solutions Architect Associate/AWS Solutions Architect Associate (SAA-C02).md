@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-19T23:23:39+05:30
+updated: 2022-05-20T11:21:42+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -29,10 +29,10 @@ updated: 2022-05-19T23:23:39+05:30
 [[Simple Storage Service (S3)]]
 [[Relational Database Service (RDS)]]
 [[Aurora]]
+[[DynamoDB]]
 [[ElastiCache]]
 [[FSx]]
 [[Storage Gateway]]
-[[DynamoDB]]
 [[Redshift]]
 [[Neptune]]
 [[ElasticSearch]]
