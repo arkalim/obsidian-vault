@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T15:10:23+05:30
+updated: 2022-05-20T15:11:56+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -191,7 +191,8 @@ updated: 2022-05-20T15:10:23+05:30
 - IPv4 cannot be disabled for your VPC
 - Enable IPv6 to operate in **dual-stack mode** in which your EC2 instances will get at least a **private IPv4** and a **public IPv6**. They can communicate using either IPv4 or IPv6 to the internet through an Internet Gateway.
 	- ![[attachments/Pasted image 20220513005218.png]]
-- If you cannot launch an EC2 instance in your subnet, It’s not because it cannot acquire an IPv6 (the space is very large). It’s because there are no available IPv4 in your subnet. **Solution: create a new IPv4 CIDR in your subnet**
+- If you cannot launch an EC2 instance in your subnet, It’s not because it cannot acquire an IPv6 (the space is very large). It’s because there are no available IPv4 in your subnet. 
+  **Solution: create a new IPv4 CIDR in your subnet**
 
 #### Egress-only Internet Gateway
 - Allows instances in your VPC to initiate outbound connections over IPv6 while preventing inbound IPv6 connections to your private instances.
