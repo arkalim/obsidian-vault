@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T12:44:00+05:30
+updated: 2022-05-20T15:19:49+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -48,13 +48,13 @@ updated: 2022-05-20T12:44:00+05:30
 [[Route 53]]
 [[API Gateway]]
 [[Virtual Private Cloud (VPC)]]
-[[Reachability Analyzer]]
+[[PrivateLink]]
 [[Site-to-Site VPN]]
 [[Direct Connect (DX)]]
-[[PrivateLink]]
 [[Transit Gateway]]
-[[Traffic Mirroring]]
 [[Networking Costs]]
+[[Reachability Analyzer]]
+[[Traffic Mirroring]]
 
 #### Messaging
 [[Simple Queue Service (SQS)]]
