@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-20T09:41:29+05:30
+updated: 2022-05-20T09:46:25+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -37,7 +37,7 @@ updated: 2022-05-20T09:41:29+05:30
 	- A read replica is promoted as the new master in less than 30 seconds
 	- Aurora flips the **CNAME** record for your DB Instance to point at the healthy replica
 	- In case **no replica** is available, Aurora will attempt to **create a new DB Instance** in the **same AZ** as the original instance. This replacement of the original instance is done on a **best-effort basis** and may not succeed.
--   Support for Cross Region Replication
+-   Support for **Cross Region Replication**
 -   Aurora maintains 6 copies of your data across 3 AZ:
     -   4 copies out of 6 needed for writes (can still write if 1 AZ completely fails)
     -   3 copies out of 6 need for reads
