@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T14:45:05+05:30
+updated: 2022-05-20T14:53:09+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -150,7 +150,7 @@ updated: 2022-05-20T14:45:05+05:30
 	- ![[attachments/Pasted image 20220512220647.png]]
 
 ## VPC Peering
-- Connect two VPCs (could be in different region or account) using the AWS private network
+- Connect two VPCs (could be in **different region or account**) using the AWS private network
 	- ![[attachments/Pasted image 20220512221728.png]]
 - Participating VPCs must have **non-overlapping CIDR**
 - VPC Peering connection is **non-transitive** (A - B, B - C != A - C)
