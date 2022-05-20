@@ -1,6 +1,6 @@
 ---
 created: 2022-05-08T13:28:22+05:30
-updated: 2022-05-16T20:58:29+05:30
+updated: 2022-05-20T19:47:04+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -24,7 +24,7 @@ updated: 2022-05-16T20:58:29+05:30
 - **Custom Origin** (for HTTP) - need to be publicly accessible on HTTP by public IPs of edge locations
 	- EC2 Instance
 	- ELB
-	- S3 Website
+	- S3 Website (may contain client-side script)
 	- On-premise backend
 
 > To restrict access to ELB directly when it is being used as the origin in a CloudFront distribution, create a VPC Security Group for the ELB and use AWS Lambda to automatically update the CloudFront internal service IP addresses when they change.
