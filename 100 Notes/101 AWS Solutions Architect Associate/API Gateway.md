@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T20:11:03+05:30
-updated: 2022-05-20T13:35:02+05:30
+updated: 2022-05-20T13:38:40+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -39,15 +39,15 @@ updated: 2022-05-20T13:35:02+05:30
 
 #### Lambda Authorizer
 -   Uses a Lambda function to validate the token being passed in the header and return an lAM policy to determine if the user should be allowed to access the resource.
--   Option to cache result of authentication
+-   Option to **cache result of authentication**
 -   For **OAuth / SAML / 3rd party type of authentication**
-- Good to provide access outside your AWS account if you have an existing IDP
+- Good to provide access outside your AWS account if you have an **existing IDP**
 - Diagram
 	- ![[attachments/Pasted image 20220510203327.png]]
 
 #### Cognito User Pools (CUP)
 - **Seamless integration with CUP** (no custom lambda implementation required)
-- Only supports authentication (authorization must be implemented in the backend)
+- **Only supports authentication** (authorization must be implemented in the backend)
 - The client (user) first authenticates with Cognito and gets the access token which it passes in the header to API gateway. API gateway validates the token using Cognito and then hits the backend if the token is valid.
 - Diagram
 	- ![[attachments/Pasted image 20220510203756.png]]
