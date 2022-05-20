@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T19:47:44+05:30
-updated: 2022-05-20T11:05:01+05:30
+updated: 2022-05-20T11:07:04+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -23,7 +23,7 @@ updated: 2022-05-20T11:05:01+05:30
 	- Pay for the provisioned capacity
 	- Auto-scaling option (eg. set RCU and WCU to 80% and the capacities will be scaled automatically based on the workload)
 - **On-demand Mode**
-	-  Auto-scaling based on the workload
+	-  Capacity auto-scaling based on the workload
 	-  Pay for what you use (more expensive)
 	-  Great for unpredictable workloads
 
