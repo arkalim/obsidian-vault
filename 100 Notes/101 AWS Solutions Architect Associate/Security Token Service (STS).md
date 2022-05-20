@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T09:38:08+05:30
-updated: 2022-05-20T18:37:53+05:30
+updated: 2022-05-20T18:40:55+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -23,8 +23,8 @@ updated: 2022-05-20T18:37:53+05:30
 		- ![[attachments/Pasted image 20220511095752.png]]
 
 ## AssumeRoleWithSAML
-- Allow non IAM users logged in with SAML to assume an IAM role
+- Allow **non IAM users** logged in with SAML to assume an IAM role
 
 ## AssumeRoleWithWebldentity
-- Allow non IAM users logged in via an identity provider (Facebook, Google, etc.) to assume an IAM role
+- Allow **non IAM users** logged in via an identity provider (Facebook, Google, etc.) to assume an IAM role
 - AWS recommends using [[Cognito]] instead
