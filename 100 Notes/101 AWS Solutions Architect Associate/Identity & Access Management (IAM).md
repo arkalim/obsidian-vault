@@ -1,12 +1,12 @@
 ---
 created: 2022-05-05T21:28:07+05:30
-updated: 2022-05-18T23:44:18+05:30
+updated: 2022-05-20T18:05:24+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 
-# IAM
+# Identity & Access Management (IAM)
 - Global Service (IAM entities like roles can be used in any region without recreation)
 
 > **IAM Query API** can be used to make direct calls to the IAM web service (using access key ID and secret access key for authentication)

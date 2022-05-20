@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d6bf16b42905e053",
+        "id": "b90547f8f30ef750",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -142,17 +142,17 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "d6bf16b42905e053",
+  "active": "b90547f8f30ef750",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/Identity & Access Management (IAM).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/Cognito.md",
     "100 Notes/101 AWS Solutions Architect Associate/EventBridge.md",
     "100 Notes/101 AWS Solutions Architect Associate/Amazon MQ.md",
     "100 Notes/101 AWS Solutions Architect Associate/Kinesis.md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Notification Service (SNS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Traffic Mirroring.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Reachability Analyzer.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Networking Costs.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Reachability Analyzer.md"
   ]
 }
