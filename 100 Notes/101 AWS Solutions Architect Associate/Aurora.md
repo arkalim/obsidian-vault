@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-20T09:46:25+05:30
+updated: 2022-05-20T09:50:01+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -47,9 +47,9 @@ updated: 2022-05-20T09:46:25+05:30
 ## Encryption & Network Security
 -   Encryption at rest using KMS (same as RDS)
 -   Encryption in flight using SSL (same as RDS)
-- You can’t SSH into Aurora (same as RDS)
+- You can’t SSH into Aurora instances (same as RDS)
 - Network Security is managed using Security Groups (same as RDS)
-- EC2 instances access the DB using [[Relational Database Service (RDS)#Access Management|IAM DB Authentication]] (same as RDS)
+- EC2 instances should access the DB using [[Relational Database Service (RDS)#Access Management|IAM DB Authentication]] but they can also do it using credentials fetched from the [[SSM Parameter Store]] (same as RDS) 
 
 ## Aurora Serverless
 - Optional
