@@ -1,6 +1,6 @@
 ---
 created: 2022-05-08T13:28:22+05:30
-updated: 2022-05-20T19:49:59+05:30
+updated: 2022-05-20T19:56:41+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -48,7 +48,7 @@ updated: 2022-05-20T19:49:59+05:30
 	- ![[attachments/Pasted image 20220508161137.png]]
 
 ## Origin Groups
-- Consists of a **primary** and a **secondary** origin (can be in different regions)
+- Consists of a **primary** and a **secondary** origin (can be in **different regions**)
 - Automatic failover to secondary
 	- ![[attachments/Pasted image 20220508161659.png]]
 - Provides **region-level** [[Concepts#High Availability|High Availability]]
