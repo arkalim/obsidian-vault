@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T19:47:44+05:30
-updated: 2022-05-20T11:07:04+05:30
+updated: 2022-05-20T11:16:34+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -44,6 +44,5 @@ updated: 2022-05-20T11:07:04+05:30
 
 ## Global Tables
 -   For low latency access in multiple-regions
--   active-active cross-region replication
--   Applications can READ and WRITE to the table in any region and the change will automatically be replicated to other tables
+-   Applications can READ and WRITE to the table in any region and the change will automatically be replicated to other tables (**active-active cross-region replication**)
 -   **Must enable DynamoDB Streams as a pre-requisite**
