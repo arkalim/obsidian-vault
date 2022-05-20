@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T10:10:34+05:30
-updated: 2022-05-20T09:50:01+05:30
+updated: 2022-05-20T10:08:36+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -62,7 +62,7 @@ updated: 2022-05-20T09:50:01+05:30
 - Optional
 - Every node (replica) in the cluster can read and write
 - Used for immediate failover for write node (high availability in terms of write). If disabled and the master node fails, need to promote a Read Replica as the new master (will take some time).
-- Client needs to have multiple DB connections for failover
+- **Client needs to have multiple DB connections for failover**
 
 ## Aurora Global Database
 -   Entire database is replicated across regions to recover from region failure
