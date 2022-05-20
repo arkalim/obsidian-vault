@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/X-Ray.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/CostExplorer.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/X-Ray.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/CostExplorer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/X-Ray.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/CostExplorer.md"
               }
             }
           },
@@ -144,11 +144,11 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/X-Ray.md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/CostExplorer.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Config.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/Trusted Advisor.md",
+    "100 Notes/101 AWS Solutions Architect Associate/X-Ray.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Config.md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Container Service (ECS).md",
