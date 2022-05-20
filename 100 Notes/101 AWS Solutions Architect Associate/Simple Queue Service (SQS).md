@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T19:50:26+05:30
-updated: 2022-05-19T10:33:52+05:30
+updated: 2022-05-20T17:10:50+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -35,7 +35,7 @@ updated: 2022-05-19T10:33:52+05:30
     -   **Group ID**: messages will be ordered and grouped for each group ID
     -   **Message deduplication ID**: for deduplication of messages
 
-## Auto Scaling
+## Consumer Auto Scaling
 We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances which will scale based on the CW metric = Queue length / Number of EC2 instances. CW alarms can be triggered to step scale the consumer application.
 
 ## Encryption
@@ -53,7 +53,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 #### Message Visibility Timeout
 - Once a message is polled by a consumer, it becomes invisible to other consumers for the duration of message visibility timeout. After the message visibility timeout is over, the message is visible in the queue.
 - If a consumer dies while processing the message, it will be visible in the queue after the visibility timeout
-- If a message is not processed within the visibility timeout, it will be processed again (by another consumer). However, a consumer could call the **ChangeMessageVisibility API** to change the visibility timeout for that specific message. This will get the consumer more time to process the message.
+- If a message is not processed within the visibility timeout, it will be processed again (by another consumer). However, a consumer could call the `ChangeMessageVisibility` API to change the visibility timeout for that specific message. This will give the consumer more time to process the message.
 - **Default: 30s** 
 - Can be configured for the entire queue
 	- High: if the consumer crashes, re-processing will take long
@@ -63,7 +63,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 
 #### Dead Letter Queue (DLQ)
 - An SQS queue used to store failing to be processed messages in another queue
-- After the MaximumReceives threshold is exceeded, the message goes into the DLQ
+- After the `MaximumReceives` threshold is exceeded, the message goes into the DLQ
 - Prevents resource wastage
 - Recommended to set a high retention period for DLQ (14 days)
 
@@ -71,7 +71,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 - Consumers see the message after some delay
 - Default: 0 (Max: 15 min)
 - Can be set at the queue level
-- Can override the default queue delay for a specific message using the **DelaySeconds** parameter in the message (**message timer**)
+- Can override the default queue delay for a specific message using the `DelaySeconds` parameter in the message (**message timer**)
 
 #### Long Polling
 - Poll the queue for longer
@@ -79,7 +79,7 @@ We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances whic
 - Reduces latency (incoming messages during the polling will be read instantaneously)
 - **Polling time: 1 sec to 20 sec**
 - Long Polling is preferred over Short Polling
-- Can be enabled at the queue level or at the consumer level by using **WaitTimeSeconds**
+- Can be enabled at the queue level or at the consumer level by using `WaitTimeSeconds`
 
 ## Request-Response System
 - The idea is to build a request-response system where both the requesters and responders can scale independently. The requester sends the request into a request queue with attributes “correlation ID” and “reply to”. This request will be picked by one of many responders in an ASG. The request will be processed and it will be sent to the right response queue along with the same “correlation ID”. The “correlation ID” will help the requester identify which response corresponds to their request.
