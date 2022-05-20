@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T20:38:54+05:30
-updated: 2022-05-17T10:29:11+05:30
+updated: 2022-05-20T17:15:42+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -23,8 +23,8 @@ updated: 2022-05-17T10:29:11+05:30
 -   Client-side encryption
 
 ## Access Management
--   lAM policies to regulate access to the SNS API
--   SNS Access Policies (resource based policy)
+-   **lAM policies** to regulate access to the SNS API
+-   **SNS Access Policies** (resource based policy)
     -   Used for cross-account access to SNS topics
     -   Used for allowing other AWS services to publish to an SNS topic
 
@@ -34,7 +34,7 @@ updated: 2022-05-17T10:29:11+05:30
     -   **Group ID**: messages will be ordered and grouped for each group ID
     -   **Message deduplication ID**: for deduplication of messages
 -   **Can only have SQS FIFO queues as subscribers**
--   Limited throughput (same as SQS FIFO) because only SQS FIFO queues can read from FIFO topics
+-   **Limited throughput (same as SQS FIFO)** because only SQS FIFO queues can read from FIFO topics
 -   **The topic name must end with** `.fifo`
 
 ## SNS + [[Simple Queue Service (SQS)|SQS]] Fanout Pattern
