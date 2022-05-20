@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T22:08:38+05:30
-updated: 2022-05-17T22:13:49+05:30
+updated: 2022-05-20T20:14:50+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -17,9 +17,9 @@ updated: 2022-05-17T22:13:49+05:30
 #### Custom Metrics
 - Define and send your own custom metrics to CloudWatch using **PutMetricData API**
 - Metric resolution (StorageResolution API) - frequency of sending metric data
--   Standard: 60 seconds
+-   Standard: **60 seconds**
 -   High Resolution: 1/5/10/30 seconds (higher cost)
-- Accepts metric data points two weeks in the past and two hours in the future
+- Accepts metric data points **two weeks in the past and two hours in the future**
 
 #### EC2 Monitoring
 - Must run a **CloudWatch agent** on instance to push system **metrics and logs** to CloudWatch.
