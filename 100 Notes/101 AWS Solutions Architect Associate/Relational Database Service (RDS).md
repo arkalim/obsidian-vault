@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-20T09:16:09+05:30
+updated: 2022-05-20T09:24:27+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -85,12 +85,12 @@ updated: 2022-05-20T09:16:09+05:30
 	- Only works with **MySQL** and **PostgreSQL**
 	- Auth token is valid for 15 mins
 	- Network traffic is encrypted in-flight using SSL
-	- Central access management using IAM (instead of doing it for each DB individually)
+	- **Central access management using IAM** (instead of doing it for each DB individually)
 - EC2 & Lambda can also get DB credentials from [[SSM Parameter Store]] to authenticate to the DB - credentials based access
 
 ## RDS Events
 - RDS events only provide operational events on the DB instance (not the data)
-- To capture data modification events, use **native functions** or **stored procedure**s to invoke a **Lambda** function.
+- To capture data modification events, use **native functions** or **stored procedures** to invoke a **Lambda** function.
 
 ## Monitoring
 - **CloudWatch Metrics for RDS**
