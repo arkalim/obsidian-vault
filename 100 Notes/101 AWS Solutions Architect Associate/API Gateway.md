@@ -1,6 +1,6 @@
 ---
 created: 2022-05-10T20:11:03+05:30
-updated: 2022-05-17T09:39:45+05:30
+updated: 2022-05-20T13:28:14+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -9,11 +9,10 @@ updated: 2022-05-17T09:39:45+05:30
 - Serverless REST APIs
 - Invoke Lambda functions using REST APIs (API gateway will proxy the request to lambda)
 - Supports **WebSocket** (stateful)
-- Rate Limiting (throttle requests)
+- Rate Limiting (throttle requests) - returns **429 Too Many Requests**
 - Cache API responses
 - Transform and validate requests and responses
 - **Can be integrated with any HTTP endpoint in the backend or any AWS API**
-- Returns **429 Too Many Requests** error for throttling requests
 
 > - We can use an API Gateway REST API to directly access a DynamoDB table by creating a proxy for the DynamoDB query API.
 > - API cache is not enabled for a method, it is enabled for a stage
