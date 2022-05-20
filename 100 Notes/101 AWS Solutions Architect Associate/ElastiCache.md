@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T11:11:37+05:30
-updated: 2022-05-20T10:15:51+05:30
+updated: 2022-05-20T10:18:24+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -21,7 +21,7 @@ updated: 2022-05-20T10:15:51+05:30
 ## Redis vs Memcached
 | Redis                                                          | Memcached                                            |
 | -------------------------------------------------------------- | ---------------------------------------------------- |
-| In-memory data store                                           | Distributed memory object cache                      |
+| In-memory data store                                           | **Distributed** memory object cache                      |
 | Read Replicas (for scaling reads & HA)                         | No replication                                       |
 | Backup & restore                                               | No backup & restore                                  |
 | **Single-threaded**                                            | **Multi-threaded**                                   |
