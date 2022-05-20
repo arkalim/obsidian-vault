@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Global Accelerator.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Global Accelerator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Global Accelerator.md"
               }
             }
           },
@@ -144,15 +144,15 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Global Accelerator.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md",
     "100 Notes/101 AWS Solutions Architect Associate/Well Architected Framework.md",
     "100 Notes/101 AWS Solutions Architect Associate/Important Ports.md",
     "100 Notes/101 AWS Solutions Architect Associate/Blue-Green Deployment.md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudFormation.md",
     "100 Notes/101 AWS Solutions Architect Associate/Continuous Integration Continuous Delivery (CICD).md",
     "100 Notes/101 AWS Solutions Architect Associate/Security Token Service (STS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Single Sign-On (SSO).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Identity Federation in AWS.md"
   ]
 }

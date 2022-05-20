@@ -1,6 +1,6 @@
 ---
 created: 2022-05-08T16:23:17+05:30
-updated: 2022-05-14T12:30:04+05:30
+updated: 2022-05-20T20:05:34+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -31,7 +31,7 @@ updated: 2022-05-14T12:30:04+05:30
 - **Endpoint weights** to determine the proportion of traffic that is directed to endpoints in an endpoint group
 
 ## Disaster Recovery
-- Global Accelerator performs health checks for the application
+- Global Accelerator performs **health checks** for the application
 - **Failover in less than 1 minute** for unhealthy endpoints
 
 ## Security
