@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T10:08:33+05:30
-updated: 2022-05-20T12:08:36+05:30
+updated: 2022-05-20T12:10:27+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -62,4 +62,4 @@ updated: 2022-05-20T12:08:36+05:30
 - Devices for edge computing
 	- Snowcone
 	- Snowball Edge
-- Can run EC2 Instances & AWS Lambda functions locally on Snow device (using AWS loT Greengrass)
+- Can run **EC2 Instances & AWS Lambda functions locally on Snow device** (using **AWS loT Greengrass**)

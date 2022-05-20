@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T11:21:42+05:30
+updated: 2022-05-20T12:11:32+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -39,10 +39,10 @@ updated: 2022-05-20T11:21:42+05:30
 
 #### Data Migration & Sync
 [[Snow Family]]
-[[Transfer Family]]
 [[Database Migration Service (DMS)]]
 [[DataSync]]
 [[AppSync]]
+[[Transfer Family]]
 
 #### Networking
 [[Route 53]]
