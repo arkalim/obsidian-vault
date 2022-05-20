@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T10:42:42+05:30
-updated: 2022-05-14T18:52:11+05:30
+updated: 2022-05-20T12:39:43+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -17,5 +17,6 @@ updated: 2022-05-14T18:52:11+05:30
 	- ![[attachments/Pasted image 20220513214950.png]]
 - Can also be used to transfer between two EFS in different regions
 	- ![[attachments/Pasted image 20220513215131.png]]
-- Perfect to move large amounts of historical data from on-premises to S3 Glacier Deep Archive (directly).
 - Suitable in automating and accelerating online data transfers to a variety of AWS storage services (over [[Storage Gateway]] which only works with S3)
+
+> Perfect to move large amounts of historical data from on-premises to S3 Glacier Deep Archive (directly).
