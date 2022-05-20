@@ -1,6 +1,6 @@
 ---
 created: 2022-05-12T09:39:59+05:30
-updated: 2022-05-20T14:53:09+05:30
+updated: 2022-05-20T14:58:00+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -158,7 +158,8 @@ updated: 2022-05-20T14:53:09+05:30
 	- ![[attachments/Pasted image 20220512221946.png]]
 	- ![[attachments/Pasted image 20220512221954.png]]
 - You can reference a security group in a peered VPC across account or region. This allows us to use SG instead of CIDR when configuring rules.
-- Does not facilitate centrally-managed VPC like [[Resource Access Manager (RAM)#VPC Sharing|VPC Sharing]]
+
+> VPC Peering does not facilitate centrally-managed VPC like [[Resource Access Manager (RAM)#VPC Sharing|VPC Sharing]]
 
 ## VPC Endpoints
 - Private endpoints within your VPC that allow AWS services to privately connect to resources within your VPC without traversing the public internet (cheaper)
