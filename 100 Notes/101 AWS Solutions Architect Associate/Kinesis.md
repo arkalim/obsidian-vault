@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T21:06:16+05:30
-updated: 2022-05-18T13:00:47+05:30
+updated: 2022-05-20T17:23:10+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -22,9 +22,9 @@ updated: 2022-05-18T13:00:47+05:30
 - **Data Retention: 1 day (default) to 365 days**
 - A record consists of a **partition key** (used to partition data coming from multiple publishers) and data blob (**max 1MB**)
 - Records will be ordered in each shard
-- Producers use SDK, Kinesis Producer Library (KPL) or Kinesis Agent to publish records
+- Producers use SDK, Kinesis Producer Library (KPL) or **Kinesis Agent** to publish records
 - Consumers use SDK or Kinesis Client Library (KCL) to consume the records
-- Once data is inserted in Kinesis, it can’t be modified or deleted (immutability)
+- **Once data is inserted in Kinesis, it can’t be modified or deleted (immutability)**
 - Ability to reprocess (replay) data
 - Diagram
 	- ![[attachments/Pasted image 20220509221100.png]]
