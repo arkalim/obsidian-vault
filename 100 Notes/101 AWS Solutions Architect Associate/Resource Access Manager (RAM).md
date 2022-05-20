@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T20:29:40+05:30
-updated: 2022-05-14T11:41:34+05:30
+updated: 2022-05-20T23:23:56+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -15,7 +15,7 @@ updated: 2022-05-14T11:41:34+05:30
 - Allows multiple accounts to create resources into shared and **centrally-managed** VPCs
 - **Cannot share the whole VPC**
 - Network is shared (high degree of interconnectivity)
-    -   every resource deployed in the subnet can talk to each other using private IP
+    -   every resource deployed in the subnet can talk to each other using **private IP**
     -   security groups from other accounts can be referenced
     - Diagram
 	    - ![[attachments/Pasted image 20220511203336.png]]
