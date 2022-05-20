@@ -1,6 +1,6 @@
 ---
 created: 2022-05-06T20:45:21+05:30
-updated: 2022-05-14T22:11:39+05:30
+updated: 2022-05-20T23:31:48+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -19,7 +19,7 @@ updated: 2022-05-14T22:11:39+05:30
 
 ## High Availability
 - Ability to survive a hardware or AZ failure
-- Achieved by running at least 2 instances of the application in different
+- Achieved by running at least 2 instances of the application in different AZs
 - Cost effective way of implementing HA
 	- Stateless
 		- Create a system where only 1 EC2 instance stays active at a time. If the instance goes down, ASG will start a new one. Also, the EC2 instance will issue an API call to attach the Elastic IP based on tag.

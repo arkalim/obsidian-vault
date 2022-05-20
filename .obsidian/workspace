@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/Amazon WorkSpaces.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Concepts.md",
             "mode": "preview",
             "source": true
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Amazon WorkSpaces.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/Amazon WorkSpaces.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Concepts.md"
               }
             }
           },
@@ -156,15 +156,15 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/Amazon WorkSpaces.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Concepts.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Resource Access Manager (RAM).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Macie.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Inspector.md",
-    "100 Notes/101 AWS Solutions Architect Associate/GuardDuty.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Firewall Manager.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Web Application Firewall (WAF).md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Backup.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Cost Effective Highly Available Monolithic Architecture.md",
+    "100 Notes/101 AWS Solutions Architect Associate/DDoS Protection.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Serverless Premium Stock Video Website.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Serverless Blogging Website.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Serverless ToDo List App.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Extras.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Well Architected Framework.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Amazon WorkSpaces.md"
   ]
 }
