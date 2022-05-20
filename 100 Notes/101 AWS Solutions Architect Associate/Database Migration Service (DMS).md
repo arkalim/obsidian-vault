@@ -1,6 +1,6 @@
 ---
 created: 2022-05-13T10:37:26+05:30
-updated: 2022-05-18T09:01:44+05:30
+updated: 2022-05-20T12:28:01+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -9,7 +9,7 @@ updated: 2022-05-18T09:01:44+05:30
 - Migrate entire **databases** from on-premises to AWS cloud
 -   The source database remains available during migration
 - **Continuous Data Replication** using **CDC (change data capture)**
-- Requires **EC2 instance running the DMS software** to perform the replication tasks. If the amount of data is large, use a large instance. If multi-AZ is enabled, need multiple instances different AZs.
+- Requires **EC2 instance running the DMS software** to perform the replication tasks. If the amount of data is large, use a large instance. If multi-AZ is enabled, need an instance in each AZ.
 - Most resource-efficient way with least development and no management, to continuously replicate data to [[Redshift]] for analytics (first moves data to an S3 bucket and then to Redshift)
 
 > DMS supports S3 as the source and **Kinesis** as the target, so data stored in an S3 bucket can be streamed to Kinesis. This also supports CDC to stream new data that is put in the S3 bucket.
