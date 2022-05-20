@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T00:25:19+05:30
-updated: 2022-05-20T09:11:40+05:30
+updated: 2022-05-20T09:14:37+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -55,7 +55,7 @@ updated: 2022-05-20T09:11:40+05:30
 - Increase availability of the RDS database by replicating it to another AZ
 	- ![[attachments/Pasted image 20220507010002.png]]
 - **Synchronous Replication**
-- **Connection string does not require to be updated** (both the databases can be accessed by one DNS name, which allows for automatic app failover to standby database)
+- **Connection string does not require to be updated** (both the databases can be accessed by one DNS name, which allows for automatic DNS failover to standby database)
 - When failing over, **RDS flips the CNAME** record for the DB instance to point at the standby, which is in turn promoted to become the new primary.
 - **Cannot be used for scaling as the standby database cannot take read/write operation**
 
