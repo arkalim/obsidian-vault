@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md"
               }
             }
           },
@@ -144,9 +144,9 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudTrail.md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/CloudWatch.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Container Service (ECS).md",
     "100 Notes/101 AWS Solutions Architect Associate/Global Accelerator.md",
     "100 Notes/101 AWS Solutions Architect Associate/CloudFront.md",

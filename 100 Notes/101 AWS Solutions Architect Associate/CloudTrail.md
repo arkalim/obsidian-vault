@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T00:01:49+05:30
-updated: 2022-05-19T10:30:28+05:30
+updated: 2022-05-20T20:32:28+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -22,14 +22,14 @@ updated: 2022-05-19T10:30:28+05:30
 - Events of operations that modify AWS resources. Ex:
 	- Creating a new IAM user
 	- Deleting a subnet
-- Enabled by default
+- **Enabled by default**
 - Can separate Read Events (that don’t modify resources) from Write Events (that may modify resources)
 
 #### Data Events
 - Events of operations that modify data
 	- S3 object-level activity
 	- Lambda function execution
-- Disabled by default (due to high volume of data events)
+- **Disabled by default** (due to high volume of data events)
 
 #### Insight Events
 -   Enable **CloudTrail Insights** to detect unusual activity in your account
