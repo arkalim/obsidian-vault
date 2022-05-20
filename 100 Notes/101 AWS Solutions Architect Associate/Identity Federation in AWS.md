@@ -1,6 +1,6 @@
 ---
 created: 2022-05-11T10:08:07+05:30
-updated: 2022-05-16T22:49:07+05:30
+updated: 2022-05-20T18:52:21+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -21,8 +21,8 @@ updated: 2022-05-16T22:49:07+05:30
 	- ![[attachments/Pasted image 20220511103332.png]]
 
 ## SAML 2.0 Federation
-- Used to integrate **Active Directory / ADFS** with AWS using SAML compatible IDP
-- **Client exchanges SAML assertion for security credentials from STS** using the STS **AssumeRoleWithSAML** API
+- Used to integrate **Active Directory / ADFS** with AWS using **SAML compatible IDP**
+- **Client exchanges SAML assertion for security credentials from STS** using the STS `AssumeRoleWithSAML` API
 - Flow diagram
 	- ![[attachments/Pasted image 20220511103954.png]]
 
