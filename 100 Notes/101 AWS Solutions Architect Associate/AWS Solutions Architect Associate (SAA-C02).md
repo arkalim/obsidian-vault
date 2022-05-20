@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T20:52:21+05:30
+updated: 2022-05-20T21:56:34+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -97,17 +97,17 @@ updated: 2022-05-20T20:52:21+05:30
 [[Continuous Integration Continuous Delivery (CICD)]]
 [[Blue-Green Deployment]]
 
-#### Analytics
-[[Athena]]
-[[Elastic Map Reduce (EMR)]]
-[[Glue]]
-
 #### Parameters & Encryption
 [[Key Management Service (KMS)]]
 [[SSM Parameter Store]]
 [[Secrets Manager]]
 [[CloudHSM]]
 [[OpsWorks]]
+
+#### Analytics
+[[Athena]]
+[[Elastic Map Reduce (EMR)]]
+[[Glue]]
 
 #### Cloud Security
 [[AWS Shield]]
