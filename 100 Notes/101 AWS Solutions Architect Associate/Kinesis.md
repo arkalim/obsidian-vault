@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09T21:06:16+05:30
-updated: 2022-05-20T17:26:46+05:30
+updated: 2022-05-20T17:33:53+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -48,12 +48,11 @@ updated: 2022-05-20T17:26:46+05:30
 	- ![[attachments/Pasted image 20220509221812.png]]
 
 ## Kinesis Data Analytics (KDA)
-- Perform real-time analytics on Kinesis streams using SQL
+- Perform **real-time analytics on Kinesis streams using SQL**
 - Creates streams from SQL query response
 - **Cannot ingest data directly from source** (ingests data from KDS or KDF)
 - **Auto-scaling**
 - **Serverless**
-- **Real-time Analytics**
 - Pay for the data processed (no provisioning)
 - Use cases:
     -   Time-series analytics
