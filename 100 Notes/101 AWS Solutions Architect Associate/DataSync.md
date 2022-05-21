@@ -1,12 +1,12 @@
 ---
 created: 2022-05-13T10:42:42+05:30
-updated: 2022-05-20T12:39:43+05:30
+updated: 2022-05-21T10:18:54+05:30
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # DataSync
-- Move **large amounts of data** from your **on-premises NAS or file system** via **NFS** or **SMB** protocol to AWS over the **public internet using TLS** or over a [[Direct Connect (DX)]] connection.
+- Move **large amounts of data** from your **on-premises NAS or file system** via **NFS** or **SMB** protocol to AWS over the **public internet using TLS**
 - Can synchronize to: 
 	- S3 (all storage classes)
 	- EFS
