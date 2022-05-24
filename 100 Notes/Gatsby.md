@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24T20:12:42+05:30
-updated: 2022-05-24T20:18:10+05:30
+updated: 2022-05-24T20:24:48+05:30
 ---
 [[../000 Home|Home]]
 
@@ -12,6 +12,8 @@ updated: 2022-05-24T20:18:10+05:30
 
 ## Themes
 - Using a Gatsby theme, all of your website configuration is abstracted out of your site content, and into an installable package.
+- The installation steps will be provided in the GitHub repo of the theme.
+- [Gatsby Casper Theme](https://github.com/scttcper/gatsby-theme-casper)
 
 ## Gatsby CLI
 #### Installation
@@ -20,5 +22,5 @@ npm install -g gatsby-cli
 ```
 
 #### Commands
-- Create a new site
-	- `gatsby new site_name`
+- Create a new site `gatsby new site_name`
+- Start development server `gatsby develop`
