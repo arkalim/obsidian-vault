@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-20T21:56:34+05:30
+updated: 2022-05-24T09:59:57+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -152,3 +152,4 @@ updated: 2022-05-20T21:56:34+05:30
 -   65 questions - 130 minutes (2h 10min)
 -   Can request extra 30 mins on exam if you are a non-native English speaker
 -   How to book: [Ultimate AWS Certified Solutions Architect Associate 2022 | Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture/13531270#announcements)
+- 

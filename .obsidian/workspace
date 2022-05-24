@@ -10,19 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "94e4613a92be49e2",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-            "mode": "preview",
+            "mode": "source",
             "source": true
           }
         }
@@ -152,9 +140,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
-  "active": "94e4613a92be49e2",
+  "active": "b90547f8f30ef750",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
