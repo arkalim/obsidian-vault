@@ -1,6 +1,6 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-24T09:59:57+05:30
+updated: 2022-05-24T10:03:00+05:30
 ---
 
 [[../../000 Home|Home]]
@@ -151,5 +151,4 @@ updated: 2022-05-24T09:59:57+05:30
 -   Pass / Fail Exam (score doesn’t appear on the certificate)
 -   65 questions - 130 minutes (2h 10min)
 -   Can request extra 30 mins on exam if you are a non-native English speaker
--   How to book: [Ultimate AWS Certified Solutions Architect Associate 2022 | Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/learn/lecture/13531270#announcements)
-- 
+- Badge public URL: [AWS Certified Solutions Architect – Associate - Credly](https://www.credly.com/badges/dfc84bb4-75ab-449f-bdf5-4dc85eb12ad6/public_url)
