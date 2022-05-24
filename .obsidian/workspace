@@ -157,14 +157,14 @@
   "active": "94e4613a92be49e2",
   "lastOpenFiles": [
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Athena.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md",
     "100 Notes/101 AWS Solutions Architect Associate/Transfer Family.md",
     "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
     "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
     "100 Notes/101 AWS Solutions Architect Associate/Storage Gateway.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md",
-    "100 Notes/101 AWS Solutions Architect Associate/Snow Family.md",
-    "100 Notes/101 AWS Solutions Architect Associate/ElasticSearch.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Neptune.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Redshift.md"
+    "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md"
   ]
 }
