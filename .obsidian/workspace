@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-            "mode": "preview",
+            "file": "100 Notes/Gatsby.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+                "file": "100 Notes/Gatsby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md"
+                "file": "100 Notes/Gatsby.md"
               }
             }
           },
@@ -145,15 +145,15 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
+    "100 Notes/Gatsby.md",
+    "100 Notes/100 Notes.md",
+    "000 Home.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
     "100 Notes/101 AWS Solutions Architect Associate/Athena.md",
     "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
     "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md",
     "100 Notes/101 AWS Solutions Architect Associate/Transfer Family.md",
-    "100 Notes/101 AWS Solutions Architect Associate/AppSync.md",
-    "100 Notes/101 AWS Solutions Architect Associate/DataSync.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Storage Gateway.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Database Migration Service (DMS).md"
+    "100 Notes/101 AWS Solutions Architect Associate/AppSync.md"
   ]
 }
