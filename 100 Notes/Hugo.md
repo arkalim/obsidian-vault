@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T16:38:59+05:30
+updated: 2022-05-25T16:42:02+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -12,8 +12,9 @@ Open-source static site generator based on GoLang
 
 ## Points
 - Steps to install a theme is provided in the theme's GitHub repo
-- Configurations depend upon the theme
+- Configurations depend upon the theme and are updated in `config.yml` file
 - `draft: true` makes a post only available during the development server and it will not be built for the final website
+- `baseURL` in `config.yml` is the base URL for your website
 
 ## Installation
 ```
