@@ -1,12 +1,12 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T10:38:15+05:30
+updated: 2022-05-25T15:32:32+05:30
 ---
 [[../000 Home|Home]]
 
 ---
 # Hugo
-Static site generator based on Go
+Open-source static site generator based on GoLang
 ## Quick Start Guide
 [Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)
 
