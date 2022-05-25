@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/Gatsby.md",
+            "file": "100 Notes/100 Notes.md",
             "mode": "preview",
             "source": true
           }
@@ -57,13 +57,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "7d0af36ae4a5ca0f",
@@ -79,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/Gatsby.md",
+                "file": "100 Notes/100 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/Gatsby.md"
+                "file": "100 Notes/100 Notes.md"
               }
             }
           },
@@ -145,10 +143,10 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/Gatsby.md",
     "100 Notes/100 Notes.md",
-    "000 Home.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "000 Home.md",
+    "100 Notes/Gatsby.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
     "100 Notes/101 AWS Solutions Architect Associate/Athena.md",
     "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
