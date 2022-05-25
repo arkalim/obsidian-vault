@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T10:06:54+05:30
+updated: 2022-05-25T10:11:19+05:30
 ---
 [[../000 Home|Home]]
 
@@ -22,3 +22,8 @@ hugo new site my-blog
 
 ## PaperMod Theme
 [Hugo PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
+
+## Start development server
+```
+hugo server -D
+```
