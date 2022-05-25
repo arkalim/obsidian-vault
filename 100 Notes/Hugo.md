@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T16:23:06+05:30
+updated: 2022-05-25T16:30:36+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -11,17 +11,23 @@ Open-source static site generator based on GoLang
 [Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)
 
 ## Points
-- `draft: true` makes a post only available during the development server and it will not be built for the final website
 - Steps to install a theme is provided in the theme's GitHub repo
 - Configurations depend upon the theme
+- `draft: true` makes a post only available during the development server and it will not be built for the final website
 
 ## Installation
 ```
 brew install hugo
 ```
 
-## PaperMod Theme
+## Themes
 [Hugo PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
+
+#### Modifying Themes
+- In the layouts folder, create folders to match the exact path of the file that you want to modify from the theme's layout folder (`themes/themeName/layout`)
+- Copy the file to that path in the layouts folder and edit it
+
+> If we edit the layouts of the theme directly, then the updates will get overwritten if we update the theme
 
 ## Commands
 #### Create a new site
