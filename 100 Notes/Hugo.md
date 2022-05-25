@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T15:47:27+05:30
+updated: 2022-05-25T15:49:43+05:30
 ---
 [[../000 Home|Home]]
 
@@ -32,3 +32,6 @@ hugo new site <name of site> -f yaml
 ```
 hugo server -D
 ```
+
+## Resources
+[Getting Started With Hugo](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
