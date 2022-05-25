@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T16:35:18+05:30
+updated: 2022-05-25T16:38:59+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -49,6 +49,11 @@ This automatically adds front-matter to the created MD file
 #### Start development server
 ```
 hugo server -D
+```
+
+#### Build static files for deployment
+```
+hugo
 ```
 
 ## Folder Structure
