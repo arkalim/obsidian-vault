@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T16:13:49+05:30
+updated: 2022-05-25T16:20:14+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -9,6 +9,9 @@ updated: 2022-05-25T16:13:49+05:30
 Open-source static site generator based on GoLang
 ## Quick Start Guide
 [Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)
+
+## Points
+- `draft: true` makes a post only available during the development server and it will not be built for the final website
 
 ## Installation
 ```
@@ -46,7 +49,6 @@ hugo server -D
 	- `layouts` - to overwrite default theme layouts
 	- `static` - for static assets like images
 	- `themes` - contains all the themes
-
 
 ## Resources
 [Getting Started With Hugo](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
