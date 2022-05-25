@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-25T18:03:06+05:30
+updated: 2022-05-25T18:18:20+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -24,6 +24,7 @@ git init
 ```
 git submodule add https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
 ```
+Commit changes and publish repo.
 
 ## Updating Theme
 ```
