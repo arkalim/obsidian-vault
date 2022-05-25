@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T16:30:36+05:30
+updated: 2022-05-25T16:35:18+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -59,4 +59,4 @@ hugo server -D
 	- `themes` - contains all the themes
 
 ## Resources
-[Getting Started With Hugo](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
+[Hugo Tutorial with PaperMod Theme](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
