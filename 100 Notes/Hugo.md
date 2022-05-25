@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T10:03:46+05:30
+updated: 2022-05-25T10:06:54+05:30
 ---
 [[../000 Home|Home]]
 
@@ -19,3 +19,6 @@ brew install hugo
 ```
 hugo new site my-blog
 ```
+
+## PaperMod Theme
+[Hugo PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
