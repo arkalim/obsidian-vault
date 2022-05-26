@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/Hugo.md",
+            "file": "100 Notes/100 Notes.md",
             "mode": "preview",
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/Hugo.md",
+                "file": "100 Notes/100 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/Hugo.md"
+                "file": "100 Notes/100 Notes.md"
               }
             }
           },
@@ -143,9 +143,9 @@
   },
   "active": "b90547f8f30ef750",
   "lastOpenFiles": [
-    "100 Notes/Hugo.md",
     "100 Notes/100 Notes.md",
     "100 Notes/Portfolio.md",
+    "100 Notes/Hugo.md",
     "100 Notes/Gatsby.md",
     "000 Home.md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
