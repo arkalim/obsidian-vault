@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-25T16:42:02+05:30
+updated: 2022-05-26T18:51:16+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -63,6 +63,15 @@ hugo
 	- `layouts` - to overwrite default theme layouts
 	- `static` - for static assets like images
 	- `themes` - contains all the themes
+
+## Publish to Netlify
+- Go to [Netlify](https://app.netlify.com/teams/arkalim/overview)
+- Add new site >> Import an existing project >> GitHub
+- Select Repo
+- Configuration
+	- Build command: `hugo`
+	- Publish directory: `public`
+- Click on **Deploy**
 
 ## Resources
 [Hugo Tutorial with PaperMod Theme](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
