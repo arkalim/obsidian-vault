@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-26T21:20:33+05:30
+updated: 2022-05-26T21:38:15+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -31,6 +31,12 @@ Commit changes and publish repo.
 ```
 git submodule update --remote --merge
 ```
+
+## Favicon
+- Use [vecteezy.com](https://www.vecteezy.com/free-vector/ar-logo) for logos
+- Remove background using [slazzer.com](https://www.slazzer.com/)
+- Convert to Favicon using [Favicon Generator](https://favicon.io/favicon-converter/)
+- Put `favicon.ico` under the `static` folder
 
 ## Publish to Netlify
 - Push the changes to remote to trigger auto build and deploy to Netlify
