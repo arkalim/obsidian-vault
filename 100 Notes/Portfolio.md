@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-26T21:38:15+05:30
+updated: 2022-05-26T21:52:05+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -50,5 +50,5 @@ git submodule update --remote --merge
 - Copy the NS records provided and update the domain registrar's NS to these
 	- ![[attachments/Pasted image 20220526205710.png]]
 - Wait for the NS records to change in the domain registrar
-- In the HTTPS section, verify the SSL certificate for free
+- In the HTTPS section, enable SSL encryption for free using **Let's Encrypt**
 - Resource: [How to connect a domain name to Netlify - YouTube](https://www.youtube.com/watch?v=qlrCptpwtgs)
