@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-25T18:34:57+05:30
+updated: 2022-05-26T21:00:22+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -32,3 +32,13 @@ Commit changes and publish repo.
 ```
 git submodule update --remote --merge
 ```
+
+## Custom Domain in Netlify
+- Open Netlify
+- In the site's domain settings, add a custom domain `arkalim.org`
+- For the custom domain, go to DNS panel
+	- ![[attachments/Pasted image 20220526205603.png]]
+- Copy the NS records provided and update the domain registrar's NS to these
+	- ![[attachments/Pasted image 20220526205710.png]]
+- Wait for the NS records to change in the domain registrar
+- In the HTTPS section, verify the SSL certificate for free
