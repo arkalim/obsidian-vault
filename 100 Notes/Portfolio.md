@@ -1,15 +1,14 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-26T21:03:13+05:30
+updated: 2022-05-26T21:09:16+05:30
 ---
 [[100 Notes|Notes]]
 
 ---
 # Portfolio
-
-## Intro
 - Built using [[Hugo]]
-- [Hugo PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod) in **Home Info** mode
+- [Hugo PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod) in **Profile Info** mode
+- [GitHub Repo](https://github.com/arkalim/portfolio)
 
 ## Setup
 Create a new site
@@ -32,6 +31,10 @@ Commit changes and publish repo.
 ```
 git submodule update --remote --merge
 ```
+
+## Publish to Netlify
+- Push the changes to remote to trigger auto build and deploy to Netlify
+- Setup using [[Hugo#Publish to Netlify]]
 
 ## Custom Domain in Netlify
 - Open Netlify
