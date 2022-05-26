@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-05-26T18:51:16+05:30
+updated: 2022-05-26T18:59:06+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -63,8 +63,12 @@ hugo
 	- `layouts` - to overwrite default theme layouts
 	- `static` - for static assets like images
 	- `themes` - contains all the themes
+	- `public` - static files are generated when building the site using `hugo` command
 
 ## Publish to Netlify
+- We can link the GitHub repo for the site to Netlify to allow for automated deployment when we commit a change to the repo
+- Netlify will auto build the site using the `hugo` command and publish the static files generated in the `public` folder
+#### Setup Steps
 - Go to [Netlify](https://app.netlify.com/teams/arkalim/overview)
 - Add new site >> Import an existing project >> GitHub
 - Select Repo
