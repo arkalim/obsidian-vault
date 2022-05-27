@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-26T22:00:15+05:30
+updated: 2022-05-27T17:05:57+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -54,7 +54,4 @@ git submodule update --remote --merge
 - Resource: [How to connect a domain name to Netlify - YouTube](https://www.youtube.com/watch?v=qlrCptpwtgs)
 
 ## Important
-Use `#center` to center an image in MD
-```
-![name](path/to/image.png#center)
-```
+- Use `#center` to center an image in MD `![name](path/to/image.png#center)`
