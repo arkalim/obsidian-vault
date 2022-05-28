@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 Notes/Portfolio.md",
-            "mode": "source",
+            "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Notes/Portfolio.md",
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Notes/Portfolio.md"
+                "file": "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
               }
             }
           },
@@ -143,15 +143,15 @@
   },
   "active": "494b07b98bf78d06",
   "lastOpenFiles": [
+    "100 Notes/101 AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "100 Notes/101 AWS Solutions Architect Associate/attachments/AWS SAA-C02 Certificate.pdf",
     "100 Notes/Portfolio.md",
     "100 Notes/100 Notes.md",
-    "100 Notes/Hugo.md",
     "100 Notes/Gatsby.md",
+    "100 Notes/Hugo.md",
     "000 Home.md",
-    "100 Notes/101 AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "100 Notes/101 AWS Solutions Architect Associate/AWS Shield.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Athena.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Glue.md",
-    "100 Notes/101 AWS Solutions Architect Associate/Elastic Map Reduce (EMR).md"
+    "100 Notes/101 AWS Solutions Architect Associate/Athena.md"
   ]
 }
