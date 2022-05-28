@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-28T19:40:19+05:30
+updated: 2022-05-28T19:44:08+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -57,4 +57,3 @@ git submodule update --remote --merge
 - Use `#center` to center an image in MD `![name](path/to/image.png#center)`
 
 ## Theme Modifications
-https://favicon.io/favicon-converter
