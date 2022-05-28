@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-27T17:05:57+05:30
+updated: 2022-05-28T13:49:13+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -55,3 +55,5 @@ git submodule update --remote --merge
 
 ## Important
 - Use `#center` to center an image in MD `![name](path/to/image.png#center)`
+
+## Theme Modifications
