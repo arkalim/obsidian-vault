@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-28T19:44:08+05:30
+updated: 2022-05-29T09:44:19+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -57,3 +57,7 @@ git submodule update --remote --merge
 - Use `#center` to center an image in MD `![name](path/to/image.png#center)`
 
 ## Theme Modifications
+- Added a custom param `hideDescriptionInList`  to show or hide description in list view
+- Added a new variable `dateString` to allow us to write date as string
+- Changed footer text to: © 2022 [Abdur Rahman](https://arkalim.org/)
+- Added empty character and a space in front of TOC
