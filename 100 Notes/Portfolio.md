@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-29T09:46:25+05:30
+updated: 2022-05-29T09:50:14+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -62,3 +62,5 @@ git submodule update --remote --merge
 - Changed footer text to: © 2022 [Abdur Rahman](https://arkalim.org/)
 - Added empty character and a space in front of TOC
 - Change cursor to pointer when expanding or collapsing TOC
+- Changed font size of ListMeta to 14 and Description in List View to 18
+- Made the header sticky
