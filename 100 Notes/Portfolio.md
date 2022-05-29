@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-05-29T09:44:19+05:30
+updated: 2022-05-29T09:46:25+05:30
 ---
 [[100 Notes|Notes]]
 
@@ -61,3 +61,4 @@ git submodule update --remote --merge
 - Added a new variable `dateString` to allow us to write date as string
 - Changed footer text to: © 2022 [Abdur Rahman](https://arkalim.org/)
 - Added empty character and a space in front of TOC
+- Change cursor to pointer when expanding or collapsing TOC
