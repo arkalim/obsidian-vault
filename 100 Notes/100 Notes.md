@@ -1,6 +1,6 @@
 ---
 created: 2022-05-04T23:48:26+05:30
-updated: 2022-06-01T20:09:22+05:30
+updated: 2022-06-02T09:44:57+05:30
 ---
 [[../000 Home|Home]]
 
@@ -9,3 +9,5 @@ updated: 2022-06-01T20:09:22+05:30
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 [[Note Sharing]]
+
+[[Static Site Generators]]
