@@ -1,8 +1,8 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-06-03T00:18:56+05:30
+updated: 2022-06-03T09:19:24+05:30
 ---
-[[100 Notes|Notes]]
+[[../Notes|Notes]]
 
 ---
 # Portfolio
@@ -46,9 +46,9 @@ git submodule update --remote --merge
 - Open Netlify
 - In the site's domain settings, add a custom domain `arkalim.org`
 - For the custom domain, go to DNS panel
-	- ![[attachments/Pasted image 20220526205603.png]]
+	- ![[../attachments/Pasted image 20220526205603.png]]
 - Copy the NS records provided and update the domain registrar's NS to these
-	- ![[attachments/Pasted image 20220526205710.png]]
+	- ![[../attachments/Pasted image 20220526205710.png]]
 - Wait for the NS records to change in the domain registrar
 - In the HTTPS section, enable SSL encryption for free using **Let's Encrypt**
 - Resource: [How to connect a domain name to Netlify - YouTube](https://www.youtube.com/watch?v=qlrCptpwtgs)

@@ -4,4 +4,4 @@ updated: 2022-05-07T01:33:07+05:30
 ---
 # Home
 ---
-#### [[100 Notes/100 Notes|Notes]]
+#### [[Notes/Notes|Notes]]

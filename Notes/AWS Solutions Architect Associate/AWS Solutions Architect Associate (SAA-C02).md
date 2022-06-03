@@ -1,10 +1,10 @@
 ---
 created: 2022-05-05T20:16:46+05:30
-updated: 2022-05-24T10:05:42+05:30
+updated: 2022-06-03T09:19:35+05:30
 ---
 
-[[../../000 Home|Home]]
-[[../100 Notes|Notes]]
+[[../../Home|Home]]
+[[../Notes|Notes]]
 
 ---
 # AWS Solutions Associate Architect Associate
