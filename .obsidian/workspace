@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Notes.md",
+            "file": "Notes/Static Site Generators/Static Site Generators.md",
             "mode": "preview",
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Notes.md",
+                "file": "Notes/Static Site Generators/Static Site Generators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Notes.md"
+                "file": "Notes/Static Site Generators/Static Site Generators.md"
               }
             }
           },
@@ -143,10 +143,10 @@
   },
   "active": "9b8e151f344f5f61",
   "lastOpenFiles": [
+    "Notes/Static Site Generators/Static Site Generators.md",
     "Notes/Notes.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
-    "Notes/Static Site Generators/Static Site Generators.md",
     "Notes/Static Site Generators/Gatsby.md",
     "Notes/Static Site Generators/Note Sharing.md",
     "Notes/Static Site Generators/Portfolio.md",
