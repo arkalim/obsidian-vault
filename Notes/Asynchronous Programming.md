@@ -1,6 +1,6 @@
 ---
 created: 2022-06-03T13:46:08+05:30
-updated: 2022-06-03T13:59:10+05:30
+updated: 2022-06-03T14:01:06+05:30
 ---
 [[Notes]]
 
@@ -14,9 +14,11 @@ const order = (production: Function) => {
 	console.log('Order placed, calling production...')
 	production()
 }
+
 const production = () => {
 	console.log('Starting production')
 }
+
 // call the order function and tell what to do once the order is placed
 order(production);
 ```
