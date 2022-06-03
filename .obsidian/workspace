@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9b8e151f344f5f61",
+        "id": "cc862c400c823187",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -142,9 +142,10 @@
     "width": 296.5,
     "collapsed": true
   },
-  "active": "9b8e151f344f5f61",
+  "active": "cc862c400c823187",
   "lastOpenFiles": [
     "Notes/Notes.md",
+    "Notes/Linux.md",
     "Notes/Asynchronous Programming.md",
     "Notes/Static Site Generators/Note Sharing.md",
     "Notes/Static Site Generators/Static Site Generators.md",
@@ -152,7 +153,6 @@
     "Notes/AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
     "Notes/Static Site Generators/Gatsby.md",
     "Notes/Static Site Generators/Portfolio.md",
-    "Home.md",
-    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
+    "Home.md"
   ]
 }
