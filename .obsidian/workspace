@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-            "mode": "preview",
+            "file": "Notes/Static Site Generators/Hugo.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+                "file": "Notes/Static Site Generators/Hugo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
+                "file": "Notes/Static Site Generators/Hugo.md"
               }
             }
           },
@@ -144,15 +145,15 @@
   },
   "active": "cc862c400c823187",
   "lastOpenFiles": [
-    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "Notes/Notes.md",
+    "Notes/Static Site Generators/Hugo.md",
     "Notes/Static Site Generators/Static Site Generators.md",
+    "Notes/Notes.md",
+    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "Notes/AWS Solutions Architect Associate/Amazon MQ.md",
     "Notes/Linux.md",
     "Notes/Asynchronous Programming.md",
     "Notes/Static Site Generators/Note Sharing.md",
-    "Notes/AWS Solutions Architect Associate/Auto Scaling Group (ASG).md",
-    "Notes/Static Site Generators/Gatsby.md",
-    "Notes/Static Site Generators/Portfolio.md"
+    "Notes/AWS Solutions Architect Associate/Auto Scaling Group (ASG).md"
   ]
 }

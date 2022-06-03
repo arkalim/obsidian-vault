@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-06-03T09:19:24+05:30
+updated: 2022-06-03T22:12:04+05:30
 ---
 [[../Notes|Notes]]
 
@@ -79,3 +79,9 @@ hugo
 
 ## Resources
 [Hugo Tutorial with PaperMod Theme](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
+[[Gatsby#^e967b3]]
+[[Gatsby#^e967b3| Static Test]]
+[[Gatsby]]
+[[Gatsby|Gatsby Renamed]]
+[[Gatsby#Themes]]
+[[Gatsby#Themes| Gatsby ka themes]]

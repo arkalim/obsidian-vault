@@ -1,12 +1,12 @@
 ---
 created: 2022-05-24T20:12:42+05:30
-updated: 2022-06-03T09:19:24+05:30
+updated: 2022-06-03T22:10:57+05:30
 ---
 [[../Notes|Notes]]
 
 ---
 # Gatsby
-- Gatsby is a static site generator which generates HTML files from MarkDown files. These HTML files can be deployed on a remote server to serve as a website. 
+- Gatsby is a static site generator which generates HTML files from MarkDown files. These HTML files can be deployed on a remote server to serve as a website.  ^e967b3
 - Great for personal portfolios 
 - [Gatsby](https://www.gatsbyjs.com/)
 
