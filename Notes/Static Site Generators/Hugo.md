@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-06-03T22:12:04+05:30
+updated: 2022-06-03T22:18:02+05:30
 ---
 [[../Notes|Notes]]
 
@@ -84,4 +84,4 @@ hugo
 [[Gatsby]]
 [[Gatsby|Gatsby Renamed]]
 [[Gatsby#Themes]]
-[[Gatsby#Themes| Gatsby ka themes]]
+[[Gatsby#Themes|Gatsby ka themes]]
