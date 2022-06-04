@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-06-04T12:56:48+05:30
+updated: 2022-06-04T13:06:43+05:30
 ---
 [[../Notes|Notes]]
 
@@ -78,10 +78,10 @@ hugo
 - Click on **Deploy**
 
 ## Resources
-[Hugo Tutorial with PaperMod Theme](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
-[Hugo Tutorial with PaperMod Theme](https://www.youtube.com/watch?v=hjD9jTi_DQ4) is the link to tis
-- Is the new [Hugo Tutorial with PaperMod Theme](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
-- Is the new [Hugo Tutorial with PaperMod Theme](https://www.youtube.com/watch?v=hjD9jTi_DQ4) sdlfkjakl
+[Hugo Tutorial with PaperMod Theme 1](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
+[Hugo Tutorial with PaperMod Theme 2](https://www.youtube.com/watch?v=hjD9jTi_DQ4) is the link to tis
+- Is the new [Hugo Tutorial with PaperMod Theme 3](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
+- Is the new [Hugo Tutorial with PaperMod Theme 4](https://www.youtube.com/watch?v=hjD9jTi_DQ4) sdlfkjakl
 [[Gatsby#^e967b3]]
 [[Gatsby#^e967b3| Static Test]]
 [[Gatsby]]
