@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-06-04T21:58:36+05:30
+updated: 2022-06-04T22:11:44+05:30
 ---
 [[../Notes|Notes]]
 
@@ -79,7 +79,3 @@ hugo
 
 ## Resources
 [Hugo Tutorial with PaperMod Theme | YouTube](https://www.youtube.com/watch?v=hjD9jTi_DQ4)
-
-This is that  
-- this is second
-- this is third
