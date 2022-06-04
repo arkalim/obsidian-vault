@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T10:03:46+05:30
-updated: 2022-06-03T23:46:54+05:30
+updated: 2022-06-04T12:10:03+05:30
 ---
 [[../Notes|Notes]]
 
@@ -85,3 +85,4 @@ hugo
 [[Gatsby|Gatsby Renamed]]
 [[Gatsby#Themes]]
 [[Gatsby#Themes|Gatsby ka themes]]
+![[Gatsby#Themes]]
