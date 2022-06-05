@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25T17:57:36+05:30
-updated: 2022-06-03T09:19:24+05:30
+updated: 2022-06-05T13:06:22+05:30
 ---
 [[../Notes|Notes]]
 
@@ -63,4 +63,4 @@ git submodule update --remote --merge
 - Added empty character and a space in front of TOC
 - Change cursor to pointer when expanding or collapsing TOC
 - Changed font size of Post Meta to 14 and Description in List View to 18
-- Made the header sticky (required update in Mobile view)
+- Made the header sticky (required update in the Mobile view)

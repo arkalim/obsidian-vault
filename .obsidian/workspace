@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Static Site Generators/Hugo.md",
+            "file": "Notes/Static Site Generators/Portfolio.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Static Site Generators/Hugo.md",
+                "file": "Notes/Static Site Generators/Portfolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Static Site Generators/Hugo.md"
+                "file": "Notes/Static Site Generators/Portfolio.md"
               }
             }
           },
@@ -145,15 +145,15 @@
   },
   "active": "cc862c400c823187",
   "lastOpenFiles": [
-    "Notes/Static Site Generators/Hugo.md",
+    "Notes/Static Site Generators/Portfolio.md",
     "Notes/Static Site Generators/Static Site Generators.md",
     "Notes/Notes.md",
+    "Notes/Static Site Generators/Hugo.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/AWS Solutions Architect Associate/Redshift.md",
     "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "Notes/AWS Solutions Architect Associate/Amazon MQ.md",
     "Notes/Linux.md",
-    "Notes/Asynchronous Programming.md",
-    "Notes/Static Site Generators/Note Sharing.md"
+    "Notes/Asynchronous Programming.md"
   ]
 }
