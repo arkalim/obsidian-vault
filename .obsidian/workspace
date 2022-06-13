@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Notes.md",
+            "file": "index.md",
             "mode": "preview",
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Notes.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Notes.md"
+                "file": "index.md"
               }
             }
           },
@@ -136,8 +136,8 @@
   },
   "active": "7c3ce6b023672530",
   "lastOpenFiles": [
-    "Notes/Notes.md",
     "index.md",
+    "Notes/Notes.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/Static Site Generators/Hugo.md",
     "Notes/Static Site Generators/Static Site Generators.md",
