@@ -1,6 +1,6 @@
 ---
 created: 2022-06-13T17:59:10+05:30
-updated: 2022-06-13T18:08:29+05:30
+updated: 2022-06-13T18:10:00+05:30
 ---
 [[../Notes|Notes]]
 
@@ -14,6 +14,8 @@ updated: 2022-06-13T18:08:29+05:30
 - Using a Gatsby theme, all of your website configuration is abstracted out of your site content, and into an installable package.
 - The installation steps will be provided in the GitHub repo of the theme.
 - [Gatsby Casper Theme](https://github.com/scttcper/gatsby-theme-casper)
+
+Another change
 
 ## Gatsby CLI
 #### Installation
