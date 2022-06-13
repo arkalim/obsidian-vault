@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2743a66552773bf5",
+        "id": "7c3ce6b023672530",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Home.md",
+            "file": "Notes/Notes.md",
             "mode": "preview",
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Notes/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Notes/Notes.md"
               }
             }
           },
@@ -134,10 +134,10 @@
     "width": 296.5,
     "collapsed": true
   },
-  "active": "2743a66552773bf5",
+  "active": "7c3ce6b023672530",
   "lastOpenFiles": [
-    "Home.md",
     "Notes/Notes.md",
+    "index.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/Static Site Generators/Hugo.md",
     "Notes/Static Site Generators/Static Site Generators.md",
