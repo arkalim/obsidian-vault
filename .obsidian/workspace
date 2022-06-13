@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Notes.md",
+            "file": "Home.md",
             "mode": "preview",
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Notes.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Notes.md"
+                "file": "Home.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "2743a66552773bf5",
   "lastOpenFiles": [
+    "Home.md",
     "Notes/Notes.md",
+    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "Notes/Static Site Generators/Hugo.md",
+    "Notes/Static Site Generators/Static Site Generators.md",
+    "Notes/Static Site Generators/Portfolio.md",
     "Notes/Programming/Asynchronous Programming.md",
     "Notes/Programming/Programming.md",
-    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/Static Site Generators/Gatsby.md",
-    "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/AWS Solutions Architect Associate/AWS Organizations.md",
-    "Home.md",
-    "Scratch Pad/Scratch Pad.md",
-    "Scratch Pad/Lify.md"
+    "Notes/AWS Solutions Architect Associate/AWS Organizations.md"
   ]
 }
