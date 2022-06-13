@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Static Site Generators/Gatsby.md",
+            "file": "Notes/Static Site Generators/Static Site Generators.md",
             "mode": "preview",
             "source": true
           }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Static Site Generators/Gatsby.md",
+                "file": "Notes/Static Site Generators/Static Site Generators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Static Site Generators/Gatsby.md"
+                "file": "Notes/Static Site Generators/Static Site Generators.md"
               }
             }
           },
@@ -148,15 +148,15 @@
   },
   "active": "cc862c400c823187",
   "lastOpenFiles": [
-    "Notes/Static Site Generators/Gatsby.md",
     "Notes/Static Site Generators/Static Site Generators.md",
     "Notes/Notes.md",
-    "Notes/Static Site Generators/Note Sharing.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "Notes/Static Site Generators/Portfolio.md",
-    "Notes/Asynchronous Programming.md",
     "Home.md",
+    "Notes/Static Site Generators/Portfolio.md",
     "Notes/Static Site Generators/Hugo.md",
+    "Notes/Asynchronous Programming.md",
+    "Notes/Static Site Generators/Gatsby.md",
+    "Notes/Static Site Generators/Note Sharing.md",
     "Notes/AWS Solutions Architect Associate/Redshift.md"
   ]
 }
