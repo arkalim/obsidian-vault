@@ -1,6 +1,6 @@
 ---
 created: 2022-06-13T18:18:55+05:30
-updated: 2022-06-13T18:18:55+05:30
+updated: 2022-06-13T19:47:28+05:30
 ---
 [[Notes]]
 
@@ -27,6 +27,9 @@ const production = () => {
 // call the order function and tell what to do once the order is placed
 order(production);
 ```
+
+- If we have multiple steps, each with a callback, then the resulting code has a ladder like appearance. This is called as the callback hell. To overcome this, we use promises and async-await syntax.
+	- ![[attachments/Pasted image 20220613194732.png]]
 
 ## Resources
 [Asynchronous JS | YouTube](https://www.youtube.com/watch?v=ZYb_ZU8LNxs&t=788s)

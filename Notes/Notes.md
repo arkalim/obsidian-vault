@@ -1,6 +1,6 @@
 ---
 created: 2022-06-13T18:18:43+05:30
-updated: 2022-06-13T18:18:43+05:30
+updated: 2022-06-13T19:41:14+05:30
 ---
 [[../Home|Home]]
 
@@ -10,4 +10,4 @@ updated: 2022-06-13T18:18:43+05:30
 
 [[Static Site Generators/Static Site Generators|Static Site Generators]]
 
-[[Asynchronous Programming]]
+[[Programming/Programming|Programming]]

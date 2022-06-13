@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "cc862c400c823187",
+        "id": "2743a66552773bf5",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -134,19 +134,17 @@
     "width": 296.5,
     "collapsed": true
   },
-  "active": "cc862c400c823187",
+  "active": "2743a66552773bf5",
   "lastOpenFiles": [
     "Notes/Notes.md",
+    "Notes/Programming/Asynchronous Programming.md",
+    "Notes/Programming/Programming.md",
+    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/Static Site Generators/Gatsby.md",
     "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/Static Site Generators/Note Sharing.md",
-    "Notes/Asynchronous Programming.md",
+    "Notes/AWS Solutions Architect Associate/AWS Organizations.md",
     "Home.md",
-    "Notes/Static Site Generators/Portfolio.md",
-    "Notes/Static Site Generators/Hugo.md",
-    "Notes/Asynchronous Programming.md",
-    "Notes/Static Site Generators/Gatsby.md",
-    "Notes/Static Site Generators/Note Sharing.md",
-    "Notes/AWS Solutions Architect Associate/Redshift.md"
+    "Scratch Pad/Scratch Pad.md",
+    "Scratch Pad/Lify.md"
   ]
 }
