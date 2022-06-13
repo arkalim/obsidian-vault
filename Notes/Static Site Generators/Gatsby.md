@@ -25,4 +25,4 @@ npm install -g gatsby-cli
 - Create a new site `gatsby new site_name`
 - Start development server `gatsby develop`
 
-This is a new test
+This is the newest test
