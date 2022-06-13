@@ -10,21 +10,6 @@
           "type": "markdown",
           "state": {
             "file": "Notes/Static Site Generators/Gatsby.md",
-<<<<<<< Updated upstream
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "972984d2b5ee4b09",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-=======
->>>>>>> Stashed changes
             "mode": "preview",
             "source": true
           }
@@ -155,19 +140,11 @@
     "Notes/Static Site Generators/Static Site Generators.md",
     "Notes/Notes.md",
     "Notes/Static Site Generators/Note Sharing.md",
-<<<<<<< Updated upstream
-    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "Notes/Static Site Generators/Portfolio.md",
-    "Notes/Asynchronous Programming.md",
-    "Home.md",
-    "Notes/Static Site Generators/Hugo.md",
-=======
     "Notes/Asynchronous Programming.md",
     "Home.md",
     "Notes/Static Site Generators/Portfolio.md",
     "Notes/Static Site Generators/Hugo.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
->>>>>>> Stashed changes
     "Notes/AWS Solutions Architect Associate/Redshift.md"
   ]
 }
