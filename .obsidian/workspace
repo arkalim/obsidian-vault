@@ -9,12 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            "file": "Notes/Static Site Generators/Note Sharing.md",
-=======
             "file": "Notes/Static Site Generators/Gatsby.md",
->>>>>>> Stashed changes
             "mode": "preview",
             "source": true
           }
@@ -27,9 +22,6 @@
           "type": "markdown",
           "state": {
             "file": "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-=======
-            "file": "Notes/Static Site Generators/Gatsby.md",
->>>>>>> Stashed changes
             "mode": "preview",
             "source": true
           }
@@ -98,15 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                "file": "Notes/Static Site Generators/Note Sharing.md",
-=======
                 "file": "Notes/Static Site Generators/Gatsby.md",
->>>>>>> Stashed changes
-=======
-                "file": "Notes/Static Site Generators/Gatsby.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,15 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                "file": "Notes/Static Site Generators/Note Sharing.md"
-=======
                 "file": "Notes/Static Site Generators/Gatsby.md"
->>>>>>> Stashed changes
-=======
-                "file": "Notes/Static Site Generators/Gatsby.md"
->>>>>>> Stashed changes
               }
             }
           },
@@ -172,12 +148,7 @@
   },
   "active": "cc862c400c823187",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "Notes/Static Site Generators/Note Sharing.md",
-=======
     "Notes/Static Site Generators/Gatsby.md",
->>>>>>> Stashed changes
     "Notes/Static Site Generators/Static Site Generators.md",
     "Notes/Notes.md",
     "Notes/Static Site Generators/Note Sharing.md",
@@ -187,17 +158,5 @@
     "Home.md",
     "Notes/Static Site Generators/Hugo.md",
     "Notes/AWS Solutions Architect Associate/Redshift.md"
-=======
-    "Notes/Static Site Generators/Gatsby.md",
-    "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/Notes.md",
-    "Notes/Asynchronous Programming.md",
-    "Home.md",
-    "Notes/Static Site Generators/Portfolio.md",
-    "Notes/Static Site Generators/Hugo.md",
-    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "Notes/AWS Solutions Architect Associate/Redshift.md",
-    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md"
->>>>>>> Stashed changes
   ]
 }
