@@ -1,6 +1,11 @@
 ---
+<<<<<<< Updated upstream
 created: 2022-06-13T17:47:33+05:30
 updated: 2022-06-13T17:47:33+05:30
+=======
+created: 2022-05-24T20:12:42+05:30
+updated: 2022-06-13T17:46:48+05:30
+>>>>>>> Stashed changes
 ---
 [[../Notes|Notes]]
 
