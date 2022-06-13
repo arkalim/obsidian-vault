@@ -4,7 +4,8 @@ git stash
 
 git pull
 
-git stash apply
+# git stash apply
+git cherry-pick -n -m1 -Xours stash
 
 git add -A
 
