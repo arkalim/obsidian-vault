@@ -1,6 +1,6 @@
 ---
 created: 2022-06-03T13:46:08+05:30
-updated: 2022-06-13T15:36:04+05:30
+updated: 2022-06-13T15:46:22+05:30
 ---
 [[Notes]]
 
@@ -32,4 +32,4 @@ order(production);
 [Asynchronous JS | YouTube](https://www.youtube.com/watch?v=ZYb_ZU8LNxs&t=788s)
 [Asynchronous Vs Synchronous Programming - YouTube](https://www.youtube.com/watch?v=Kpn2ajSa92c)
 
-Test sync edited again
+Test sync edited again twice
