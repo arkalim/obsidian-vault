@@ -1,6 +1,6 @@
 ---
 created: 2022-06-13T17:59:10+05:30
-updated: 2022-06-13T18:10:00+05:30
+updated: 2022-06-13T18:10:12+05:30
 ---
 [[../Notes|Notes]]
 
@@ -27,4 +27,4 @@ npm install -g gatsby-cli
 - Create a new site `gatsby new site_name`
 - Start development server `gatsby develop`
 
-This is the newest test of this two
+This is the newest test of this three
