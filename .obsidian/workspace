@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Static Site Generators/Portfolio.md",
-            "mode": "preview",
+            "file": "Notes/Asynchronous Programming.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "7d0af36ae4a5ca0f",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Static Site Generators/Portfolio.md",
+                "file": "Notes/Asynchronous Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Static Site Generators/Portfolio.md"
+                "file": "Notes/Asynchronous Programming.md"
               }
             }
           },
@@ -143,15 +144,15 @@
   },
   "active": "cc862c400c823187",
   "lastOpenFiles": [
+    "Notes/Asynchronous Programming.md",
+    "Notes/Notes.md",
+    "Home.md",
     "Notes/Static Site Generators/Portfolio.md",
     "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/Notes.md",
     "Notes/Static Site Generators/Hugo.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/AWS Solutions Architect Associate/Redshift.md",
     "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "Notes/AWS Solutions Architect Associate/Amazon MQ.md",
-    "Notes/Linux.md",
-    "Notes/Asynchronous Programming.md"
+    "Notes/AWS Solutions Architect Associate/Amazon MQ.md"
   ]
 }
