@@ -1,10 +1,10 @@
-name: Obsidian Publish
+name: Publish Vault
 on: [push, workflow_dispatch]
 jobs:
-  Explore-GitHub-Actions:
+  Publish-Obsidian-Vault:
     runs-on: ubuntu-latest
     steps:
-      - name: Publish obsidian
+      - name: Publish Vault
         uses: project-cool/obsidian-publish-action@main
         with:
           websiteId: "d9fed889-911e-4408-95da-45825e92cdb9"
