@@ -30,4 +30,10 @@ order(production);
 
 ## Resources
 [Asynchronous JS | YouTube](https://www.youtube.com/watch?v=ZYb_ZU8LNxs&t=788s)
+<<<<<<< Updated upstream
 [Asynchronous Vs Synchronous Programming - YouTube](https://www.youtube.com/watch?v=Kpn2ajSa92c)
+=======
+[Asynchronous Vs Synchronous Programming - YouTube](https://www.youtube.com/watch?v=Kpn2ajSa92c)
+
+Test sync edited twice
+>>>>>>> Stashed changes
