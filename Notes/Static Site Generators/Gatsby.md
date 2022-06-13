@@ -15,8 +15,6 @@ updated: 2022-06-13T18:10:12+05:30
 - The installation steps will be provided in the GitHub repo of the theme.
 - [Gatsby Casper Theme](https://github.com/scttcper/gatsby-theme-casper)
 
-Another change
-
 ## Gatsby CLI
 #### Installation
 ```
@@ -26,5 +24,3 @@ npm install -g gatsby-cli
 #### Commands
 - Create a new site `gatsby new site_name`
 - Start development server `gatsby develop`
-
-This is the newest test of this three
