@@ -1,6 +1,6 @@
 ---
 created: 2022-06-13T18:18:43+05:30
-updated: 2022-06-14T00:08:14+05:30
+updated: 2022-06-14T10:11:42+05:30
 ---
 [[../index|Home]]
 
@@ -11,5 +11,3 @@ updated: 2022-06-14T00:08:14+05:30
 [[Static Site Generators/Static Site Generators|Static Site Generators]]
 
 [[Programming/Programming|Programming]]
-
-For sync

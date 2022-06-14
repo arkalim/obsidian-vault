@@ -1,4 +1,0 @@
-[[../Notes/Notes]]
-
----
-# Programming
