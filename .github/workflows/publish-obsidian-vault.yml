@@ -10,4 +10,3 @@ jobs:
           websiteId: "d9fed889-911e-4408-95da-45825e92cdb9"
           log_level: "info"
           token: ${{ secrets.NETLIFY_TOKEN }}
-      - run: docker ps -a
