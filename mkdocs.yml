@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Abdur's Notes
 theme:
   name: material
   features:
@@ -27,4 +27,7 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences

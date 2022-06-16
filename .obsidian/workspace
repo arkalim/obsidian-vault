@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Notes.md",
+            "file": "Notes/AWS Solutions Architect Associate/AWS Directory Services.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#",
+                "query": "> ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Notes.md",
+                "file": "Notes/AWS Solutions Architect Associate/AWS Directory Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Notes.md"
+                "file": "Notes/AWS Solutions Architect Associate/AWS Directory Services.md"
               }
             }
           },
@@ -136,15 +137,15 @@
   },
   "active": "7c3ce6b023672530",
   "lastOpenFiles": [
+    "Notes/AWS Solutions Architect Associate/AWS Directory Services.md",
+    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "Notes/AWS Solutions Architect Associate/Instance Store.md",
+    "Notes/AWS Solutions Architect Associate/Elastic File System (EFS).md",
+    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
     "Notes/Notes.md",
     "index.md",
-    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
     "Notes/Static Site Generators/Hugo.md",
     "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/Static Site Generators/Portfolio.md",
-    "Notes/Programming/Asynchronous Programming.md",
-    "Notes/Programming/Programming.md",
-    "Notes/Static Site Generators/Gatsby.md",
-    "Notes/AWS Solutions Architect Associate/AWS Organizations.md"
+    "Notes/Static Site Generators/Portfolio.md"
   ]
 }
