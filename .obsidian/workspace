@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#",
+                "query": "> ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -137,14 +138,14 @@
   "active": "7c3ce6b023672530",
   "lastOpenFiles": [
     "Notes/Notes.md",
-    "index.md",
     "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "Notes/AWS Solutions Architect Associate/AWS Directory Services.md",
+    "Notes/AWS Solutions Architect Associate/Instance Store.md",
+    "Notes/AWS Solutions Architect Associate/Elastic File System (EFS).md",
+    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "index.md",
     "Notes/Static Site Generators/Hugo.md",
     "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/Static Site Generators/Portfolio.md",
-    "Notes/Programming/Asynchronous Programming.md",
-    "Notes/Programming/Programming.md",
-    "Notes/Static Site Generators/Gatsby.md",
-    "Notes/AWS Solutions Architect Associate/AWS Organizations.md"
+    "Notes/Static Site Generators/Portfolio.md"
   ]
 }
