@@ -11,3 +11,6 @@ updated: 2022-06-17T00:32:53+05:30
 [[Static Site Generators/Static Site Generators|Static Site Generators]]
 
 [[Programming/Programming|Programming]]
+
+> [!attention]+ What groups can't do.
+> Groups are not IAM Principals so they cannot assume roles. Only *users* and *services* can assume roles.
