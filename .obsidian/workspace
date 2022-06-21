@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Notes.md",
+            "file": "Notes/Static Site Generators/Static Site Generators.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "> ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Notes.md",
+                "file": "Notes/Static Site Generators/Static Site Generators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Notes.md"
+                "file": "Notes/Static Site Generators/Static Site Generators.md"
               }
             }
           },
@@ -128,24 +128,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "active": "7c3ce6b023672530",
   "lastOpenFiles": [
-    "Notes/Notes.md",
-    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "Notes/AWS Solutions Architect Associate/AWS Directory Services.md",
-    "Notes/AWS Solutions Architect Associate/Instance Store.md",
-    "Notes/AWS Solutions Architect Associate/Elastic File System (EFS).md",
-    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "index.md",
-    "Notes/Static Site Generators/Hugo.md",
     "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/Static Site Generators/Portfolio.md"
+    "Notes/Notes.md",
+    "Notes/Static Site Generators/Hugo.md",
+    "Notes/AWS Solutions Architect Associate/API Gateway.md",
+    "Notes/Static Site Generators/Note Sharing.md",
+    "index.md",
+    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
+    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
+    "Notes/AWS Solutions Architect Associate/AWS Directory Services.md",
+    "Notes/AWS Solutions Architect Associate/Instance Store.md"
   ]
 }
