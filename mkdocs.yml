@@ -1,24 +1,28 @@
 site_name: Abdur's Notes
 theme:
   name: material
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+
   features:
     - navigation.tabs
+    - navigation.top
   palette:
-    - media: "(prefers-color-scheme: light)" 
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)" 
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: teal
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-  
+
 markdown_extensions:
   - meta
   - toc:
@@ -31,3 +35,24 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  homepage: https://arkalim.org
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/youtube
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/instagram
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://twitter.com/squidfunk
+
+copyright: Copyright &copy; 2022 Abdur Rahman
