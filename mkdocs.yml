@@ -46,13 +46,11 @@ extra:
     property: G-XXXXXXXXXX
 
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/youtube
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/instagram
-      link: https://twitter.com/squidfunk
     - icon: fontawesome/brands/linkedin
-      link: https://twitter.com/squidfunk
+      link: https://www.linkedin.com/in/abdurrahmankalim
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/AbdurRahmanKalim
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/abdur.rahman.kalim
 
 copyright: Copyright &copy; 2022 Abdur Rahman
