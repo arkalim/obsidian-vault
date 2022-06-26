@@ -1,6 +1,7 @@
 ---
 created: 2022-05-10T20:11:03+05:30
 updated: 2022-05-20T13:38:40+05:30
+hidden: true
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
