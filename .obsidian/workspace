@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7c3ce6b023672530",
+        "id": "f94a4db5c4dc1835",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Static Site Generators/Static Site Generators.md",
+            "file": "Notes/Kubectl.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Static Site Generators/Static Site Generators.md",
+                "file": "Notes/Kubectl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Static Site Generators/Static Site Generators.md"
+                "file": "Notes/Kubectl.md"
               }
             }
           },
@@ -134,17 +134,17 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "7c3ce6b023672530",
+  "active": "f94a4db5c4dc1835",
   "lastOpenFiles": [
-    "Notes/Static Site Generators/Static Site Generators.md",
-    "Notes/Notes.md",
-    "Notes/Static Site Generators/Hugo.md",
-    "Notes/AWS Solutions Architect Associate/API Gateway.md",
-    "Notes/Static Site Generators/Note Sharing.md",
-    "index.md",
-    "Notes/AWS Solutions Architect Associate/AWS Solutions Architect Associate (SAA-C02).md",
-    "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "Notes/AWS Solutions Architect Associate/AWS Directory Services.md",
-    "Notes/AWS Solutions Architect Associate/Instance Store.md"
+    "Notes/Kubectl.md",
+    "Notes/Kubernetes.md",
+    "Notes/Kubernetes Config File.md",
+    "Notes/Components.md",
+    "Notes/Architecture.md",
+    "Notes/Local Cluster Setup.md",
+    "Notes/Intro.md",
+    "Notes/Data Storage.md",
+    "Notes/DevOps.md",
+    "Notes/Notes.md"
   ]
 }

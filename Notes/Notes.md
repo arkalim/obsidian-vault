@@ -1,6 +1,6 @@
 ---
-created: 2022-06-13T18:18:43+05:30
-updated: 2022-06-17T21:51:16+05:30
+created: 2022-06-13T08:48:43-04:00
+updated: 2022-08-28T10:07:19-04:00
 ---
 [[../index|Home]]
 
@@ -11,3 +11,5 @@ updated: 2022-06-17T21:51:16+05:30
 [[Static Site Generators/Static Site Generators|Static Site Generators]]
 
 [[Programming/Programming|Programming]]
+
+[[DevOps]]
