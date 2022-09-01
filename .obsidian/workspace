@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Kubectl.md",
+            "file": "Notes/Kubernetes.md",
             "mode": "preview",
             "source": true
           }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Kubectl.md",
+                "file": "Notes/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Kubectl.md"
+                "file": "Notes/Kubernetes.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "f94a4db5c4dc1835",
   "lastOpenFiles": [
-    "Notes/Kubectl.md",
     "Notes/Kubernetes.md",
-    "Notes/Kubernetes Config File.md",
+    "Notes/MongoDB & Mongo Express Project.md",
+    "Notes/DevOps.md",
+    "Notes/Notes.md",
+    "Notes/Kubectl.md",
     "Notes/Components.md",
+    "Notes/Kubernetes Config File.md",
     "Notes/Architecture.md",
     "Notes/Local Cluster Setup.md",
-    "Notes/Intro.md",
-    "Notes/Data Storage.md",
-    "Notes/DevOps.md",
-    "Notes/Notes.md"
+    "Notes/Intro.md"
   ]
 }

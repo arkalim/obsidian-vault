@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29T18:10:42-04:00
-updated: 2022-08-30T23:31:03-04:00
+updated: 2022-08-30T23:46:29-04:00
 ---
 [[Kubernetes]]
 
@@ -11,6 +11,7 @@ updated: 2022-08-30T23:31:03-04:00
 - This is the most powerful way to control the K8s cluster (compared to Kubernetes Dashboard and API) 
 
 ## Commands
+- List all components - `kubectl get all`
 - List nodes - `kubectl get nodes`
 - List pods - `kubectl get pods`
 - List services - `kubectl get services`
