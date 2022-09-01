@@ -1,5 +1,5 @@
 name: Publish Vault
-on: [push, workflow_dispatch]
+on: [push]
 jobs:
   Publish-Obsidian-Vault:
     runs-on: ubuntu-latest
