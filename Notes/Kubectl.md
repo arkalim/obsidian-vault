@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29T18:10:42-04:00
-updated: 2022-08-30T23:46:29-04:00
+updated: 2022-09-03T23:05:02-04:00
 ---
 [[Kubernetes]]
 
@@ -30,3 +30,7 @@ updated: 2022-08-30T23:46:29-04:00
 - Get IP address of the pods - `kubectl get pods -o wide`
 - Get the result of deployment - `kubectl get deployment nginx-deployment -o yaml`
 	- Can also save it to a file - `kubectl get deployment nginx-deployment -o yaml > nginx-deployment-result.yaml`
+- Create namespace - `kubectl create namespace <namespace-name>`
+- Get namespaces - `kubectl get namespaces`
+- List non-namespaced resources - `kubectl api-resources --namespaced=false`
+-  
