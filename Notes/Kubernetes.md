@@ -1,6 +1,6 @@
 ---
 created: 2022-08-28T10:08:35-04:00
-updated: 2022-09-03T18:51:48-04:00
+updated: 2022-09-04T23:25:29-04:00
 ---
 [[Notes]]
 [[DevOps]]
@@ -8,7 +8,9 @@ updated: 2022-09-03T18:51:48-04:00
 ---
 
 [[Intro]]
+
 [[Components]]
+
 [[Architecture]]
 
 [[Local Cluster Setup]]
@@ -22,3 +24,7 @@ updated: 2022-09-03T18:51:48-04:00
 [[MongoDB & Mongo Express Project]]
 
 [[Namespaces]]
+
+[[Ingress]]
+
+[[Helm Package Manager]]

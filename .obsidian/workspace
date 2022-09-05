@@ -137,14 +137,14 @@
   "active": "f94a4db5c4dc1835",
   "lastOpenFiles": [
     "Notes/Kubernetes.md",
+    "Notes/Helm Package Manager.md",
     "Notes/Namespaces.md",
-    "Notes/Kubectl.md",
+    "Notes/Ingress.md",
+    "Notes/Components.md",
     "Notes/Kubernetes Config File.md",
     "Notes/MongoDB & Mongo Express Project.md",
+    "Notes/Kubectl.md",
     "Notes/DevOps.md",
-    "Notes/Notes.md",
-    "Notes/Components.md",
-    "Notes/Architecture.md",
-    "Notes/Local Cluster Setup.md"
+    "Notes/Notes.md"
   ]
 }

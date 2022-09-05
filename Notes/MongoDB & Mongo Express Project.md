@@ -1,6 +1,6 @@
 ---
 created: 2022-08-30T23:34:51-04:00
-updated: 2022-08-31T18:48:42-04:00
+updated: 2022-09-04T22:29:32-04:00
 ---
 [[Kubernetes]]
 
@@ -193,7 +193,7 @@ spec:
 - Append the service config to `mongo-express.yaml`
 - `type: LoadBalancer` tells the K8s that the service is external and so it is assigned an external IP address
 	- By default `type: ClusterIP`, which means the IP is internal (internal service)
-- `nodePort` is the port on which the external IP will be open
+- `nodePort` is the port on which the external IP will be open (port on which the application can be accessed externally)
 	- Must be in the range `30000` - `32767`
 
 mongo-express.yaml
