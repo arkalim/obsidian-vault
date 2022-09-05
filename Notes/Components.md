@@ -1,6 +1,6 @@
 ---
 created: 2022-08-28T10:17:46-04:00
-updated: 2022-08-28T12:30:33-04:00
+updated: 2022-09-04T22:36:46-04:00
 ---
 [[Kubernetes]]
 
@@ -26,8 +26,8 @@ updated: 2022-08-28T12:30:33-04:00
 - Pods communicate with each other using services
 - Lifecycle of pod and service are not connected. So even if a pod dies, we can restart it and attach the original service to have the same IP.
 - Service could be:
-	- External - opens communication from external sources
-	- Internal - communication remains internal to K8 cluster
+	- External (LoadBalancer) - opens communication from external sources
+	- Internal (ClusterIP) - communication remains internal to K8 cluster
 - Multiple pods could be connected to a service. In this case, the service acts as a load balancer.
 
 #### Ingress
@@ -36,7 +36,7 @@ updated: 2022-08-28T12:30:33-04:00
 - Allows us to use domain names instead of IPs
 - The request first goes to ingress and is then forwarded to service
 - Image
-	- ![[attachments/Pasted image 20220828103348.png]]
+	- ![[attachments/Pasted image 20220904222518.png]]
 
 #### ConfigMap
 - External configuration to the application
