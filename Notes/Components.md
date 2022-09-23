@@ -1,6 +1,6 @@
 ---
 created: 2022-08-28T10:17:46-04:00
-updated: 2022-09-04T22:36:46-04:00
+updated: 2022-09-12T10:14:08-04:00
 ---
 [[Kubernetes]]
 
@@ -26,8 +26,23 @@ updated: 2022-09-04T22:36:46-04:00
 - Pods communicate with each other using services
 - Lifecycle of pod and service are not connected. So even if a pod dies, we can restart it and attach the original service to have the same IP.
 - Service could be:
-	- External (LoadBalancer) - opens communication from external sources
-	- Internal (ClusterIP) - communication remains internal to K8 cluster
+	- **ClusterIP**
+		- Enables access to the service from within the K8s cluster (internal)
+		- Every service created in Kubernetes has a cluster IP
+	- **NodePort**
+		- Every node in the cluster has a public IP
+		- Assigns a port to the service (external requests going to any node at that port will be routed to the service)
+		- Limitations 
+			- If a node goes down it's public IP might change when restarted
+			- One port per service
+		- Image
+			- ![[attachments/Pasted image 20220912100744.png]]
+	- **LoadBalancer**
+		- Depends on how the cloud provider is providing their Kubernetes service
+		- Spins up a [[AWS Solutions Architect Associate/Elastic Load Balancer (ELB)#Network Load Balancer NLB| Network Load Balancer]] for each service. Requests going to the NLB's IP will be routed to the service.
+		- Limitations:
+			- One NLB IP per service
+			- If the number of services increase, need to add a lot of NLBs (expensive)
 - Multiple pods could be connected to a service. In this case, the service acts as a load balancer.
 
 #### Ingress

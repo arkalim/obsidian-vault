@@ -1,11 +1,16 @@
 ---
 created: 2022-09-04T22:23:05-04:00
-updated: 2022-09-04T23:11:38-04:00
+updated: 2022-09-12T10:29:07-04:00
 ---
 [[Kubernetes]]
 
 ---
 # Ingress
+
+## Intro
+- Provides rule based routing
+- Requests can be received at a single IP address (NLB's IP) and forwarded to the right service based on the path or subdomain.
+	- ![[attachments/Pasted image 20220912101826.png]]
 
 ## Sample YAML
 ![[attachments/Pasted image 20220904223108.png]]
@@ -56,3 +61,6 @@ updated: 2022-09-04T23:11:38-04:00
 - TLS Certificate has to be created as a secret in the same namespace as the ingress
 - Ingress uses the TLS certificate as a reference from the secret
 ![[attachments/Pasted image 20220904230853.png]]
+
+## Resources
+[(30) Kubernetes Ingress Explained Completely For Beginners - Updated - YouTube](https://www.youtube.com/watch?v=GhZi4DxaxxE)
