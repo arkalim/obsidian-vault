@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f94a4db5c4dc1835",
+        "id": "5a6efff264ea03c8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Kubernetes.md",
+            "file": "Notes/Web Server.md",
             "mode": "preview",
             "source": true
           }
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Kubernetes.md",
+                "file": "Notes/Web Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Kubernetes.md"
+                "file": "Notes/Web Server.md"
               }
             }
           },
@@ -134,17 +133,17 @@
     "direction": "horizontal",
     "width": 296.5
   },
-  "active": "f94a4db5c4dc1835",
+  "active": "5a6efff264ea03c8",
   "lastOpenFiles": [
-    "Notes/Kubernetes.md",
-    "Notes/Helm Package Manager.md",
-    "Notes/Namespaces.md",
-    "Notes/Ingress.md",
-    "Notes/Components.md",
-    "Notes/Kubernetes Config File.md",
-    "Notes/MongoDB & Mongo Express Project.md",
-    "Notes/Kubectl.md",
+    "Notes/Pre-Requisites.md",
+    "Notes/Apps.md",
+    "Notes/Networking.md",
+    "Notes/Linux.md",
     "Notes/DevOps.md",
-    "Notes/Notes.md"
+    "Notes/Notes.md",
+    "Notes/Kubernetes.md",
+    "Notes/Components.md",
+    "index.md",
+    "Scratch Pad/Scratch Pad.md"
   ]
 }
