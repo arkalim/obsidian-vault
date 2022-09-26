@@ -1,6 +1,6 @@
 ---
 created: 2022-09-14T12:16:02-04:00
-updated: 2022-09-22T21:32:58-04:00
+updated: 2022-09-23T23:22:25-04:00
 ---
 [[DevOps]]
 
@@ -10,3 +10,5 @@ updated: 2022-09-22T21:32:58-04:00
 [[Networking]]
 [[Apps]]
 [[Web Server]]
+[[Database]]
+[[Security]]
