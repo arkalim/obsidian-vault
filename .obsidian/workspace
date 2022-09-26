@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Web Server.md",
+            "file": "Notes/Pre-Requisites.md",
             "mode": "preview",
             "source": true
           }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Web Server.md",
+                "file": "Notes/Pre-Requisites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Web Server.md"
+                "file": "Notes/Pre-Requisites.md"
               }
             }
           },
@@ -135,15 +135,15 @@
   },
   "active": "5a6efff264ea03c8",
   "lastOpenFiles": [
+    "Notes/Security.md",
     "Notes/Pre-Requisites.md",
+    "Notes/Database.md",
+    "Notes/Web Server.md",
     "Notes/Apps.md",
     "Notes/Networking.md",
     "Notes/Linux.md",
     "Notes/DevOps.md",
     "Notes/Notes.md",
-    "Notes/Kubernetes.md",
-    "Notes/Components.md",
-    "index.md",
-    "Scratch Pad/Scratch Pad.md"
+    "Notes/Kubernetes.md"
   ]
 }
