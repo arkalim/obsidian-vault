@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23T23:24:50-04:00
-updated: 2022-09-26T13:28:36-04:00
+updated: 2022-09-26T13:42:08-04:00
 ---
 [[Pre-Requisites]]
 
@@ -23,6 +23,7 @@ updated: 2022-09-26T13:28:36-04:00
 - The **user generates a key pair** (public and private key)
 	- `ssh-keygen` - this will generate a private key (`id_rsa`) and a public key (`id_rsa.pub`)
 - Add the public key to the list of authorized keys for SSH (`~/.ssh/authorized_keys`)
+	- `ssh-copy-id -i ~/.ssh/mykey.pub <user>@<server>`
 - When doing an SSH into the server, the user specifies the private key in the SSH command
 	- `ssh -i id_rsa user@server`
 

@@ -1,6 +1,6 @@
 ---
 created: 2022-09-22T21:37:50-04:00
-updated: 2022-09-23T18:54:01-04:00
+updated: 2022-10-08T19:47:08-04:00
 ---
 [[Pre-Requisites]]
 
@@ -86,4 +86,4 @@ updated: 2022-09-23T18:54:01-04:00
 - If we don't want to open a port on an IP address on the network (eg, to test an app in our laptop's browser), we can omit the `host` field. In this case, the system opens the specified port on `127.0.0.1` (loopback address)
 	- ![[attachments/Pasted image 20220923184838.png]]
 
-> Every host as a built in virtual interface called **Loopback Address** which always equals `127.0.0.1`. Opening a port at this IP means opening it locally on the system (not the network). The loopback address it also referred to as `localhost`
+> Every host has a built in virtual interface called **Loopback Address** which always equals `127.0.0.1`. Opening a port at this IP means opening it locally on the system (not the network). The loopback address it also referred to as `localhost`

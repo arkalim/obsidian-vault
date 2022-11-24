@@ -1,6 +1,6 @@
 ---
 created: 2022-09-14T12:16:02-04:00
-updated: 2022-09-23T23:22:25-04:00
+updated: 2022-09-26T19:43:29-04:00
 ---
 [[DevOps]]
 
@@ -12,3 +12,4 @@ updated: 2022-09-23T23:22:25-04:00
 [[Web Server]]
 [[Database]]
 [[Security]]
+[[YAML]]
