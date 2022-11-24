@@ -1,6 +1,6 @@
 ---
 created: 2022-08-28T12:22:08-04:00
-updated: 2022-08-29T18:50:59-04:00
+updated: 2022-10-08T18:56:26-04:00
 ---
 [[Kubernetes]]
 
@@ -51,6 +51,7 @@ updated: 2022-08-29T18:50:59-04:00
 		- Application data is not stored in the etcd
 
 ## Cluster
+- A collection of nodes grouped together (if one node goes down, the application can still continue to run)
 - In a K8 cluster, master or worker nodes can be added dynamically
 
 ## Layers of Abstraction

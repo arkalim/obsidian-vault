@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5a6efff264ea03c8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Networking.md",
-            "mode": "preview",
-            "source": true
+        "id": "8b126a8c3256d1a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a6efff264ea03c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Linux.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -78,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Networking.md",
+                "file": "Notes/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Networking.md"
+                "file": "Notes/Linux.md"
               }
             }
           },
@@ -137,14 +145,14 @@
   "active": "5a6efff264ea03c8",
   "lastOpenFiles": [
     "Notes/Pre-Requisites.md",
+    "Notes/YAML.md",
+    "Notes/Security.md",
+    "Notes/Database.md",
+    "Notes/Web Server.md",
+    "Notes/Apps.md",
+    "Notes/Networking.md",
+    "Notes/Linux.md",
     "Notes/DevOps.md",
-    "Notes/Kubernetes.md",
-    "Notes/Kubernetes Config File.md",
-    "Notes/Namespaces.md",
-    "Notes/Data Storage.md",
-    "Notes/Architecture.md",
-    "Notes/MongoDB & Mongo Express Project.md",
-    "Notes/Components.md",
-    "Notes/Intro.md"
+    "Notes/Kubernetes.md"
   ]
 }
