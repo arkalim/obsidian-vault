@@ -1,6 +1,6 @@
 ---
-created: 2022-05-06T20:45:21+05:30
-updated: 2022-05-20T23:31:48+05:30
+created: 2022-05-06T11:15:21-04:00
+updated: 2023-01-16T15:19:59-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -24,7 +24,7 @@ updated: 2022-05-20T23:31:48+05:30
 	- Stateless
 		- Create a system where only 1 EC2 instance stays active at a time. If the instance goes down, ASG will start a new one. Also, the EC2 instance will issue an API call to attach the Elastic IP based on tag.
 		![[attachments/Pasted image 20220513222823.png]]
-	- Statefull
+	- Stateful
 		- The EC2 instance maintains state in an EBS volume (attached to an AZ). If the instance goes down, create a snapshot of the EBS volume which will be triggered on ASG Terminate lifecycle hook. Similarly, when a new instance is spun up, create a new EBS volume in the appropriate instance using the ASG Launch lifecycle hook.
 		![[attachments/Pasted image 20220513222928.png]]
 ## DNS
