@@ -1,15 +1,14 @@
 ---
-created: 2022-05-12T09:39:59+05:30
-updated: 2022-06-03T09:19:12+05:30
+created: 2022-05-12T00:09:59-04:00
+updated: 2023-02-13T20:17:44-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Virtual Private Cloud (VPC)
+- **Regional resource**
 - Soft limit of 5 VPCs per region
 - Only the Private IPv4 ranges are allowed
-- AWS accounts have a default VPC
-- Default VPC has Internet connectivity and all EC2 instances inside it have public IPv4 addresses and public and a private IPv4 DNS names
 
 > New EC2 instances are launched into the default VPC if no subnet is specified
 
@@ -32,22 +31,27 @@ updated: 2022-06-03T09:19:12+05:30
 - Sub-ranges of IP addresses within the VPC
 - **Each subnet is bound to an AZ**
 - Subnets in a VPC cannot have overlapping CIDRs
+- **Default VPC only has public subnets** (1 public subnet per AZ, no private subnet)
 -   **AWS reserves 5 IP addresses (first 4 & last 1) in each subnet**. These 5 IP addresses are not available for use. 
   Example: if CIDR block 10.0.0.0/24, then reserved IP addresses are 10.0.0.0, 10.0.0.1, 10.0.0.2, 10.0.0.3 & 10.0.0.255
 
 > To make the EC2 instances running in private subnets accessible on the internet, place them behind an internet-facing (running in public subnets) Elastic Load Balancer.
 
-> Public subnets are subnets that have:
+> **There is no concept of Public and Private subnets.** Public subnets are subnets that have:
 > -   “Auto-assign public IPv4 address” set to “Yes”
 > -   The subnet route table has an attached Internet Gateway
+> 
+> This allows the resources within the subnet to make requests that go to the public internet. **A subnet is private by default.** 
+> 
+> Since the resources in a private subnet don't have public IPs, they need a NAT gateway for address translation to be able to make requests that go to the public internet. NAT gateway also prevents these private resources from being accessed from the internet.
 
 ## Internet Gateway (IGW)
 - Allows resources in a VPC to connect to the Internet
 	- ![[attachments/Pasted image 20220512100002.png]]
-- Should be used to connect public resources to the internet (use NAT gateway for private resources)
+- **Attached to the VPC**
+- Should be used to **connect public resources to the internet** (use NAT gateway for private resources since they need network address translation)
 - Route table of the public subnets must be edited to allow requests destined outside the VPC to be routed to the IGW
 	- ![[attachments/Pasted image 20220512222218.png]]
-- One IGW per VPC
 
 > IGW performs network address translation (NAT) for a public EC2 instance
 
@@ -69,7 +73,7 @@ updated: 2022-06-03T09:19:12+05:30
 	- ![[attachments/Pasted image 20220513222559.png]]
 
 ## Network Address Translation (NAT) Instance
-- An [[Elastic Compute Cloud (EC2)|EC2]] instance **launched in the public subnet** which allows EC2 instances in private subnets to connect to the Internet without being connected from the internet (blocks inbound connection)
+- An [[Elastic Compute Cloud (EC2)|EC2]] instance **launched in the public subnet** which performs network address translation to enable private instances to use the public IP of the NAT instance to access the internet. This is exactly the same as how routers perform NAT. This also prevents the private instances from being accessed from the public  internet.
 	- ![[attachments/Pasted image 20220512101152.png]]
 - **Must disable EC2 setting: source / destination IP check on the NAT instance** as the IPs can change.
 - **Must have an Elastic IP attached to it**
@@ -90,8 +94,9 @@ updated: 2022-06-03T09:19:12+05:30
 ## NAT Gateway
 - AWS managed NAT with **bandwidth autoscaling** (up to 45Gbps)
 - Preferred over NAT instances
-- **Uses an Elastic IP** behind the scenes
-- **Bound to an AZ**
+- **Uses an Elastic IP** and Internet Gateway behind the scenes 
+- **Created in a public subnet**
+- **Bound to an AZ** 
 - **Cannot be used by EC2 instances in the same subnet** (only from other subnets)
 - **Cannot be used as a Bastion Host**
 - Route Tables for private subnets must be configured to route internet-destined traffic to the NAT gateway
@@ -124,12 +129,13 @@ updated: 2022-06-03T09:19:12+05:30
 	- ![[attachments/Pasted image 20220512210613.png]]
 
 ## Network Access Control List (NACL)
-- NACL are a firewall at the subnet level
+- NACL is a firewall at the subnet level
 - One NACL per subnet but a NACL can be attached to multiple subnets
 - **New subnets are assigned the Default NACL**
 - **Default NACL allows all inbound & outbound requests**
 	- ![[attachments/Pasted image 20220512215745.png]]
 - NACL Rules
+	- Based only on IP addresses
 	- Rules number: 1-32766 (lower number has higher precedence)
 	- First rule match will drive the decision
 	- The last rule denies the request (only when no previous rule matches)
@@ -153,7 +159,7 @@ updated: 2022-06-03T09:19:12+05:30
 - Connect two VPCs (could be in **different region or account**) using the AWS private network
 	- ![[attachments/Pasted image 20220512221728.png]]
 - Participating VPCs must have **non-overlapping CIDR**
-- VPC Peering connection is **non-transitive** (A - B, B - C != A - C)
+- VPC Peering connection is **non-transitive** (A - B, B - C != A - C) because it works based on route-table rules. 
 - Must update route tables in each VPC’s subnets to ensure requests destined to the peered VPC can be routed through the peering connection
 	- ![[attachments/Pasted image 20220512221946.png]]
 	- ![[attachments/Pasted image 20220512221954.png]]
@@ -192,7 +198,7 @@ updated: 2022-06-03T09:19:12+05:30
 - Enable IPv6 to operate in **dual-stack mode** in which your EC2 instances will get at least a **private IPv4** and a **public IPv6**. They can communicate using either IPv4 or IPv6 to the internet through an Internet Gateway.
 	- ![[attachments/Pasted image 20220513005218.png]]
 - If you cannot launch an EC2 instance in your subnet, It’s not because it cannot acquire an IPv6 (the space is very large). It’s because there are no available IPv4 in your subnet. 
-  **Solution: create a new IPv4 CIDR in your subnet**
+  **Solution: Create a larger IPv4 CIDR for the subnet**
 
 #### Egress-only Internet Gateway
 - Allows instances in your VPC to initiate outbound connections over IPv6 while preventing inbound IPv6 connections to your private instances.

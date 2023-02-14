@@ -1,6 +1,6 @@
 ---
-created: 2022-05-06T20:34:06+05:30
-updated: 2022-05-19T22:35:49+05:30
+created: 2022-05-06T11:04:06-04:00
+updated: 2023-02-13T19:45:32-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -22,15 +22,15 @@ updated: 2022-05-19T22:35:49+05:30
 
 #### Classic Load Balancer (CLB) - deprecated
 - **Load Balancing to a single application**
-- Supports HTTP, HTTPS (layer 7) & TCP, SSL (layer 3)
+- Supports HTTP, HTTPS (layer 7) & TCP (layer 4)
 - Health checks are HTTP or TCP based
 - Provides a fixed hostname (xxx.region.elb.amazonaws.com)
 
 #### Application Load Balancer (ALB)
-- **Load balancing to multiple applications** (target groups)
+- **Load balancing to multiple applications** (target groups) based on the request parameters
 - Operates at Layer 7 (HTTP, HTTPS and WebSocket)
 - Provides a fixed hostname (xxx.region.elb.amazonaws.com)
-- ALB terminates the upstream connection and creates a new downstream connection to the targets (connection termination)
+- ALB terminates the upstream connection and creates a new downstream connection to the targets (TCP termination)
 - **Security Groups can be attached to ALBs** to filters requests
 - Great for micro services & container-based applications (Docker & ECS)
 - Client info is passed in the request headers
@@ -52,13 +52,13 @@ updated: 2022-05-19T22:35:49+05:30
     -   Source IP address
 
 #### Network Load Balancer (NLB)
-- Operates at Layer 4 (TCP, TLS, UDP)
+- Operates at Layer 4 (TCP, UDP)
 - Can handle millions of request per seconds (extreme performance)
 - **Lower latency** ~ 100 ms (vs 400 ms for ALB)
 - **1 static public IP per AZ** (vs a static hostname for CLB & ALB)
 - **Elastic IP can be assigned to NLB** (helpful for whitelisting specific IP)
-- Maintains the same connection from client all the way to the target
-- **No security groups can be attached to NLBs.** They just forward the incoming traffic to the right target group as if those requests were directly coming from client. So, the **attached instances must allow TCP traffic on port 80 from anywhere**.
+- Maintains the same connection (TCP or UDP) from client all the way to the target application
+- **No security groups can be attached to NLBs.** Since they operate on layer 4, they cannot see the data available at layer 7. They just forward the incoming traffic to the right target group as if those requests were directly coming from client. So, the **attached instances must allow TCP traffic on port 80 from anywhere**.
 - Within a target group, NLB can send traffic to
 	-   **EC2 instances**
 		- If you specify targets using an instance ID, traffic is routed to instances using the **primary private IP address**
@@ -81,12 +81,16 @@ updated: 2022-05-19T22:35:49+05:30
 
 ## Sticky Sessions (Session Affinity)
 - Requests coming from a client is always redirected to the same instance based on a cookie. After the cookie expires, the requests coming from the same user might be redirected to another instance.
-- **Only supported by CLB & ALB**
+- **Only supported by CLB & ALB** because the cookie can be seen at layer 7
 - Used to ensure the user doesn’t lose his session data, like login or cart info, while navigating between web pages.
 - **Stickiness may cause load imbalance**
 - Cookies could be
 	- **Application-based** (TTL defined by the application)
 	- **Load Balancer generated** (TTL defined by the load balancer)
+- ELB reserved cookie names (should not be used)
+	- AWSALB
+	- AWSALBAPP
+	- AWSALBTG
 
 ## Cross-zone Load Balancing
 - Allows ELBs in different AZ containing unbalanced number of instances to distribute the traffic evenly across all instances in all the AZ registered under a load balancer.

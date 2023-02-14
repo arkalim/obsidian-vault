@@ -1,6 +1,6 @@
 ---
-created: 2022-05-07T15:42:37+05:30
-updated: 2022-06-03T09:19:12+05:30
+created: 2022-05-07T06:12:37-04:00
+updated: 2023-01-15T19:09:25-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -29,7 +29,7 @@ updated: 2022-06-03T09:19:12+05:30
 -   Ability to restore to a previous version
 -   Any file that is not versioned prior to enabling versioning will have version “null”
 -   Suspending versioning does not delete the previous versions, just disables it for the future
--   To restore a deleted object, delete it's "delete market"
+-   To restore a deleted object, delete it's "delete marker"
 
 > - Versioning can only be suspended once it has been enabled.
 > - Once you version-enable a bucket, it can never return to an unversioned state.
@@ -69,6 +69,8 @@ updated: 2022-06-03T09:19:12+05:30
 	- Cross-account access
 	-   Object Access Control List (ACL) - applies to the objects while uploading
 	-   Bucket Access Control List (ACL) - access policy that applies to the bucket
+
+> An IAM principal can access an S3 object if the IAM permission allows it or the bucket policy allows it and there is no explicit deny.
 
 > By default, an S3 object is owned by the account that uploaded it even if the bucket is owned by another account. To get full access to the object, the object owner must explicitly grant the bucket owner access. As a bucket owner, you can create a bucket policy to require external users to grant `bucket-owner-full-control` when uploading objects so the bucket owner can have full access to the objects.
 
