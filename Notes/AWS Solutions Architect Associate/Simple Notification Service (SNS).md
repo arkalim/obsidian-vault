@@ -1,6 +1,6 @@
 ---
-created: 2022-05-09T20:38:54+05:30
-updated: 2022-05-20T17:15:42+05:30
+created: 2022-05-09T11:08:54-04:00
+updated: 2023-02-21T09:34:05-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -9,13 +9,6 @@ updated: 2022-05-20T17:15:42+05:30
 - Used to broadcast messages
 - Pub-Sub model (publisher publishes messages to a topic, subscribers listen to the topic)
 - Instant message delivery (does not queue messages)
-- Subscribers can be:
-    -   SQS queues
-    -   HTTP / HTTPS endpoints
-    -   Lambda functions
-    -   Emails (using SNS)
-    -   SMS messages
-    -   Mobile Notifications
 
 ## Encryption
 -   In-flight encryption by default using HTTPS API
@@ -27,6 +20,19 @@ updated: 2022-05-20T17:15:42+05:30
 -   **SNS Access Policies** (resource based policy)
     -   Used for cross-account access to SNS topics
     -   Used for allowing other AWS services to publish to an SNS topic
+
+## Standard Topics
+- Highest throughput
+- At least once message delivery
+- Best effort ordering
+- Subscribers can be:
+    -   SQS queues
+    -   HTTP / HTTPS endpoints
+    -   Lambda functions
+    -   Emails (using SNS)
+    -   SMS & Mobile Notifications
+    -   Kinesis Data Firehose (KDF) to send the data into S3 or Redshift
+
 
 ## FIFO Topics
 - Guaranteed ordering of messages in that topic

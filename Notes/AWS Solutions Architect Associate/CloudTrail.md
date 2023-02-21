@@ -1,6 +1,6 @@
 ---
-created: 2022-05-11T00:01:49+05:30
-updated: 2022-06-03T09:19:11+05:30
+created: 2022-05-10T14:31:49-04:00
+updated: 2023-02-20T09:35:39-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -14,6 +14,7 @@ updated: 2022-06-03T09:19:11+05:30
 - Export CloudTrail logs into
 	- [[CloudWatch#Logs|CloudWatch Logs]]
 	- [[Simple Storage Service (S3)|S3]] (encrypted by default using **SSE-S3**)
+- CloudTrail logs up to the last 90 days can be analyzed in CloudTrail Console. Older logs should be present in S3 and can be analyzed using Athena.
 
 > Modifications to log files can be detected by enabling **Log File Validation** on the logging bucket
 

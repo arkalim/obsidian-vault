@@ -1,6 +1,6 @@
 ---
-created: 2022-05-10T22:08:38+05:30
-updated: 2022-05-20T20:24:45+05:30
+created: 2022-05-10T12:38:38-04:00
+updated: 2023-02-20T09:49:39-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -11,7 +11,7 @@ updated: 2022-05-20T20:24:45+05:30
 ## Metrics
 - Variables to monitor in CloudWatch
 - Dimension is an attribute of a metric (instance id, environment, etc.)
-- Up to 10 dimensions per metric
+- Up to 30 dimensions per metric
 - Segregated by namespaces (which AWS service they monitor)
 
 #### Custom Metrics
@@ -22,7 +22,7 @@ updated: 2022-05-20T20:24:45+05:30
 - Accepts metric data points **two weeks in the past and two hours in the future**
 
 #### EC2 Monitoring
-- Must run a **CloudWatch agent** on instance to push system **metrics and logs** to CloudWatch.
+- Must run a **CloudWatch agent** on instance to push system **metrics and logs** to CloudWatch. Instance role (IAM) must allow the instance to push logs to CloudWatch.
 - EC2 instances have metrics **every 5 minutes**
 - With **detailed monitoring** (for a cost), you get metrics **every 1 minute**
 - Use detailed monitoring if you want to react faster to changes (eg. scale faster for your ASG)
@@ -36,9 +36,8 @@ updated: 2022-05-20T20:24:45+05:30
 	- Disk swap utilization
 	- Disk space utilization
 	- Page file utilization
-- lAM permissions must allow the instance to push logs to CloudWatch
 - CloudWatch agent can be used for logging on premises servers too
-- Can send logs & additional system-level metrics
+- **CW Unified Agent** can send logs & additional system-level metrics
     -   CPU (active, guest, idle, system, user, steal)
     -   Disk metrics (free, used, total), Disk IO (writes, reads, bytes, iops)
     -   RAM (free, inactive, used, total, cached)
@@ -53,19 +52,21 @@ updated: 2022-05-20T20:24:45+05:30
 
 ## Logs
 - Used to store application logs
-- Logs Expiration: never expire, 30 days, etc.
+- Log Groups represent an application sending logs to CW
+- Log Streams represent instances within applications or log files or containers
+- Logs Expiration: never expire (default), 30 days, etc.
 - Logs can be sent to:
     -   S3 buckets (exports)
     -   Kinesis Data Streams
     -   Kinesis Data Firehose
 	-   Lambda functions
     -   ElasticSearch
-- **Metric Filters** can be used to filter expressions and use the count to trigger CloudWatch alarms. Example filters:
+- **Metric Filters** can be used to filter expressions and use the count to trigger CloudWatch alarms. They apply only on the incoming metrics after the metric filter was created. Example filters:
     -   find a specific IP in the logs
     -   count occurrences of “ERROR” in the logs
 - **Cloud Watch Logs Insights** can be used to query logs and add queries to CloudWatch Dashboards
-- Logs can take up to **12 hours to become available for exporting to S3** (not real-time)
 - To stream logs in real-time, apply a **Subscription Filter** on logs
+- Logs can take up to **12 hours to become available for exporting to S3** (not real-time). To store logs in real time in S3, use a subscription filter to publish logs to KDF in real time which will then write the logs to S3.
 - Logs from multiple accounts and regions can be aggregated using subscription filters
 	- ![[attachments/Pasted image 20220510222924.png]]
 
@@ -74,17 +75,20 @@ updated: 2022-05-20T20:24:45+05:30
 ## Alarms
 -   Alarms are used to trigger notifications for CW metrics based on **Metric Filters**
 -   Various options to trigger alarm (sampling, %, max, min, etc.)
+-   An alarm monitors a single CW metric
 -   Alarm States:
     -   OK
     -   INSUFFICIENT_DATA
     -   ALARM
 - Period:
     -   Length of time in seconds to evaluate the metric before triggering the alarm
-    -   High resolution custom metrics: 10 sec, 30 sec or multiples of 60 sec
+    -   High resolution custom metrics: **10 sec**, 30 sec or multiples of 60 sec
 -   **Targets**:
     -   Stop, Terminate, Reboot, or Recover an EC2 Instance
     -   Trigger Auto Scaling Action (ASG)
     -   Send notification to SNS
+- **Composite Alarms** monitor multiple other alarms with AND/OR conditions to generate a new alarm. This is helpful to reduce alarm noise by creating complex composite alarms. Example: send an SNS notification when both CPU and IOPS are above 90% utilization.
+	![[attachments/Pasted image 20230219094745.png]]
 
 > [!info]- EC2 Instance Recovery
 > - CloudWatch **alarm** to automatically recover an EC2 instance if it becomes **impaired**

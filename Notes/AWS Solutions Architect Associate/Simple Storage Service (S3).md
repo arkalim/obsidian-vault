@@ -1,6 +1,6 @@
 ---
 created: 2022-05-07T06:12:37-04:00
-updated: 2023-01-15T19:09:25-05:00
+updated: 2023-02-21T09:15:04-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -219,6 +219,7 @@ updated: 2023-01-15T19:09:25-05:00
 - Optional
 - Generates events for operations performed on the bucket or objects
 - Object name filtering using prefix and suffix matching
+- **For the same combination of prefix and event type, we can only have one event rule.** Example: we can send S3 notification for object created at `/files` to only one destination (single rule).
 - Targets
     -   SNS topics
     -   **SQS Standard** queues (not FIFO queues)

@@ -1,6 +1,6 @@
 ---
-created: 2022-05-08T13:28:22+05:30
-updated: 2022-06-03T09:19:11+05:30
+created: 2022-05-08T03:58:22-04:00
+updated: 2023-02-14T20:36:11-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
@@ -8,7 +8,7 @@ updated: 2022-06-03T09:19:11+05:30
 # CloudFront
 - Global service
 - Global Content Delivery Network (CDN)
-- **Edge Locations are present outside the VPC**
+- **Edge Locations are present outside the VPC** so the origin's SG must be configured to allow inbound requests from the list of public IPs of all the edge locations.
 - Supports HTTP/RTMP protocol (**does not support UDP protocol**)
 - **Caches content at edge locations**, reducing load at the origin
 - **Geo Restriction feature**
@@ -19,7 +19,7 @@ updated: 2022-06-03T09:19:11+05:30
 ## Origin
 - **[[Simple Storage Service (S3)|S3]] Bucket**
 	- For distributing static files
-	- **Origin Access Identity** (OAl) allows the S3 bucket to only be accessed by CloudFront
+	- **Origin Access Identity (OAl) or Origin Access Control (OAC)** allows the S3 bucket to only be accessed by CloudFront
 	- Can be used as ingress to upload files to S3
 - **Custom Origin** (for HTTP) - need to be publicly accessible on HTTP by public IPs of edge locations
 	- EC2 Instance

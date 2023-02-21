@@ -1,12 +1,12 @@
 ---
-created: 2022-05-09T22:44:23+05:30
-updated: 2022-05-20T21:12:59+05:30
+created: 2022-05-09T13:14:23-04:00
+updated: 2023-02-15T22:48:57-05:00
 ---
 [[AWS Solutions Architect Associate (SAA-C02)]]
 
 ---
 # Elastic Container Service (ECS)
-- Used to launch Docker containers on AWS
+- AWS managed container orchestration platform
 - Integrates with ALB for load balancing to ECS tasks
 - [[Elastic File System (EFS)|EFS]] is used as persistent multi-AZ shared storage for ECS tasks
 
@@ -16,6 +16,7 @@ updated: 2022-05-20T21:12:59+05:30
 - Containers run on underlying EC2 instances
 - ECS takes care of launching & stopping containers (ECS tasks)
 - You must provision & maintain EC2 instances (use ASG)
+- **EC2 instances have ECS agent running on them as a docker container**
 - Inside a VPC spanning multiple AZ, there is an ECS cluster spanning multiple AZ. Inside the ECS cluster, there will be an ASG responsible for launching container instances (EC2). On every EC2 instance, ECS agent will be running (happens automatically if you choose the AMI for ECS when launching the instance) which registers these instances to the ECS cluster. This will allow the ECS cluster to run Docker containers (ECS tasks) on these instances.
 	- ![[attachments/Pasted image 20220509230845.png]]
 
@@ -42,7 +43,7 @@ updated: 2022-05-20T21:12:59+05:30
 	- Ex. Reference sensitive data in **Secrets Manager** or **SSM Parameter Store**
 
 ## ECS Services
-- An ECS Service is a collection of ECS tasks that perform the same function
+- An ECS Service is a **collection of long-running ECS tasks** (eg. web application) that perform the same function
 - We can use ALB to send requests to these tasks
 - **Service CPU Usage** or the **SQS queue length** for a service are used for scaling
 - Diagram
@@ -50,14 +51,16 @@ updated: 2022-05-20T21:12:59+05:30
 
 ## Load Balancing
 - **EC2 Launch Type**
-	- **Dynamic port is assigned randomly to ECS tasks**
-	- Once the ALB is registered to a service in the ECS cluster, it will find the right port on the EC2 Instances
+	- For every container, the container port is mapped to a random free port on the hots (instance). So the application running inside that container will be reached by the ALB on that random port.
+	 ![[attachments/Pasted image 20230215182905.png]]
+	- **Dynamic Host Port Mapping** - Once the ALB is registered to a service in the ECS cluster, it will automatically find the right port on the EC2 Instances. This only works with ALB, not CLB.
 	- You **must allow on the EC2 instance’s security group any port from the ALB security group** because it may attach on any port
 	- Diagram
 		- ![[attachments/Pasted image 20220509232914.png]]
 - **Fargate Launch Type**
-	- **Each task has a unique IP but same port (80)**
-	-   You **must allow on the ENI’s security group the task port (80) from the ALB security group**
+	- **Each task has a unique IP but the same container port**
+	- The ALB connects to each task directly on its IP and container port since these containers are not run on a defined host (instance). 
+	-   You **must allow on the ENI’s security group the task port from the ALB security group**
 	- Diagram
 		- ![[attachments/Pasted image 20220509233226.png]]
 
