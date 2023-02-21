@@ -43,6 +43,7 @@ updated: 2023-02-20T11:38:51-05:00
 	    -   Messages will be ordered for each group ID
 	    -   Ordering across groups is not guaranteed
 	    -   Each group ID can have a different consumer (parallel processing)
+	    - Max number of consumers = number of unique group IDs
 
 ## Consumer Auto Scaling
 We can attach an [[Auto Scaling Group (ASG)|ASG]] to the consumer instances which will scale based on the CW metric = Queue length / Number of EC2 instances. CW alarms can be triggered to step scale the consumer application.
