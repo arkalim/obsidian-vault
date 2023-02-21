@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/AWS Solutions Architect Associate/Simple Notification Service (SNS).md",
+                "file": "Notes/AWS Solutions Architect Associate/Kinesis.md",
                 "mode": "preview",
                 "source": true
               }
@@ -30,8 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c2d0da1854e3fc05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/AWS Solutions Architect Associate/Simple Notification Service (SNS).md",
+                "file": "Notes/AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/AWS Solutions Architect Associate/Simple Notification Service (SNS).md"
+                "file": "Notes/AWS Solutions Architect Associate/Simple Queue Service (SQS).md"
               }
             }
           },
@@ -168,17 +181,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "07d8b698037fdbd3",
+  "active": "c2d0da1854e3fc05",
   "lastOpenFiles": [
-    "Notes/AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
-    "Notes/AWS Solutions Architect Associate/Simple Storage Service (S3).md",
     "Notes/AWS Solutions Architect Associate/Simple Notification Service (SNS).md",
+    "Notes/AWS Solutions Architect Associate/Kinesis.md",
+    "Notes/AWS Solutions Architect Associate/Simple Storage Service (S3).md",
+    "Notes/AWS Solutions Architect Associate/Simple Queue Service (SQS).md",
     "Notes/AWS Solutions Architect Associate/CloudTrail.md",
     "Notes/AWS Solutions Architect Associate/CloudWatch.md",
     "Notes/AWS Solutions Architect Associate/X-Ray.md",
     "Notes/AWS Solutions Architect Associate/EventBridge.md",
     "Notes/AWS Solutions Architect Associate/Elastic Compute Cloud (EC2).md",
-    "Notes/AWS Solutions Architect Associate/Elastic Beanstalk.md",
-    "Notes/AWS Solutions Architect Associate/Elastic Container Service (ECS).md"
+    "Notes/AWS Solutions Architect Associate/Elastic Beanstalk.md"
   ]
 }
